@@ -1,0 +1,386 @@
+type,gw,position,player_id,opta_id,name,player_position,points,is_top_player
+gw,1,1,92,228286,Édouard Mendy,GK,14,False
+gw,1,2,218,505480,Moteb Al Harbi,DEF,20,False
+gw,1,3,365,486024,Nawaf Boushal,DEF,13,False
+gw,1,4,209,121145,João Pedro Cavaco Cancelo,DEF,13,False
+gw,1,5,359,428399,Joao Felix,MID,25,True
+gw,1,6,127,473182,Juan Sebastián Pedroza,MID,14,False
+gw,1,7,153,244182,Zaydou Youssouf,MID,13,False
+gw,1,8,296,194252,Steven Bergwijn,MID,13,False
+gw,1,9,301,19927,Karim Benzema,FWD,24,False
+gw,1,10,326,78007,Joshua King,FWD,21,False
+gw,1,11,495,441463,Mateo Retegui,FWD,16,False
+gw,10,1,556,105610,Bruno Miguel Semedo Varela,GK,13,False
+gw,10,2,236,99122,Francisco Calvo,DEF,17,False
+gw,10,3,23,607088,Nathan Zeze,DEF,15,False
+gw,10,4,365,486024,Nawaf Boushal,DEF,15,False
+gw,10,5,291,433493,Muhannad Al Shanqiti,DEF,14,False
+gw,10,6,454,517563,Mohammed Mahzari,DEF,13,False
+gw,10,7,213,181092,Malcom De Oliveira,MID,19,True
+gw,10,8,145,210424,Matías Vargas,MID,16,False
+gw,10,9,235,41733,Georginio Wijnaldum,MID,12,False
+gw,10,10,345,14937,Cristiano Ronaldo,FWD,18,False
+gw,10,11,495,441463,Mateo Retegui,FWD,14,False
+gw,11,1,573,201556,Kewin Oliveira Silva,GK,12,False
+gw,11,2,225,222784,Theo Hernandez,DEF,22,True
+gw,11,3,106,430788,Roger Ibañez,DEF,13,False
+gw,11,4,443,170409,Andrei Girotto,DEF,12,False
+gw,11,5,223,180793,Sergej Savić,MID,20,False
+gw,11,6,296,194252,Steven Bergwijn,MID,17,False
+gw,11,7,574,195982,Valentín Vada,MID,16,False
+gw,11,8,145,210424,Matías Vargas,MID,16,False
+gw,11,9,235,41733,Georginio Wijnaldum,MID,15,False
+gw,11,10,439,168506,Roger Martínez,FWD,13,False
+gw,11,11,567,189787,Omar Jehad Al Somah,FWD,12,False
+gw,12,1,550,446101,Juan Pablo Cozzani,GK,9,False
+gw,12,2,291,433493,Muhannad Al Shanqiti,DEF,20,False
+gw,12,3,358,423618,Abdulelah Al Amri,DEF,17,False
+gw,12,4,238,130038,Madallah Al Olayan,DEF,12,False
+gw,12,5,524,208556,Myziane Maolida,MID,22,True
+gw,12,6,235,41733,Georginio Wijnaldum,MID,21,False
+gw,12,7,497,533388,Musab Al Juwayr,MID,15,False
+gw,12,8,343,195551,Georgios Masouras,MID,14,False
+gw,12,9,494,221766,Julian Quinones,MID,14,False
+gw,12,10,99,144485,Ivan Toney,FWD,22,False
+gw,12,11,206,447203,Darwin Nunez Nunez,FWD,16,False
+gw,13,1,614,91406,Fernando Pacheco,GK,12,False
+gw,13,2,333,165803,Pedro Rebocho,DEF,18,False
+gw,13,3,236,99122,Francisco Calvo,DEF,17,False
+gw,13,4,618,196814,Mikel Villanueva,DEF,14,False
+gw,13,5,383,176442,Yoann Barbet,DEF,14,False
+gw,13,6,291,433493,Muhannad Al Shanqiti,DEF,14,False
+gw,13,7,221,171317,Rúben Neves,MID,20,False
+gw,13,8,148,604259,Naif Masoud,MID,14,False
+gw,13,9,343,195551,Georgios Masouras,MID,14,False
+gw,13,10,595,202857,Angelo Fulgini,MID,13,False
+gw,13,11,301,19927,Karim Benzema,FWD,24,True
+gw,14,1,117,180359,Samuel Portugal,GK,8,False
+gw,14,2,599,591447,Zakaria bin Siraj bin Ahmed Hawsawi,DEF,14,False
+gw,14,3,291,433493,Muhannad Al Shanqiti,DEF,14,False
+gw,14,4,487,604258,Mohammed Waheeb Abu Al Shamat,DEF,14,False
+gw,14,5,118,218862,Saeed Al Rubaie,DEF,12,False
+gw,14,6,494,221766,Julian Quinones,MID,26,True
+gw,14,7,415,119718,Yannick Carrasco,MID,23,False
+gw,14,8,221,171317,Rúben Neves,MID,17,False
+gw,14,9,146,228489,Mourad Batna,MID,16,False
+gw,14,10,646,711290,Wesley Bruno Lima Delgado,MID,15,False
+gw,14,11,99,144485,Ivan Toney,FWD,15,False
+gw,15,1,241,155529,Marek Rodak,GK,12,False
+gw,15,2,333,165803,Pedro Rebocho,DEF,18,False
+gw,15,3,208,423623,Hassan Al Tambakti,DEF,18,False
+gw,15,4,487,604258,Mohammed Waheeb Abu Al Shamat,DEF,14,False
+gw,15,5,343,195551,Georgios Masouras,MID,17,False
+gw,15,6,221,171317,Rúben Neves,MID,17,False
+gw,15,7,502,614993,Christopher Bonsu Baah,MID,15,False
+gw,15,8,533,129508,Kingsley Coman,MID,15,False
+gw,15,9,247,250792,Khalid Al Ghannam,MID,13,False
+gw,15,10,439,168506,Roger Martínez,FWD,24,True
+gw,15,11,593,468676,Ali Jasim El Aibi Al Tameemi,FWD,13,False
+gw,16,1,625,213175,Victor Hugo Silva Braga,GK,11,False
+gw,16,2,118,218862,Saeed Al Rubaie,DEF,18,False
+gw,16,3,236,99122,Francisco Calvo,DEF,15,False
+gw,16,4,417,167075,Wesley Hoedt,DEF,14,False
+gw,16,5,494,221766,Julian Quinones,MID,16,False
+gw,16,6,221,171317,Rúben Neves,MID,15,False
+gw,16,7,223,180793,Sergej Savić,MID,15,False
+gw,16,8,563,179320,Fábio Santos Martins,MID,12,False
+gw,16,9,99,144485,Ivan Toney,FWD,23,True
+gw,16,10,608,518717,Ramiro Enrique,FWD,21,False
+gw,16,11,439,168506,Roger Martínez,FWD,17,False
+gw,17,1,621,52458,Marcelo Grohe,GK,13,False
+gw,17,2,44,464031,Abdurahman Al Dakheel,DEF,15,False
+gw,17,3,473,438823,Abdelkader Bedrane,DEF,14,False
+gw,17,4,364,461910,Mohamed Simakan,DEF,12,False
+gw,17,5,353,180594,Sultan Al Ghannam,DEF,10,False
+gw,17,6,247,250792,Khalid Al Ghannam,MID,18,True
+gw,17,7,292,116594,N'Golo Kante,MID,14,False
+gw,17,8,494,221766,Julian Quinones,MID,13,False
+gw,17,9,196,649407,Sabri Dahal,MID,12,False
+gw,17,10,176,422685,Junior Fashion Sakala,MID,12,False
+gw,17,11,99,144485,Ivan Toney,FWD,12,False
+gw,18,1,445,425632,Mailson Santos,GK,18,False
+gw,18,2,364,461910,Mohamed Simakan,DEF,20,False
+gw,18,3,23,607088,Nathan Zeze,DEF,17,False
+gw,18,4,108,514614,Saad Balobaid,DEF,16,False
+gw,18,5,432,168570,Carlos Junior,MID,22,False
+gw,18,6,26,638595,Amadou Kone,MID,16,False
+gw,18,7,359,428399,Joao Felix,MID,16,False
+gw,18,8,221,171317,Rúben Neves,MID,15,False
+gw,18,9,65,229156,David Tijanic,MID,13,False
+gw,18,10,99,144485,Ivan Toney,FWD,26,True
+gw,18,11,295,124932,Saleh Al Shehri,FWD,18,False
+gw,19,1,621,52458,Marcelo Grohe,GK,14,True
+gw,19,2,594,245912,Shaquille Pinas,DEF,13,False
+gw,19,3,364,461910,Mohamed Simakan,DEF,13,False
+gw,19,4,285,122482,Hassan Kadish,DEF,12,False
+gw,19,5,143,222751,Jorge Filipe Oliveira Fernandes,DEF,11,False
+gw,19,6,488,88477,Nacho Fernandez,DEF,11,False
+gw,19,7,611,592268,Mahamadou Doumbia,MID,13,False
+gw,19,8,235,41733,Georginio Wijnaldum,MID,12,False
+gw,19,9,349,110979,Sadio Mane,MID,12,False
+gw,19,10,153,244182,Zaydou Youssouf,MID,11,False
+gw,19,11,2,59966,Alexandre Lacazette,FWD,12,False
+gw,2,1,362,445331,Raghed Al Najjar,GK,13,False
+gw,2,2,333,165803,Pedro Rebocho,DEF,21,False
+gw,2,3,346,90318,Inigo Martinez,DEF,14,False
+gw,2,4,106,430788,Roger Ibañez,DEF,13,False
+gw,2,5,126,118888,Koray Gunter,DEF,12,False
+gw,2,6,438,442430,Musa Barrow,MID,24,True
+gw,2,7,349,110979,Sadio Mane,MID,17,False
+gw,2,8,296,194252,Steven Bergwijn,MID,16,False
+gw,2,9,323,96633,Dimitrios Kourbelis,MID,13,False
+gw,2,10,415,119718,Yannick Carrasco,MID,13,False
+gw,2,11,2,59966,Alexandre Lacazette,FWD,17,False
+gw,20,1,628,222628,Luís Manuel Arantes Maximiano,GK,14,False
+gw,20,2,106,430788,Roger Ibañez,DEF,14,False
+gw,20,3,107,547638,Rayan Hamed,DEF,13,False
+gw,20,4,358,423618,Abdulelah Al Amri,DEF,12,False
+gw,20,5,102,629308,Mohammed Abdulrahman,DEF,12,False
+gw,20,6,213,181092,Malcom De Oliveira,MID,23,False
+gw,20,7,235,41733,Georginio Wijnaldum,MID,19,False
+gw,20,8,222,109763,Salem Al Dawsari,MID,19,False
+gw,20,9,176,422685,Junior Fashion Sakala,MID,18,False
+gw,20,10,371,566167,Abdulaziz Al Elewa,MID,15,False
+gw,20,11,301,19927,Karim Benzema,FWD,27,True
+gw,21,1,485,66763,Koen Casteels,GK,16,False
+gw,21,2,285,122482,Hassan Kadish,DEF,17,False
+gw,21,3,489,501039,Gastón Álvarez,DEF,9,False
+gw,21,4,208,423623,Hassan Al Tambakti,DEF,9,False
+gw,21,5,216,170031,Mohammed Kanno,MID,16,False
+gw,21,6,592,199665,Bilal Boutobba,MID,14,False
+gw,21,7,105,103025,Riyad Mahrez,MID,14,False
+gw,21,8,415,119718,Yannick Carrasco,MID,13,False
+gw,21,9,570,129491,Yakou Méïté,FWD,19,True
+gw,21,10,567,189787,Omar Jehad Al Somah,FWD,16,False
+gw,21,11,99,144485,Ivan Toney,FWD,13,False
+gw,22,1,381,87403,Milan Borjan,GK,15,False
+gw,22,2,458,230777,Muteb Al Mufarrij,DEF,13,False
+gw,22,3,108,514614,Saad Balobaid,DEF,12,False
+gw,22,4,3,77777,Ahmed Hegazi,DEF,12,False
+gw,22,5,494,221766,Julian Quinones,MID,25,True
+gw,22,6,146,228489,Mourad Batna,MID,19,False
+gw,22,7,533,129508,Kingsley Coman,MID,18,False
+gw,22,8,415,119718,Yannick Carrasco,MID,16,False
+gw,22,9,402,422163,Teddy Okou,MID,14,False
+gw,22,10,345,14937,Cristiano Ronaldo,FWD,18,False
+gw,22,11,99,144485,Ivan Toney,FWD,17,False
+gw,23,1,92,228286,Édouard Mendy,GK,11,False
+gw,23,2,346,90318,Inigo Martinez,DEF,26,True
+gw,23,3,106,430788,Roger Ibañez,DEF,15,False
+gw,23,4,487,604258,Mohammed Waheeb Abu Al Shamat,DEF,12,False
+gw,23,5,415,119718,Yannick Carrasco,MID,24,False
+gw,23,6,499,192351,Nahitan Nandez,MID,18,False
+gw,23,7,601,545568,Roger Fernandes,MID,13,False
+gw,23,8,221,171317,Rúben Neves,MID,13,False
+gw,23,9,608,518717,Ramiro Enrique,FWD,17,False
+gw,23,10,2,59966,Alexandre Lacazette,FWD,13,False
+gw,23,11,345,14937,Cristiano Ronaldo,FWD,13,False
+gw,24,1,293,104407,Predrag Rajkovic,GK,10,False
+gw,24,2,280,87668,Danilo Luís Hélio Pereira,DEF,20,True
+gw,24,3,106,430788,Roger Ibañez,DEF,14,False
+gw,24,4,594,245912,Shaquille Pinas,DEF,9,False
+gw,24,5,449,109811,Hattan Bahebri,MID,19,False
+gw,24,6,563,179320,Fábio Santos Martins,MID,17,False
+gw,24,7,444,194384,Sultan Mandash,MID,15,False
+gw,24,8,576,706741,Aboubacar Bah,MID,13,False
+gw,24,9,216,170031,Mohammed Kanno,MID,13,False
+gw,24,10,721,510890,Marin Petkov,FWD,12,False
+gw,24,11,214,478011,Marcos Leonardo Santos Almeida,FWD,11,False
+gw,25,1,356,224471,Bento Matheus Bento,GK,11,False
+gw,25,2,364,461910,Mohamed Simakan,DEF,19,True
+gw,25,3,469,183507,Sanousi Al Hawsawi,DEF,15,False
+gw,25,4,568,564455,Jamal Harkass,DEF,13,False
+gw,25,5,223,180793,Sergej Savić,MID,18,False
+gw,25,6,169,163784,Jason Remeseiro,MID,17,False
+gw,25,7,494,221766,Julian Quinones,MID,16,False
+gw,25,8,499,192351,Nahitan Nandez,MID,14,False
+gw,25,9,439,168506,Roger Martínez,FWD,19,False
+gw,25,10,495,441463,Mateo Retegui,FWD,16,False
+gw,25,11,301,19927,Karim Benzema,FWD,16,False
+gw,26,1,177,428758,Orlando Mosquera,GK,10,False
+gw,26,2,204,215658,Ali Al Bulayhi,DEF,13,False
+gw,26,3,473,438823,Abdelkader Bedrane,DEF,12,False
+gw,26,4,218,505480,Moteb Al Harbi,DEF,9,False
+gw,26,5,359,428399,Joao Felix,MID,21,True
+gw,26,6,574,195982,Valentín Vada,MID,20,False
+gw,26,7,369,518620,Ângelo Gabriel Borges Damaceno,MID,18,False
+gw,26,8,415,119718,Yannick Carrasco,MID,17,False
+gw,26,9,390,151130,António José Pinheiro de Carvalho,MID,15,False
+gw,26,10,202,442254,Abdullah Al Hamddan,FWD,13,False
+gw,26,11,30,466210,Nawaf Al Habashi,FWD,12,False
+gw,27,1,117,180359,Samuel Portugal,GK,13,False
+gw,27,2,443,170409,Andrei Girotto,DEF,18,False
+gw,27,3,100,561163,Matteo Dams,DEF,15,False
+gw,27,4,218,505480,Moteb Al Harbi,DEF,14,False
+gw,27,5,5,172841,Said Benrahma,MID,26,True
+gw,27,6,534,121599,Abdoulaye Doucouré,MID,19,False
+gw,27,7,221,171317,Rúben Neves,MID,18,False
+gw,27,8,494,221766,Julian Quinones,MID,18,False
+gw,27,9,99,144485,Ivan Toney,FWD,25,False
+gw,27,10,301,19927,Karim Benzema,FWD,24,False
+gw,27,11,730,234991,Youssef En-Nesyri,FWD,20,False
+gw,28,1,356,224471,Bento Matheus Bento,GK,18,False
+gw,28,2,358,423618,Abdulelah Al Amri,DEF,20,False
+gw,28,3,365,486024,Nawaf Boushal,DEF,18,False
+gw,28,4,364,461910,Mohamed Simakan,DEF,13,False
+gw,28,5,533,129508,Kingsley Coman,MID,18,False
+gw,28,6,678,613354,Ali Ahmad Ali Al Azaizeh,MID,17,False
+gw,28,7,502,614993,Christopher Bonsu Baah,MID,16,False
+gw,28,8,499,192351,Nahitan Nandez,MID,16,False
+gw,28,9,345,14937,Cristiano Ronaldo,FWD,22,True
+gw,28,10,720,510595,Leandro Miguel Curto Antunes,FWD,18,False
+gw,28,11,495,441463,Mateo Retegui,FWD,18,False
+gw,29,1,614,91406,Fernando Pacheco,GK,10,False
+gw,29,2,151,629617,Saeed Baattia,DEF,17,False
+gw,29,3,568,564455,Jamal Harkass,DEF,11,False
+gw,29,4,59,162651,Samir Caetano,DEF,9,False
+gw,29,5,143,222751,Jorge Filipe Oliveira Fernandes,DEF,9,False
+gw,29,6,376,583743,Majed Mohammed Ali Qasheesh,DEF,8,False
+gw,29,7,574,195982,Valentín Vada,MID,18,True
+gw,29,8,441,191758,Mohammed Al Kuwaykibi,MID,13,False
+gw,29,9,390,151130,António José Pinheiro de Carvalho,MID,10,False
+gw,29,10,577,452605,Loreintz Rosier,MID,8,False
+gw,29,11,721,510890,Marin Petkov,FWD,14,False
+gw,3,1,556,105610,Bruno Miguel Semedo Varela,GK,15,False
+gw,3,2,19,555924,Abdulmalek Al Oyayari,DEF,19,False
+gw,3,3,225,222784,Theo Hernandez,DEF,16,False
+gw,3,4,447,478984,Waleed Al Ahmed,DEF,13,False
+gw,3,5,280,87668,Danilo Luís Hélio Pereira,DEF,13,False
+gw,3,6,359,428399,Joao Felix,MID,22,True
+gw,3,7,213,181092,Malcom De Oliveira,MID,22,False
+gw,3,8,533,129508,Kingsley Coman,MID,20,False
+gw,3,9,579,232740,John Buckley,MID,14,False
+gw,3,10,99,144485,Ivan Toney,FWD,14,False
+gw,3,11,345,14937,Cristiano Ronaldo,FWD,14,False
+gw,30,1,293,104407,Predrag Rajkovic,GK,13,False
+gw,30,2,225,222784,Theo Hernandez,DEF,18,False
+gw,30,3,164,55909,Chris Smalling,DEF,16,False
+gw,30,4,487,604258,Mohammed Waheeb Abu Al Shamat,DEF,15,False
+gw,30,5,247,250792,Khalid Al Ghannam,MID,20,True
+gw,30,6,494,221766,Julian Quinones,MID,17,False
+gw,30,7,502,614993,Christopher Bonsu Baah,MID,14,False
+gw,30,8,286,231961,Houssem Aouar,MID,14,False
+gw,30,9,223,180793,Sergej Savić,MID,13,False
+gw,30,10,326,78007,Joshua King,FWD,19,False
+gw,30,11,501,131577,Abdullah Al Salem,FWD,16,False
+gw,31,1,227,120026,Yassine Bono,GK,16,False
+gw,31,2,236,99122,Francisco Calvo,DEF,16,False
+gw,31,3,487,604258,Mohammed Waheeb Abu Al Shamat,DEF,16,False
+gw,31,4,333,165803,Pedro Rebocho,DEF,15,False
+gw,31,5,359,428399,Joao Felix,MID,29,True
+gw,31,6,223,180793,Sergej Savić,MID,20,False
+gw,31,7,98,173181,Franck Kessié,MID,19,False
+gw,31,8,152,230311,Sofiane Bendebka,MID,19,False
+gw,31,9,326,78007,Joshua King,FWD,26,False
+gw,31,10,439,168506,Roger Martínez,FWD,22,False
+gw,31,11,99,144485,Ivan Toney,FWD,21,False
+gw,32,1,381,87403,Milan Borjan,GK,16,False
+gw,32,2,106,430788,Roger Ibañez,DEF,17,False
+gw,32,3,236,99122,Francisco Calvo,DEF,15,False
+gw,32,4,364,461910,Mohamed Simakan,DEF,15,False
+gw,32,5,536,635721,Saud Ghali Zuhamil Al Rashed,DEF,13,False
+gw,32,6,243,165796,Álvaro Medrán,MID,19,True
+gw,32,7,497,533388,Musab Al Juwayr,MID,16,False
+gw,32,8,5,172841,Said Benrahma,MID,16,False
+gw,32,9,247,250792,Khalid Al Ghannam,MID,14,False
+gw,32,10,235,41733,Georginio Wijnaldum,MID,14,False
+gw,32,11,237,122399,Moussa Dembele,FWD,12,False
+gw,33,1,614,91406,Fernando Pacheco,GK,11,False
+gw,33,2,473,438823,Abdelkader Bedrane,DEF,23,True
+gw,33,3,287,474900,Mario Mitaj,DEF,14,False
+gw,33,4,225,222784,Theo Hernandez,DEF,14,False
+gw,33,5,470,197485,Abdulrahman Al Obaid,DEF,13,False
+gw,33,6,415,119718,Yannick Carrasco,MID,21,False
+gw,33,7,289,243557,Moussa Diaby,MID,19,False
+gw,33,8,286,231961,Houssem Aouar,MID,16,False
+gw,33,9,221,171317,Rúben Neves,MID,15,False
+gw,33,10,494,221766,Julian Quinones,MID,15,False
+gw,33,11,377,606749,Fahad Aqeel Muhammad Al Khamjan Al Zubaidi,FWD,11,False
+gw,34,1,354,215665,Amin Al Bukhari,GK,15,False
+gw,34,2,107,547638,Rayan Hamed,DEF,15,False
+gw,34,3,389,531214,Sulaiman Hazazi,DEF,14,False
+gw,34,4,487,604258,Mohammed Waheeb Abu Al Shamat,DEF,13,False
+gw,34,5,383,176442,Yoann Barbet,DEF,9,False
+gw,34,6,494,221766,Julian Quinones,MID,24,True
+gw,34,7,576,706741,Aboubacar Bah,MID,17,False
+gw,34,8,596,566447,Matheus Gonçalves Martins,MID,16,False
+gw,34,9,499,192351,Nahitan Nandez,MID,16,False
+gw,34,10,444,194384,Sultan Mandash,MID,14,False
+gw,34,11,345,14937,Cristiano Ronaldo,FWD,16,False
+gw,4,1,92,228286,Édouard Mendy,GK,14,False
+gw,4,2,87,442526,Ali Majrashy,DEF,23,True
+gw,4,3,225,222784,Theo Hernandez,DEF,13,False
+gw,4,4,365,486024,Nawaf Boushal,DEF,12,False
+gw,4,5,247,250792,Khalid Al Ghannam,MID,22,False
+gw,4,6,494,221766,Julian Quinones,MID,14,False
+gw,4,7,349,110979,Sadio Mane,MID,14,False
+gw,4,8,13,430505,Alfa Semedo,MID,13,False
+gw,4,9,214,478011,Marcos Leonardo Santos Almeida,FWD,18,False
+gw,4,10,2,59966,Alexandre Lacazette,FWD,15,False
+gw,4,11,552,202295,Silvere Ganvoula,FWD,13,False
+gw,5,1,177,428758,Orlando Mosquera,GK,11,False
+gw,5,2,33,511524,Ahmed Al Nakhli,DEF,14,False
+gw,5,3,487,604258,Mohammed Waheeb Abu Al Shamat,DEF,14,False
+gw,5,4,447,478984,Waleed Al Ahmed,DEF,11,False
+gw,5,5,494,221766,Julian Quinones,MID,25,True
+gw,5,6,359,428399,Joao Felix,MID,23,False
+gw,5,7,349,110979,Sadio Mane,MID,15,False
+gw,5,8,327,88294,Konstantinos Fortounis,MID,13,False
+gw,5,9,326,78007,Joshua King,FWD,24,False
+gw,5,10,206,447203,Darwin Nunez Nunez,FWD,22,False
+gw,5,11,214,478011,Marcos Leonardo Santos Almeida,FWD,15,False
+gw,6,1,116,246848,Rakan Najjar,GK,12,False
+gw,6,2,454,517563,Mohammed Mahzari,DEF,18,True
+gw,6,3,143,222751,Jorge Filipe Oliveira Fernandes,DEF,11,False
+gw,6,4,87,442526,Ali Majrashy,DEF,11,False
+gw,6,5,488,88477,Nacho Fernandez,DEF,11,False
+gw,6,6,415,119718,Yannick Carrasco,MID,14,False
+gw,6,7,146,228489,Mourad Batna,MID,13,False
+gw,6,8,221,171317,Rúben Neves,MID,13,False
+gw,6,9,359,428399,Joao Felix,MID,12,False
+gw,6,10,390,151130,António José Pinheiro de Carvalho,MID,11,False
+gw,6,11,214,478011,Marcos Leonardo Santos Almeida,FWD,11,False
+gw,7,1,227,120026,Yassine Bono,GK,11,False
+gw,7,2,118,218862,Saeed Al Rubaie,DEF,22,False
+gw,7,3,447,478984,Waleed Al Ahmed,DEF,20,False
+gw,7,4,218,505480,Moteb Al Harbi,DEF,13,False
+gw,7,5,358,423618,Abdulelah Al Amri,DEF,11,False
+gw,7,6,327,88294,Konstantinos Fortounis,MID,24,True
+gw,7,7,5,172841,Said Benrahma,MID,18,False
+gw,7,8,595,202857,Angelo Fulgini,MID,13,False
+gw,7,9,289,243557,Moussa Diaby,MID,12,False
+gw,7,10,345,14937,Cristiano Ronaldo,FWD,20,False
+gw,7,11,326,78007,Joshua King,FWD,15,False
+gw,8,1,177,428758,Orlando Mosquera,GK,9,False
+gw,8,2,618,196814,Mikel Villanueva,DEF,12,False
+gw,8,3,487,604258,Mohammed Waheeb Abu Al Shamat,DEF,12,False
+gw,8,4,225,222784,Theo Hernandez,DEF,12,False
+gw,8,5,222,109763,Salem Al Dawsari,MID,22,False
+gw,8,6,343,195551,Georgios Masouras,MID,17,False
+gw,8,7,327,88294,Konstantinos Fortounis,MID,14,False
+gw,8,8,176,422685,Junior Fashion Sakala,MID,14,False
+gw,8,9,444,194384,Sultan Mandash,MID,13,False
+gw,8,10,439,168506,Roger Martínez,FWD,24,True
+gw,8,11,495,441463,Mateo Retegui,FWD,18,False
+gw,9,1,62,216593,Waleed Al Enezi,GK,9,False
+gw,9,2,76,635619,Nasser Al Hilayel,DEF,14,False
+gw,9,3,447,478984,Waleed Al Ahmed,DEF,14,False
+gw,9,4,211,86129,Kalidou Koulibaly,DEF,14,False
+gw,9,5,420,628705,Mohammed Al Shwirekh,DEF,12,False
+gw,9,6,578,568973,Elias Mokwana,MID,15,False
+gw,9,7,168,116628,Yassine Benzia,MID,14,False
+gw,9,8,5,172841,Said Benrahma,MID,12,False
+gw,9,9,237,122399,Moussa Dembele,FWD,17,True
+gw,9,10,301,19927,Karim Benzema,FWD,15,False
+gw,9,11,567,189787,Omar Jehad Al Somah,FWD,13,False
+season,,1,241,155529,Marek Rodak,GK,169,False
+season,,2,225,222784,Theo Hernandez,DEF,238,False
+season,,3,487,604258,Mohammed Waheeb Abu Al Shamat,DEF,234,False
+season,,4,280,87668,Danilo Luís Hélio Pereira,DEF,224,False
+season,,5,494,221766,Julian Quinones,MID,356,True
+season,,6,359,428399,Joao Felix,MID,311,False
+season,,7,221,171317,Rúben Neves,MID,276,False
+season,,8,415,119718,Yannick Carrasco,MID,266,False
+season,,9,99,144485,Ivan Toney,FWD,319,False
+season,,10,345,14937,Cristiano Ronaldo,FWD,296,False
+season,,11,439,168506,Roger Martínez,FWD,265,False

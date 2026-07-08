@@ -1,0 +1,16 @@
+player_id,fixture_id,gameweek,kickoff_time,was_home,opponent_team_id,opponent_team_name,team_h_score,team_a_score,modified,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,fmmp,winning_goals,won_tackle,accurate_pass,clearances_blocks_interceptions,shot_target,big_chance_created,big_chance_missed,performance_index,total_points,value,selected,transfers_in,transfers_out,transfers_balance
+688,188,20,2026-02-06T14:25:00Z,False,16,NEOM S.C.,1,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0,0,0,0
+688,195,21,2026-02-14T13:55:00Z,True,8,Al Khaleej,1,1,False,9,0,0,0,1,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,53,0,45,0,0,0,0
+688,203,22,2026-02-19T19:00:00Z,False,15,Al Kholood,0,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0,0,0,0
+688,88,23,2026-02-23T19:00:00Z,False,11,Al Shabab,3,1,False,45,0,0,0,1,0,0,0,0,0,0,0,0,0,0,22,3,2,0,0,64,1,45,0,0,0,0
+688,213,24,2026-02-26T19:00:00Z,True,1,Al Ahli,0,1,False,69,0,0,0,1,0,0,0,0,0,0,0,0,0,1,6,9,0,0,0,23,3,45,0,0,0,0
+688,224,25,2026-03-05T19:00:00Z,False,13,Damac,3,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0,0,0,0
+688,231,26,2026-03-13T19:00:00Z,True,7,Al Ittihad,3,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,1,0,0,0
+688,241,27,2026-04-05T18:00:00Z,True,11,Al Shabab,1,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,3,1,0,1
+688,246,28,2026-04-09T18:00:00Z,False,6,Al Ettifaq,2,3,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,3,0,0,0
+688,255,29,2026-04-24T16:10:00Z,False,17,Al Hazem,2,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,3,0,0,0
+688,267,30,2026-04-29T16:00:00Z,True,14,Al Qadsiah,0,4,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,3,0,0,0
+688,273,31,2026-05-04T16:10:00Z,False,4,Al Fayha,4,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,3,1,1,0
+688,286,32,2026-05-10T16:05:00Z,True,3,Al Fateh,1,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,3,0,0,0
+688,288,33,2026-05-15T18:00:00Z,False,12,Al Taawoun,1,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,2,0,0,0
+688,304,34,2026-05-21T18:00:00Z,True,2,Al Okhdood,1,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,3,0,0,0

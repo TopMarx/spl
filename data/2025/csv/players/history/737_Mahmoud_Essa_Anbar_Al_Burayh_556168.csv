@@ -1,0 +1,14 @@
+player_id,fixture_id,gameweek,kickoff_time,was_home,opponent_team_id,opponent_team_name,team_h_score,team_a_score,modified,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,fmmp,winning_goals,won_tackle,accurate_pass,clearances_blocks_interceptions,shot_target,big_chance_created,big_chance_missed,performance_index,total_points,value,selected,transfers_in,transfers_out,transfers_balance
+737,200,22,2026-02-19T19:00:00Z,False,6,Al Ettifaq,4,3,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0
+737,83,23,2026-02-23T19:00:00Z,True,2,Al Okhdood,2,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,4,4,0,4
+737,208,24,2026-02-26T19:00:00Z,True,13,Damac,1,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,9,4,1,3
+737,216,25,2026-03-06T19:00:00Z,False,12,Al Taawoun,3,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,11,2,2,0
+737,226,26,2026-03-14T19:00:00Z,True,5,Al Hilal,0,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,13,2,0,2
+737,240,27,2026-04-05T15:55:00Z,False,2,Al Okhdood,1,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,24,7,1,6
+737,253,29,2026-04-24T15:45:00Z,True,8,Al Khaleej,1,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,16,0,3,-3
+737,268,30,2026-04-28T16:00:00Z,False,11,Al Shabab,1,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,19,0,0,0
+737,272,31,2026-05-02T15:50:00Z,True,16,NEOM S.C.,2,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,19,1,1,0
+737,245,31,2026-05-06T18:00:00Z,False,1,Al Ahli,3,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,19,1,1,0
+737,286,32,2026-05-10T16:05:00Z,False,10,Al Riyadh,1,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,19,0,1,-1
+737,291,33,2026-05-14T15:55:00Z,True,18,Al Najmah,2,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,19,0,0,0
+737,302,34,2026-05-21T18:00:00Z,False,15,Al Kholood,0,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,19,0,0,0

@@ -1,0 +1,16 @@
+player_id,fixture_id,gameweek,kickoff_time,was_home,opponent_team_id,opponent_team_name,team_h_score,team_a_score,modified,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,fmmp,winning_goals,won_tackle,accurate_pass,clearances_blocks_interceptions,shot_target,big_chance_created,big_chance_missed,performance_index,total_points,value,selected,transfers_in,transfers_out,transfers_balance
+725,182,20,2026-02-06T15:00:00Z,False,6,Al Ettifaq,2,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0,0,0,0
+725,197,21,2026-02-12T15:45:00Z,True,12,Al Taawoun,2,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,1,1,0,1
+725,206,22,2026-02-20T19:00:00Z,True,11,Al Shabab,1,3,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,3,0,0,0
+725,89,23,2026-02-23T19:00:00Z,True,1,Al Ahli,0,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,2,0,0,0
+725,208,24,2026-02-26T19:00:00Z,False,3,Al Fateh,1,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,2,0,0,0
+725,224,25,2026-03-05T19:00:00Z,True,10,Al Riyadh,3,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,2,0,0,0
+725,225,26,2026-03-12T19:00:00Z,False,18,Al Najmah,1,3,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,2,0,0,0
+725,234,27,2026-04-04T16:15:00Z,False,1,Al Ahli,3,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,2,0,0,0
+725,251,28,2026-04-09T16:00:00Z,True,14,Al Qadsiah,1,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,3,1,0,1
+725,260,29,2026-04-23T18:00:00Z,True,2,Al Okhdood,2,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,3,0,0,0
+725,262,30,2026-04-28T18:00:00Z,False,5,Al Hilal,1,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,3,0,0,0
+725,278,31,2026-05-02T16:10:00Z,True,8,Al Khaleej,0,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,4,0,0,0
+725,282,32,2026-05-10T18:00:00Z,False,7,Al Ittihad,2,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,5,0,0,0
+725,296,33,2026-05-15T16:15:00Z,True,4,Al Fayha,3,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,6,1,0,1
+725,303,34,2026-05-21T18:00:00Z,False,9,Al Nassr,4,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,10,2,0,2

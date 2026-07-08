@@ -1,0 +1,16 @@
+player_id,fixture_id,gameweek,kickoff_time,was_home,opponent_team_id,opponent_team_name,team_h_score,team_a_score,modified,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,fmmp,winning_goals,won_tackle,accurate_pass,clearances_blocks_interceptions,shot_target,big_chance_created,big_chance_missed,performance_index,total_points,value,selected,transfers_in,transfers_out,transfers_balance
+705,185,20,2026-02-06T17:30:00Z,False,9,Al Nassr,2,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,65,65,2,63
+705,193,21,2026-02-13T17:30:00Z,True,4,Al Fayha,2,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,223,55,32,23
+705,201,22,2026-02-21T19:00:00Z,False,5,Al Hilal,1,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,207,4,22,-18
+705,85,23,2026-02-24T19:00:00Z,False,17,Al Hazem,1,1,False,73,0,0,1,0,0,0,0,1,0,0,0,0,0,0,5,2,0,0,0,30,1,69,288,91,14,77
+705,211,24,2026-02-27T19:00:00Z,True,8,Al Khaleej,1,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69,240,15,64,-49
+705,217,25,2026-03-06T19:00:00Z,False,1,Al Ahli,3,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,68,211,2,32,-30
+705,231,26,2026-03-13T19:00:00Z,False,10,Al Riyadh,3,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,68,207,3,9,-6
+705,237,27,2026-04-03T16:15:00Z,True,17,Al Hazem,1,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,207,5,5,0
+705,257,27,2026-04-08T18:00:00Z,True,16,NEOM S.C.,3,4,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,207,5,5,0
+705,261,30,2026-04-29T16:10:00Z,False,12,Al Taawoun,0,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,205,0,4,-4
+705,275,31,2026-05-04T18:00:00Z,True,15,Al Kholood,0,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,202,0,2,-2
+705,282,32,2026-05-10T18:00:00Z,True,13,Damac,2,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,201,0,4,-4
+705,290,33,2026-05-14T18:00:00Z,False,6,Al Ettifaq,1,3,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,204,2,0,2
+705,250,33,2026-05-17T18:00:00Z,False,11,Al Shabab,3,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,204,2,0,2
+705,300,34,2026-05-21T18:00:00Z,True,14,Al Qadsiah,1,5,False,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,71,1,67,202,1,3,-2

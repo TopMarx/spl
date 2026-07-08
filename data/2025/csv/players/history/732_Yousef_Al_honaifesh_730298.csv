@@ -1,0 +1,16 @@
+player_id,fixture_id,gameweek,kickoff_time,was_home,opponent_team_id,opponent_team_name,team_h_score,team_a_score,modified,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,fmmp,winning_goals,won_tackle,accurate_pass,clearances_blocks_interceptions,shot_target,big_chance_created,big_chance_missed,performance_index,total_points,value,selected,transfers_in,transfers_out,transfers_balance
+732,184,20,2026-02-07T14:00:00Z,True,11,Al Shabab,1,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0,0,0,0
+732,189,21,2026-02-14T15:35:00Z,False,18,Al Najmah,2,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,2,0,0,0
+732,203,22,2026-02-19T19:00:00Z,True,10,Al Riyadh,0,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,2,0,0,0
+732,86,23,2026-02-24T19:00:00Z,False,8,Al Khaleej,2,3,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,2,0,0,0
+732,215,24,2026-02-28T19:00:00Z,False,16,NEOM S.C.,1,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,3,1,0,1
+732,221,25,2026-03-07T19:00:00Z,True,14,Al Qadsiah,1,4,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,3,0,0,0
+732,228,26,2026-03-12T19:00:00Z,False,17,Al Hazem,2,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,4,0,0,0
+732,238,27,2026-04-03T16:00:00Z,True,8,Al Khaleej,2,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,5,0,0,0
+732,256,27,2026-04-08T18:00:00Z,False,5,Al Hilal,6,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,5,0,0,0
+732,244,28,2026-04-11T16:00:00Z,False,12,Al Taawoun,1,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,4,0,0,0
+732,264,30,2026-04-30T18:00:00Z,True,4,Al Fayha,1,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,5,0,0,0
+732,275,31,2026-05-04T18:00:00Z,False,7,Al Ittihad,0,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,5,0,0,0
+732,284,32,2026-05-12T16:20:00Z,True,2,Al Okhdood,0,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,6,1,0,1
+732,289,33,2026-05-16T18:00:00Z,False,1,Al Ahli,3,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,6,0,0,0
+732,302,34,2026-05-21T18:00:00Z,True,3,Al Fateh,0,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,6,0,0,0

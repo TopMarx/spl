@@ -1,0 +1,16 @@
+player_id,fixture_id,gameweek,kickoff_time,was_home,opponent_team_id,opponent_team_name,team_h_score,team_a_score,modified,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,fmmp,winning_goals,won_tackle,accurate_pass,clearances_blocks_interceptions,shot_target,big_chance_created,big_chance_missed,performance_index,total_points,value,selected,transfers_in,transfers_out,transfers_balance
+717,187,20,2026-02-07T17:30:00Z,True,3,Al Fateh,1,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,1,1,0,1
+717,194,21,2026-02-12T17:30:00Z,True,16,NEOM S.C.,1,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,1,0,0,0
+717,205,22,2026-02-20T19:00:00Z,False,2,Al Okhdood,2,4,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,1,0,0,0
+717,87,23,2026-02-23T19:00:00Z,True,6,Al Ettifaq,4,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,1,0,0,0
+717,212,24,2026-02-28T19:00:00Z,True,12,Al Taawoun,1,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,1,0,0,0
+717,221,25,2026-03-07T19:00:00Z,False,15,Al Kholood,1,4,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,1,-1
+717,230,26,2026-03-13T19:00:00Z,True,1,Al Ahli,3,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0
+717,235,27,2026-04-05T18:00:00Z,False,6,Al Ettifaq,3,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0
+717,251,28,2026-04-09T16:00:00Z,False,13,Damac,1,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0
+717,259,28,2026-04-14T18:00:00Z,True,11,Al Shabab,2,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0
+717,267,30,2026-04-29T16:00:00Z,False,10,Al Riyadh,0,4,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0
+717,276,31,2026-05-03T18:00:00Z,True,9,Al Nassr,3,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0
+717,281,32,2026-05-09T18:00:00Z,False,4,Al Fayha,1,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0
+717,294,33,2026-05-14T18:00:00Z,True,17,Al Hazem,2,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0
+717,300,34,2026-05-21T18:00:00Z,False,7,Al Ittihad,1,5,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0

@@ -1,0 +1,6 @@
+player_id,fixture_id,gameweek,kickoff_time,was_home,opponent_team_id,opponent_team_name,team_h_score,team_a_score,modified,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,fmmp,winning_goals,won_tackle,accurate_pass,clearances_blocks_interceptions,shot_target,big_chance_created,big_chance_missed,performance_index,total_points,value,selected,transfers_in,transfers_out,transfers_balance
+743,269,30,2026-04-28T16:45:00Z,True,17,Al Hazem,1,1,False,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,45,1,45,0,0,0,0
+743,272,31,2026-05-02T15:50:00Z,False,3,Al Fateh,2,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0,0,0,0
+743,287,32,2026-05-11T16:50:00Z,True,11,Al Shabab,2,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,1,0,0,0
+743,292,33,2026-05-16T16:05:00Z,False,5,Al Hilal,2,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,4,1,0,1
+743,305,34,2026-05-21T18:00:00Z,True,6,Al Ettifaq,1,1,False,23,0,1,0,0,0,0,0,0,0,0,0,0,0,0,8,3,0,1,0,65,4,45,3,0,0,0

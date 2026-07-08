@@ -1,0 +1,16 @@
+player_id,fixture_id,gameweek,kickoff_time,was_home,opponent_team_id,opponent_team_name,team_h_score,team_a_score,modified,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,fmmp,winning_goals,won_tackle,accurate_pass,clearances_blocks_interceptions,shot_target,big_chance_created,big_chance_missed,performance_index,total_points,value,selected,transfers_in,transfers_out,transfers_balance
+703,186,20,2026-02-05T17:30:00Z,False,2,Al Okhdood,0,6,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60,14,15,2,13
+703,192,21,2026-02-13T15:25:00Z,True,6,Al Ettifaq,2,0,False,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,60,10,3,7,-4
+703,201,22,2026-02-21T19:00:00Z,True,7,Al Ittihad,1,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60,14,3,2,1
+703,82,23,2026-02-24T19:00:00Z,False,12,Al Taawoun,1,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59,14,3,4,-1
+703,214,24,2026-02-27T19:00:00Z,False,11,Al Shabab,3,5,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59,50,35,4,31
+703,219,25,2026-03-06T19:00:00Z,True,18,Al Najmah,4,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59,43,13,20,-7
+703,226,26,2026-03-14T19:00:00Z,False,3,Al Fateh,0,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59,18,1,25,-24
+703,236,27,2026-04-04T18:00:00Z,True,12,Al Taawoun,2,2,False,90,1,0,0,2,0,0,0,0,0,0,0,0,0,0,8,2,3,1,1,87,8,59,17,2,6,-4
+703,256,27,2026-04-08T18:00:00Z,True,15,Al Kholood,6,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59,17,2,6,-4
+703,262,30,2026-04-28T18:00:00Z,True,13,Damac,1,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58,33,7,11,-4
+703,274,31,2026-05-02T18:00:00Z,False,17,Al Hazem,0,3,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58,29,3,10,-7
+703,248,31,2026-05-05T18:00:00Z,False,8,Al Khaleej,1,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58,29,3,10,-7
+703,285,32,2026-05-12T18:00:00Z,False,9,Al Nassr,1,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,57,25,3,3,0
+703,292,33,2026-05-16T16:05:00Z,True,16,NEOM S.C.,2,0,False,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,1,2,0,1,41,1,56,28,3,2,1
+703,298,34,2026-05-21T18:00:00Z,False,4,Al Fayha,0,1,False,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,48,1,56,43,10,1,9

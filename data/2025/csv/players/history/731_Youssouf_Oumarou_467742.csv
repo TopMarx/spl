@@ -1,0 +1,16 @@
+player_id,fixture_id,gameweek,kickoff_time,was_home,opponent_team_id,opponent_team_name,team_h_score,team_a_score,modified,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,fmmp,winning_goals,won_tackle,accurate_pass,clearances_blocks_interceptions,shot_target,big_chance_created,big_chance_missed,performance_index,total_points,value,selected,transfers_in,transfers_out,transfers_balance
+731,181,20,2026-02-05T17:30:00Z,False,1,Al Ahli,2,0,False,17,0,0,0,1,0,0,0,0,0,0,0,0,0,0,5,3,1,0,0,62,1,50,0,0,0,0
+731,191,21,2026-02-12T17:30:00Z,True,2,Al Okhdood,2,1,False,90,0,0,0,1,0,0,0,0,0,0,0,0,0,0,29,6,2,0,1,67,3,50,0,1,1,0
+731,204,22,2026-02-21T19:00:00Z,False,9,Al Nassr,4,0,False,90,0,0,0,4,0,0,0,0,0,0,0,0,0,0,19,5,2,0,0,13,2,50,2,0,0,0
+731,85,23,2026-02-24T19:00:00Z,True,7,Al Ittihad,1,1,False,82,0,0,0,1,0,0,0,0,0,0,0,0,0,0,10,5,2,0,1,50,2,50,2,0,0,0
+731,210,24,2026-02-27T19:00:00Z,True,6,Al Ettifaq,3,1,False,90,0,0,0,1,0,0,0,0,0,0,0,0,0,0,46,2,1,0,0,70,3,49,2,2,2,0
+731,220,25,2026-03-06T19:00:00Z,False,8,Al Khaleej,2,1,False,90,0,0,0,2,0,0,0,0,0,0,0,0,0,2,25,5,0,0,0,21,2,49,2,1,1,0
+731,228,26,2026-03-12T19:00:00Z,True,15,Al Kholood,2,1,False,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,1,0,0,0,1,49,2,0,0,0
+731,237,27,2026-04-03T16:15:00Z,False,7,Al Ittihad,1,0,False,45,0,0,0,1,0,0,0,0,0,0,0,0,0,0,14,4,4,0,0,67,2,48,1,0,1,-1
+731,247,28,2026-04-11T16:05:00Z,True,4,Al Fayha,2,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,1,0,0,0
+731,255,29,2026-04-24T16:10:00Z,True,10,Al Riyadh,2,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,1,0,0,0
+731,269,30,2026-04-28T16:45:00Z,False,16,NEOM S.C.,1,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,1,0,0,0
+731,274,31,2026-05-02T18:00:00Z,True,5,Al Hilal,0,3,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,1,0,0,0
+731,279,32,2026-05-09T16:15:00Z,False,18,Al Najmah,2,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,1,0,0,0
+731,294,33,2026-05-14T18:00:00Z,False,14,Al Qadsiah,2,0,False,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,48,1,0,0,0
+731,299,34,2026-05-21T18:00:00Z,True,12,Al Taawoun,2,0,False,90,1,0,1,0,0,0,0,1,0,0,0,0,0,1,27,7,5,0,1,82,9,48,1,0,0,0

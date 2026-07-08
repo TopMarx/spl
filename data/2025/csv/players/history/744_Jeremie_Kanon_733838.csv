@@ -1,0 +1,5 @@
+player_id,fixture_id,gameweek,kickoff_time,was_home,opponent_team_id,opponent_team_name,team_h_score,team_a_score,modified,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,fmmp,winning_goals,won_tackle,accurate_pass,clearances_blocks_interceptions,shot_target,big_chance_created,big_chance_missed,performance_index,total_points,value,selected,transfers_in,transfers_out,transfers_balance
+744,273,31,2026-05-04T16:10:00Z,True,10,Al Riyadh,4,2,False,15,0,0,0,1,0,0,0,1,0,0,0,0,0,0,6,4,0,0,0,44,0,45,0,0,0,0
+744,281,32,2026-05-09T18:00:00Z,True,14,Al Qadsiah,1,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,1,1,0,1
+744,296,33,2026-05-15T16:15:00Z,False,13,Damac,3,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,1,0,0,0
+744,298,34,2026-05-21T18:00:00Z,True,5,Al Hilal,0,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,2,0,0,0

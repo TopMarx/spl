@@ -1,0 +1,16 @@
+player_id,fixture_id,gameweek,kickoff_time,was_home,opponent_team_id,opponent_team_name,team_h_score,team_a_score,modified,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,fmmp,winning_goals,won_tackle,accurate_pass,clearances_blocks_interceptions,shot_target,big_chance_created,big_chance_missed,performance_index,total_points,value,selected,transfers_in,transfers_out,transfers_balance
+733,188,20,2026-02-06T14:25:00Z,True,10,Al Riyadh,1,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0,0,0,0
+733,194,21,2026-02-12T17:30:00Z,False,14,Al Qadsiah,1,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0,1,1,0
+733,202,22,2026-02-21T19:00:00Z,False,8,Al Khaleej,0,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,2,0,0,0
+733,84,23,2026-02-25T19:00:00Z,False,4,Al Fayha,1,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,2,1,1,0
+733,215,24,2026-02-28T19:00:00Z,True,15,Al Kholood,1,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,4,2,0,2
+733,222,25,2026-03-07T19:00:00Z,False,9,Al Nassr,1,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,4,0,0,0
+733,233,26,2026-03-12T19:00:00Z,True,12,Al Taawoun,2,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,6,2,1,1
+733,242,27,2026-04-04T16:30:00Z,True,4,Al Fayha,1,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,10,4,0,4
+733,257,27,2026-04-08T18:00:00Z,False,7,Al Ittihad,3,4,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,10,4,0,4
+733,243,28,2026-04-11T16:00:00Z,False,18,Al Najmah,2,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,11,0,0,0
+733,269,30,2026-04-28T16:45:00Z,True,17,Al Hazem,1,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,11,1,1,0
+733,272,31,2026-05-02T15:50:00Z,False,3,Al Fateh,2,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,10,0,1,-1
+733,287,32,2026-05-11T16:50:00Z,True,11,Al Shabab,2,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,10,1,1,0
+733,292,33,2026-05-16T16:05:00Z,False,5,Al Hilal,2,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,10,0,0,0
+733,305,34,2026-05-21T18:00:00Z,True,6,Al Ettifaq,1,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,10,0,0,0
