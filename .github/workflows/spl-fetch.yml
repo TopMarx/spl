@@ -1,0 +1,136 @@
+name: Fantasy Saudi Pro League Fetch
+
+on:
+  schedule:
+    - cron: '7 1 * * *'   # Primary fetch at 1am UTC
+    - cron: '7 2 * * *'   # Retry if 1am blocked by live/unprocessed data
+    - cron: '7 3 * * *'   # Final retry if 2am still blocked
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (no files written)'
+        required: false
+        default: false
+        type: boolean
+      force:
+        description: 'Force full fetch'
+        required: false
+        default: false
+        type: boolean
+      date:
+        description: 'Override target date YYYY-MM-DD (default: yesterday UTC)'
+        required: false
+        type: string
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    permissions:
+      contents: write   # Required to commit and push fetched data
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Determine current season
+        id: season
+        run: |
+          # Derived from the league API itself (first event's deadline_time),
+          # NOT the calendar. The old game keeps serving last season's data
+          # until the new game launches, so a calendar rule mislabels the
+          # finished season during that window. During the between-games
+          # maintenance window the API is down and this step fails the run —
+          # that is intentional: nothing to fetch.
+          SEASON=$(python3 scripts/current_season.py)
+          if ! [[ "$SEASON" =~ ^20[0-9]{2}$ ]]; then
+            echo "FATAL: derived season '$SEASON' is not a plausible year"
+            exit 1
+          fi
+          echo "Season: $SEASON"
+          echo "season=$SEASON" >> $GITHUB_OUTPUT
+
+      # ── Build fetch arguments ────────────────────────────────
+
+      - name: Build fetch arguments
+        id: fetch_args
+        run: |
+          ARGS="--season ${{ steps.season.outputs.season }} --output data/${{ steps.season.outputs.season }}"
+
+          if [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+
+          if [ "${{ github.event.inputs.force }}" == "true" ]; then
+            ARGS="$ARGS --force"
+          fi
+
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            ARGS="$ARGS --date ${{ github.event.inputs.date }}"
+          fi
+
+          echo "args=$ARGS" >> $GITHUB_OUTPUT
+          echo "Fetch args: $ARGS"
+
+      # ── Run fetch ────────────────────────────────────────────
+
+      - name: Run fetch
+        id: fetch
+        run: python3 scripts/fetch.py ${{ steps.fetch_args.outputs.args }}
+
+      # ── Generate CSVs and latest/ (only when players were fetched) ──
+
+      - name: Generate CSVs
+        if: |
+          github.event.inputs.dry_run != 'true' &&
+          steps.fetch.outputs.fetch_type != 'none' &&
+          steps.fetch.outputs.fetch_type != 'waiting' &&
+          steps.fetch.outputs.fetch_type != 'blocked'
+        run: |
+          python3 scripts/generate_csv.py \
+            --season ${{ steps.season.outputs.season }}
+
+      - name: Generate latest/
+        if: |
+          github.event.inputs.dry_run != 'true' &&
+          steps.fetch.outputs.fetch_type != 'none' &&
+          steps.fetch.outputs.fetch_type != 'waiting' &&
+          steps.fetch.outputs.fetch_type != 'blocked'
+        run: |
+          python3 scripts/generate_latest.py \
+            --season ${{ steps.season.outputs.season }}
+
+      # ── Commit and push ──────────────────────────────────────
+
+      - name: Commit and push
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ latest/
+          git diff --cached --quiet && echo "Nothing to commit" || \
+            git commit -m "spl data: ${{ steps.fetch.outputs.gw_label }}${{ steps.fetch.outputs.fetch_type }} $(date -u +%Y-%m-%d)"
+          git push
+
+      # ── Optional heartbeat ───────────────────────────────────
+      # Set a repo secret named HEARTBEAT_PING_URL to enable; skipped otherwise.
+
+      - name: Heartbeat ping
+        if: success()
+        env:
+          PING_URL: ${{ secrets.HEARTBEAT_PING_URL }}
+        run: |
+          if [ -n "$PING_URL" ]; then
+            curl -fsS --retry 3 "$PING_URL"
+          else
+            echo "No HEARTBEAT_PING_URL secret configured — skipping"
+          fi
