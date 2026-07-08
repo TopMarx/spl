@@ -58,12 +58,12 @@ so the data model and pipeline are the same. The only league-specific file is
 | `data/{season}/gameweeks/gw{N}/live.json` | Live points and stats per GW |
 | `data/{season}/gameweeks/gw{N}/dream-team.json` | GW dream team |
 | `data/{season}/spl-dream-team_{season}.json` | Season dream team (updated each GW) |
-| `data/{season}/spl-set-piece-notes_{season}.json` | Set piece taker notes (if the league API provides them) |
 | `data/{season}/spl-regions_{season}.json` | Region/nationality reference (if the league API provides it) |
 
-Not every league platform exposes the optional endpoints (dream team,
-set-piece notes, regions, event-status). Missing ones are skipped
-gracefully.
+Unlike FPL, this league's platform does not provide the `event-status/`
+or `team/set-piece-notes/` endpoints (verified across all sibling league
+platforms). The pipeline skips them gracefully — and still attempts them,
+so if the platform ever adds them the data will be collected automatically.
 
 ### CSV (processed)
 
@@ -77,7 +77,6 @@ gracefully.
 | `data/{season}/csv/gameweeks.csv` | Gameweek summary data |
 | `data/{season}/csv/live.csv` | Per-player points and stats for each GW |
 | `data/{season}/csv/dream-teams.csv` | GW and season dream teams |
-| `data/{season}/csv/set-piece-notes.csv` | Set piece taker notes per team |
 | `data/{season}/csv/regions.csv` | Region/nationality reference |
 
 ### Latest (always current season)
@@ -103,8 +102,7 @@ The repository updates automatically via GitHub Actions:
   teams that played the previous day
 - **On gameweek closure** — full fetch of all players once a gameweek is
   confirmed complete (`finished` and `data_checked` both true in the bootstrap),
-  plus live points, dream team, season dream team, set-piece notes, and regions
-  (where the league API provides them)
+  plus live points, GW dream team, season dream team, and regions
 
 On most days with no matches, only bootstrap and fixtures are refreshed.
 Player element-summary files are only fetched when needed, keeping API
@@ -200,11 +198,12 @@ All data is sourced from the public fantasy API at
 | `event/{gw}/live/` | Live GW points and stats |
 | `dream-team/{gw}/` | GW dream team |
 | `dream-team/` | Season dream team |
-| `team/set-piece-notes/` | Set piece taker notes |
 | `regions/` | Nationality/region reference |
 
-Manager, league, and authenticated endpoints are not included. Optional
-endpoints not offered by this league's platform are skipped.
+Only public, read-only game data is collected. The platform also has
+endpoints for individual fantasy managers' teams and picks, mini-league
+standings, and login-protected actions (my-team, transfers) — none of
+those are fetched or stored here.
 
 ---
 
