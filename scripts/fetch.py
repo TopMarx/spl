@@ -17,8 +17,7 @@ On GW closure or forced fetch, also fetches:
   - team/set-piece-notes/
   - regions/
   (Not every league platform exposes all of these — failures on the
-  optional extras are logged and do not fail the run. Run probe.py once
-  to see which endpoints your league supports.)
+  optional extras are logged and do not fail the run.)
 
 Checks event-status before any player fetch to ensure all match data
 is fully processed (points: "r"). If any match is live or unprocessed,

@@ -27,12 +27,13 @@ Data Notice
 The MIT licence above applies to the code, scripts, and tooling in this
 repository only.
 
-All Fantasy Premier League data retrieved and stored in this repository
-is sourced from the official FPL API
-(https://fantasy.premierleague.com/api/) and remains the property of
-THE FOOTBALL ASSOCIATION PREMIER LEAGUE LIMITED. This repository is an
-unofficial community resource and is not affiliated with or endorsed by
-the Premier League, Fantasy Premier League or ISM Fantasy Games Limited.
+All Fantasy Saudi Pro League data retrieved and stored in this repository
+is sourced from the official Fantasy Saudi Pro League API
+(https://en.fantasy.spl.com.sa/api/) and remains the property of the Saudi
+Pro League and its data providers. This repository is an unofficial
+community resource and is not affiliated with or endorsed by the Saudi Pro
+League, Fantasy Saudi Pro League, or ISM Fantasy Games Limited.
 
-Use of this data is subject to the FPL API terms. The repository author
-makes no claim of ownership over any data originating from the FPL API.
+Use of this data is subject to the league API's terms. The repository
+author makes no claim of ownership over any data originating from the
+Fantasy Saudi Pro League API.
