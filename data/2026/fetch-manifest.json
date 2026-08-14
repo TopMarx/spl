@@ -2,5 +2,6 @@
   "season": 2026,
   "fetch_type": "none",
   "reason": "no current GW",
-  "last_run": "2026-08-13T04:59:15.030691+00:00"
+  "last_run": "2026-08-14T03:28:11.469179+00:00",
+  "current_gw": 1
 }
