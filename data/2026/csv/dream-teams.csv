@@ -1,0 +1,23 @@
+type,gw,position,player_id,opta_id,name,player_position,points,is_top_player
+gw,1,1,438,425632,Mailson Santos,GK,14,False
+gw,1,2,360,564914,Salim Al Towayawi,DEF,11,False
+gw,1,3,465,88477,Nacho Fernandez,DEF,11,False
+gw,1,4,83,439128,Merih Demiral,DEF,11,False
+gw,1,5,200,171317,Rúben Neves,MID,20,False
+gw,1,6,332,518620,Ângelo Gabriel Borges Damaceno,MID,15,False
+gw,1,7,77,515117,Eduard Spertsyan,MID,15,False
+gw,1,8,571,547059,Ahmed AL SHAMRANI,MID,14,False
+gw,1,9,554,172841,Said Benrahma,MID,14,False
+gw,1,10,240,122399,Moussa Dembele,FWD,21,True
+gw,1,11,649,564807,Julien Domingues,FWD,12,False
+season,,1,438,425632,Mailson Santos,GK,14,False
+season,,2,360,564914,Salim Al Towayawi,DEF,11,False
+season,,3,465,88477,Nacho Fernandez,DEF,11,False
+season,,4,83,439128,Merih Demiral,DEF,11,False
+season,,5,200,171317,Rúben Neves,MID,20,False
+season,,6,332,518620,Ângelo Gabriel Borges Damaceno,MID,15,False
+season,,7,77,515117,Eduard Spertsyan,MID,15,False
+season,,8,571,547059,Ahmed AL SHAMRANI,MID,14,False
+season,,9,554,172841,Said Benrahma,MID,14,False
+season,,10,240,122399,Moussa Dembele,FWD,21,True
+season,,11,649,564807,Julien Domingues,FWD,12,False

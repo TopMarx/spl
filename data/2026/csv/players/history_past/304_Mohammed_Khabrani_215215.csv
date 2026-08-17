@@ -1,0 +1,4 @@
+player_id,opta_id,season_name,start_cost,end_cost,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,fmmp,winning_goals,won_tackle,accurate_pass,clearances_blocks_interceptions,shot_target,big_chance_created,big_chance_missed,performance_index,total_points
+304,215215,2023/24,45,45,1350,0,0,5,20,0,0,0,3,0,0,0,0,0,0,0,138,0,0,0,0,50
+304,215215,2024/25,50,50,2455,0,1,6,38,0,0,0,4,0,0,0,0,0,0,0,290,0,0,0,0,88
+304,215215,2025/26,50,50,2814,0,2,4,56,0,0,0,6,1,0,2,0,0,20,1291,314,13,0,1,1668,122

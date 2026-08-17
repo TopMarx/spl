@@ -2,7 +2,7 @@
   {
     "code": 2672467,
     "event": 1,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 1,
     "kickoff_time": "2026-08-13T16:15:00Z",
@@ -359,7 +359,7 @@
   {
     "code": 2672468,
     "event": 1,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 3,
     "kickoff_time": "2026-08-13T18:00:00Z",
@@ -736,7 +736,7 @@
   {
     "code": 2672469,
     "event": 1,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 2,
     "kickoff_time": "2026-08-13T18:00:00Z",
@@ -1090,7 +1090,7 @@
   {
     "code": 2672470,
     "event": 1,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 6,
     "kickoff_time": "2026-08-14T16:50:00Z",
@@ -1439,7 +1439,7 @@
   {
     "code": 2672471,
     "event": 1,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 4,
     "kickoff_time": "2026-08-14T18:00:00Z",
@@ -1489,11 +1489,11 @@
           },
           {
             "value": 1,
-            "element": 232
+            "element": 235
           },
           {
             "value": 1,
-            "element": 235
+            "element": 434
           }
         ]
       },
@@ -1785,7 +1785,7 @@
   {
     "code": 2672472,
     "event": 1,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 5,
     "kickoff_time": "2026-08-14T18:00:00Z",
@@ -2157,7 +2157,7 @@
   {
     "code": 2672473,
     "event": 1,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 9,
     "kickoff_time": "2026-08-15T16:15:00Z",
@@ -2490,7 +2490,7 @@
   {
     "code": 2672474,
     "event": 1,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 7,
     "kickoff_time": "2026-08-15T18:00:00Z",
@@ -2504,7 +2504,12 @@
     "stats": [
       {
         "identifier": "goals_scored",
-        "a": [],
+        "a": [
+          {
+            "value": 1,
+            "element": 649
+          }
+        ],
         "h": [
           {
             "value": 1,
@@ -2597,16 +2602,16 @@
         "a": [
           {
             "value": 3,
-            "element": 516
+            "element": 649
           },
           {
-            "value": 1,
-            "element": 498
+            "value": 2,
+            "element": 516
           }
         ],
         "h": [
           {
-            "value": 2,
+            "value": 1,
             "element": 618
           }
         ]
@@ -2648,6 +2653,10 @@
           {
             "value": 7,
             "element": 496
+          },
+          {
+            "value": 7,
+            "element": 649
           },
           {
             "value": 6,
@@ -2749,6 +2758,10 @@
         "identifier": "performance_index",
         "a": [
           {
+            "value": 84,
+            "element": 649
+          },
+          {
             "value": 82,
             "element": 516
           },
@@ -2841,7 +2854,7 @@
   {
     "code": 2672475,
     "event": 1,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 8,
     "kickoff_time": "2026-08-15T18:00:00Z",
@@ -2864,6 +2877,10 @@
           {
             "value": 1,
             "element": 332
+          },
+          {
+            "value": 1,
+            "element": 648
           }
         ]
       },
@@ -3019,6 +3036,10 @@
           {
             "value": 3,
             "element": 142
+          },
+          {
+            "value": 1,
+            "element": 651
           }
         ],
         "h": [
@@ -3065,6 +3086,10 @@
           {
             "value": 3,
             "element": 328
+          },
+          {
+            "value": 2,
+            "element": 648
           },
           {
             "value": 1,
