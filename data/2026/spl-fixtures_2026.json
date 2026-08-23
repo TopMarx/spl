@@ -5044,7 +5044,7 @@
         "identifier": "clearances_blocks_interceptions",
         "a": [
           {
-            "value": 12,
+            "value": 13,
             "element": 218
           },
           {
@@ -5053,11 +5053,11 @@
           },
           {
             "value": 9,
-            "element": 233
+            "element": 229
           },
           {
-            "value": 8,
-            "element": 229
+            "value": 9,
+            "element": 233
           },
           {
             "value": 7,
@@ -5098,7 +5098,7 @@
         ],
         "h": [
           {
-            "value": 18,
+            "value": 20,
             "element": 136
           },
           {
@@ -5122,15 +5122,15 @@
             "element": 124
           },
           {
-            "value": 3,
-            "element": 127
-          },
-          {
-            "value": 3,
+            "value": 4,
             "element": 138
           },
           {
             "value": 3,
+            "element": 127
+          },
+          {
+            "value": 2,
             "element": 142
           },
           {
