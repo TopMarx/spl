@@ -1,7 +1,7 @@
 id,name,deadline_time,average_entry_score,highest_score,finished,data_checked,is_previous,is_current,is_next
-1,Round 1,2026-08-13T16:10:00Z,70,157,True,True,False,True,False
-2,Round 2,2026-08-20T17:55:00Z,0,,False,False,False,False,True
-3,Round 3,2026-08-24T16:35:00Z,0,,False,False,False,False,False
+1,Round 1,2026-08-13T16:10:00Z,70,157,True,True,True,False,False
+2,Round 2,2026-08-20T17:55:00Z,75,169,True,True,False,True,False
+3,Round 3,2026-08-24T16:35:00Z,0,,False,False,False,False,True
 4,Round 4,2026-08-28T15:45:00Z,0,,False,False,False,False,False
 5,Round 5,2026-09-03T15:50:00Z,0,,False,False,False,False,False
 6,Round 6,2026-09-07T15:25:00Z,0,,False,False,False,False,False

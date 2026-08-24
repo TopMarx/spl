@@ -3205,7 +3205,7 @@
   {
     "code": 2672476,
     "event": 2,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 10,
     "kickoff_time": "2026-08-20T18:00:00Z",
@@ -3556,7 +3556,7 @@
   {
     "code": 2672477,
     "event": 2,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 14,
     "kickoff_time": "2026-08-21T16:00:00Z",
@@ -3772,6 +3772,10 @@
             "element": 373
           },
           {
+            "value": 11,
+            "element": 662
+          },
+          {
             "value": 10,
             "element": 377
           },
@@ -3867,6 +3871,10 @@
         ],
         "h": [
           {
+            "value": 33,
+            "element": 662
+          },
+          {
             "value": 29,
             "element": 390
           },
@@ -3913,7 +3921,7 @@
   {
     "code": 2672478,
     "event": 2,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 12,
     "kickoff_time": "2026-08-21T16:15:00Z",
@@ -4248,7 +4256,7 @@
   {
     "code": 2672479,
     "event": 2,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 11,
     "kickoff_time": "2026-08-21T18:00:00Z",
@@ -4582,7 +4590,7 @@
   {
     "code": 2672480,
     "event": 2,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 13,
     "kickoff_time": "2026-08-21T18:00:00Z",
@@ -4930,7 +4938,7 @@
   {
     "code": 2672481,
     "event": 2,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 16,
     "kickoff_time": "2026-08-22T15:45:00Z",
@@ -5251,7 +5259,7 @@
   {
     "code": 2672482,
     "event": 2,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 18,
     "kickoff_time": "2026-08-22T16:10:00Z",
@@ -5446,6 +5454,10 @@
             "element": 591
           },
           {
+            "value": 3,
+            "element": 664
+          },
+          {
             "value": 2,
             "element": 454
           },
@@ -5629,7 +5641,7 @@
   {
     "code": 2672484,
     "event": 2,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 15,
     "kickoff_time": "2026-08-22T18:00:00Z",
@@ -5773,7 +5785,7 @@
         "identifier": "clearances_blocks_interceptions",
         "a": [
           {
-            "value": 13,
+            "value": 14,
             "element": 5
           },
           {
@@ -5789,7 +5801,7 @@
             "element": 4
           },
           {
-            "value": 7,
+            "value": 6,
             "element": 6
           },
           {
@@ -5839,7 +5851,7 @@
             "element": 88
           },
           {
-            "value": 8,
+            "value": 7,
             "element": 77
           },
           {
@@ -5852,15 +5864,15 @@
           },
           {
             "value": 6,
-            "element": 75
-          },
-          {
-            "value": 6,
             "element": 76
           },
           {
-            "value": 5,
+            "value": 6,
             "element": 83
+          },
+          {
+            "value": 5,
+            "element": 75
           },
           {
             "value": 5,
@@ -5871,7 +5883,7 @@
             "element": 89
           },
           {
-            "value": 4,
+            "value": 3,
             "element": 101
           },
           {
@@ -5988,7 +6000,7 @@
   {
     "code": 2672483,
     "event": 2,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 17,
     "kickoff_time": "2026-08-22T18:00:00Z",
@@ -6143,6 +6155,10 @@
           {
             "value": 1,
             "element": 435
+          },
+          {
+            "value": 1,
+            "element": 663
           }
         ],
         "h": [
