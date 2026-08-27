@@ -1,3 +1,4 @@
 player_id,fixture_id,gameweek,kickoff_time,was_home,opponent_team_id,opponent_team_name,team_h_score,team_a_score,modified,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,fmmp,winning_goals,won_tackle,accurate_pass,clearances_blocks_interceptions,shot_target,big_chance_created,big_chance_missed,performance_index,total_points,value,selected,transfers_in,transfers_out,transfers_balance
 39,5,1,2026-08-14T18:00:00Z,False,4,Al Hilal,4,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,43,0,0,0
 39,11,2,2026-08-21T18:00:00Z,True,14,NEOM SC,0,2,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,60,2,5,-3
+39,26,3,2026-08-26T16:00:00Z,True,2,Al Fateh,1,1,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,57,0,5,-5

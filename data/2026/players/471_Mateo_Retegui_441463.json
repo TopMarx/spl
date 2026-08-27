@@ -1,21 +1,6 @@
 {
   "fixtures": [
     {
-      "id": 20,
-      "code": 2672485,
-      "team_h": 14,
-      "team_h_score": null,
-      "team_a": 12,
-      "team_a_score": null,
-      "event": 3,
-      "finished": false,
-      "minutes": 0,
-      "provisional_start_time": false,
-      "kickoff_time": "2026-08-24T16:40:00Z",
-      "event_name": "Round 3",
-      "is_home": false
-    },
-    {
       "id": 35,
       "code": 2672502,
       "team_h": 12,
@@ -86,7 +71,7 @@
       "finished": false,
       "minutes": 0,
       "provisional_start_time": true,
-      "kickoff_time": "2026-09-16T23:00:00Z",
+      "kickoff_time": "2026-10-08T23:00:00Z",
       "event_name": "Round 8",
       "is_home": false
     },
@@ -101,7 +86,7 @@
       "finished": false,
       "minutes": 0,
       "provisional_start_time": true,
-      "kickoff_time": "2026-10-08T23:00:00Z",
+      "kickoff_time": "2026-10-14T23:00:00Z",
       "event_name": "Round 9",
       "is_home": true
     },
@@ -116,7 +101,7 @@
       "finished": false,
       "minutes": 0,
       "provisional_start_time": true,
-      "kickoff_time": "2026-10-14T23:00:00Z",
+      "kickoff_time": "2026-10-17T23:00:00Z",
       "event_name": "Round 10",
       "is_home": false
     },
@@ -557,6 +542,44 @@
       "selected": 10151,
       "transfers_in": 756,
       "transfers_out": 876
+    },
+    {
+      "element": 471,
+      "fixture": 20,
+      "opponent_team": 14,
+      "total_points": 7,
+      "was_home": false,
+      "kickoff_time": "2026-08-24T16:40:00Z",
+      "team_h_score": 0,
+      "team_a_score": 2,
+      "round": 3,
+      "modified": false,
+      "minutes": 69,
+      "goals_scored": 1,
+      "assists": 0,
+      "clean_sheets": 1,
+      "goals_conceded": 0,
+      "penalties_saved": 0,
+      "penalties_missed": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "saves": 0,
+      "own_goals": 0,
+      "bonus": 0,
+      "fmmp": 0,
+      "winning_goals": 0,
+      "won_tackle": 0,
+      "accurate_pass": 7,
+      "clearances_blocks_interceptions": 1,
+      "shot_target": 1,
+      "big_chance_created": 0,
+      "big_chance_missed": 0,
+      "performance_index": 71,
+      "value": 90,
+      "transfers_balance": -115,
+      "selected": 11237,
+      "transfers_in": 887,
+      "transfers_out": 1002
     }
   ],
   "history_past": [

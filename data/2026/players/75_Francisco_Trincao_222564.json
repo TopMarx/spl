@@ -86,7 +86,7 @@
       "finished": false,
       "minutes": 0,
       "provisional_start_time": true,
-      "kickoff_time": "2026-09-16T23:00:00Z",
+      "kickoff_time": "2026-10-08T23:00:00Z",
       "event_name": "Round 8",
       "is_home": false
     },
@@ -101,7 +101,7 @@
       "finished": false,
       "minutes": 0,
       "provisional_start_time": true,
-      "kickoff_time": "2026-10-08T23:00:00Z",
+      "kickoff_time": "2026-10-14T23:00:00Z",
       "event_name": "Round 9",
       "is_home": true
     },
@@ -116,7 +116,7 @@
       "finished": false,
       "minutes": 0,
       "provisional_start_time": true,
-      "kickoff_time": "2026-10-14T23:00:00Z",
+      "kickoff_time": "2026-10-17T23:00:00Z",
       "event_name": "Round 10",
       "is_home": false
     },

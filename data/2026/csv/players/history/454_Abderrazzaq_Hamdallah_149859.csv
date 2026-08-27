@@ -1,3 +1,4 @@
 player_id,fixture_id,gameweek,kickoff_time,was_home,opponent_team_id,opponent_team_name,team_h_score,team_a_score,modified,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,fmmp,winning_goals,won_tackle,accurate_pass,clearances_blocks_interceptions,shot_target,big_chance_created,big_chance_missed,performance_index,total_points,value,selected,transfers_in,transfers_out,transfers_balance
 454,9,1,2026-08-15T16:15:00Z,True,7,Al Khaleej,0,0,False,90,0,0,1,0,0,0,0,0,0,0,0,0,0,0,11,1,1,0,0,45,2,80,17840,0,0,0
 454,18,2,2026-08-22T16:10:00Z,False,13,Al Kholood,3,2,False,90,2,0,0,3,0,0,0,0,0,0,2,0,0,0,12,2,3,0,1,88,15,80,19831,738,1756,-1018
+454,24,3,2026-08-25T16:10:00Z,True,3,Al Fayha,0,0,False,90,0,0,1,0,0,0,0,0,0,0,0,0,0,0,19,4,1,0,0,59,2,80,29188,5222,661,4561

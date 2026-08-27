@@ -2,11 +2,11 @@
   "season": 2026,
   "fetch_type": "gw_closure",
   "reason": "no current GW",
-  "last_run": "2026-08-24T02:54:41.468195+00:00",
-  "current_gw": 2,
-  "last_closed_gw": 2,
-  "expected_count": 666,
-  "fetched_count": 666,
+  "last_run": "2026-08-27T11:28:34.287844+00:00",
+  "current_gw": 3,
+  "last_closed_gw": 3,
+  "expected_count": 671,
+  "fetched_count": 671,
   "failed_ids": [],
   "completed": true
 }

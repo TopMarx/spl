@@ -1,3 +1,4 @@
 player_id,fixture_id,gameweek,kickoff_time,was_home,opponent_team_id,opponent_team_name,team_h_score,team_a_score,modified,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,fmmp,winning_goals,won_tackle,accurate_pass,clearances_blocks_interceptions,shot_target,big_chance_created,big_chance_missed,performance_index,total_points,value,selected,transfers_in,transfers_out,transfers_balance
 330,8,1,2026-08-15T18:00:00Z,True,2,Al Fateh,3,0,False,65,0,0,1,0,0,0,0,0,0,0,0,0,0,1,20,4,0,0,0,62,3,85,10306,0,0,0
 330,14,2,2026-08-21T16:00:00Z,False,9,Al Riyadh,0,4,False,90,0,0,1,0,0,0,0,0,0,0,0,0,0,2,31,3,0,1,0,81,3,85,10372,208,1384,-1176
+330,22,3,2026-08-25T18:00:00Z,False,5,Al Ettifaq,2,3,False,67,0,0,0,2,0,0,0,0,0,0,0,0,0,0,16,1,1,0,0,24,2,85,9115,160,1240,-1080

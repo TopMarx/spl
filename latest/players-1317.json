@@ -2,7 +2,7 @@
   "team_opta_id": 1317,
   "team_name": "Al Hilal",
   "season": 2026,
-  "generated_at": "2026-08-24T02:54:42.743560+00:00",
+  "generated_at": "2026-08-27T11:28:35.637131+00:00",
   "players": [
     {
       "player_id": 213,
@@ -97,7 +97,7 @@
       "first_name": "Ali",
       "second_name": "Al Bulayhi",
       "web_name": "Al Bulayhi",
-      "known_name": "",
+      "known_name": "Ali Al Bulayhi",
       "position": "DEF",
       "history": [
         {
@@ -184,7 +184,7 @@
       "first_name": "Meshal Sulaiman",
       "second_name": "Al Dawood",
       "web_name": "Al Dawood",
-      "known_name": "",
+      "known_name": "Meshal Al Dawood",
       "position": "DEF",
       "history": [
         {
@@ -271,7 +271,7 @@
       "first_name": "Salem",
       "second_name": "Al Dawsari",
       "web_name": "Salem",
-      "known_name": "",
+      "known_name": "Salem Al Dawsari",
       "position": "MID",
       "history": [
         {
@@ -445,7 +445,7 @@
       "first_name": "Nasser",
       "second_name": "Al Dawsari",
       "web_name": "N. Al Dawsari",
-      "known_name": "",
+      "known_name": "Nasser Al Dawsari",
       "position": "MID",
       "history": [
         {
@@ -793,7 +793,7 @@
       "first_name": "Nawaf",
       "second_name": "Al Habashi",
       "web_name": "N. Al Habashi",
-      "known_name": "",
+      "known_name": "Nawaf Al Habashi",
       "position": "MID",
       "history": [
         {
@@ -880,7 +880,7 @@
       "first_name": "Moteb",
       "second_name": "Al Harbi",
       "web_name": "M. Al Harbi",
-      "known_name": "",
+      "known_name": "Moteb Al Harbi",
       "position": "DEF",
       "history": [
         {
@@ -967,7 +967,7 @@
       "first_name": "Murad",
       "second_name": "Al Hawsawi",
       "web_name": "M. Al Hawsawi",
-      "known_name": "",
+      "known_name": "Murad Al Hawsawi",
       "position": "MID",
       "history": [
         {
@@ -1228,7 +1228,7 @@
       "first_name": "Mohammed",
       "second_name": "Al Owais",
       "web_name": "Al Owais",
-      "known_name": "",
+      "known_name": "Mohammed Al Owais",
       "position": "GK",
       "history": [
         {
@@ -1315,7 +1315,7 @@
       "first_name": "Mohammed",
       "second_name": "Al Rubaie",
       "web_name": "Al Rubaie",
-      "known_name": "",
+      "known_name": "Mohammed Al Yami",
       "position": "GK",
       "history": [
         {
@@ -1402,7 +1402,7 @@
       "first_name": "Mohammed",
       "second_name": "Al Sarnoukh",
       "web_name": "Al Sarnoukh",
-      "known_name": "",
+      "known_name": "Mohammed Al Sarnoukh",
       "position": "DEF",
       "history": [
         {
@@ -1489,7 +1489,7 @@
       "first_name": "Hassan",
       "second_name": "Al Tambakti",
       "web_name": "H. Al Tambakti",
-      "known_name": "",
+      "known_name": "Hassan Al Tambakti",
       "position": "DEF",
       "history": [
         {
@@ -1576,7 +1576,7 @@
       "first_name": "Hamad",
       "second_name": "Al Yami",
       "web_name": "H. Al Yami",
-      "known_name": "",
+      "known_name": "Hamad Al Yami",
       "position": "DEF",
       "history": [
         {
@@ -1663,7 +1663,7 @@
       "first_name": "Suhayb Ayman",
       "second_name": "Al Zaid",
       "web_name": "Al Zaid",
-      "known_name": "",
+      "known_name": "Suhayb Al Zaid",
       "position": "MID",
       "history": [
         {
@@ -2185,7 +2185,7 @@
       "first_name": "Sabri",
       "second_name": "Dahal",
       "web_name": "Dahal",
-      "known_name": "",
+      "known_name": "Sabri Dahal",
       "position": "MID",
       "history": [
         {
@@ -2446,7 +2446,7 @@
       "first_name": "Theo",
       "second_name": "Hernandez",
       "web_name": "T. Hernandez",
-      "known_name": "",
+      "known_name": "Théo Hernández",
       "position": "DEF",
       "history": [
         {
@@ -2533,7 +2533,7 @@
       "first_name": "Mohammed",
       "second_name": "Kanno",
       "web_name": "Kanno",
-      "known_name": "",
+      "known_name": "Mohamed Kanno",
       "position": "MID",
       "history": [
         {
@@ -2707,7 +2707,7 @@
       "first_name": "Ali",
       "second_name": "Lajami",
       "web_name": "A. Lajami",
-      "known_name": "",
+      "known_name": "Ali Lajami",
       "position": "DEF",
       "history": [
         {
@@ -2794,7 +2794,7 @@
       "first_name": "Mohammed",
       "second_name": "Mahzari",
       "web_name": "Mahzari",
-      "known_name": "",
+      "known_name": "Mohammed Mahzari",
       "position": "DEF",
       "history": [
         {
@@ -2881,7 +2881,7 @@
       "first_name": "Sultan",
       "second_name": "Mandash",
       "web_name": "Mandash",
-      "known_name": "",
+      "known_name": "Sultan Mandash",
       "position": "MID",
       "history": [
         {
@@ -3055,7 +3055,7 @@
       "first_name": "Rúben",
       "second_name": "Neves",
       "web_name": "Neves",
-      "known_name": "",
+      "known_name": "Rúben Neves",
       "position": "MID",
       "history": [
         {
@@ -3133,93 +3133,6 @@
           "selected": 26221,
           "transfers_in": 5059,
           "transfers_out": 362
-        }
-      ]
-    },
-    {
-      "player_id": 177,
-      "opta_id": 447203,
-      "first_name": "Darwin Nunez",
-      "second_name": "Nunez",
-      "web_name": "Darwin Nunez",
-      "known_name": "",
-      "position": "FWD",
-      "history": [
-        {
-          "element": 177,
-          "fixture": 5,
-          "opponent_team": 17,
-          "total_points": 0,
-          "was_home": true,
-          "kickoff_time": "2026-08-14T18:00:00Z",
-          "team_h_score": 4,
-          "team_a_score": 2,
-          "round": 1,
-          "modified": false,
-          "minutes": 0,
-          "goals_scored": 0,
-          "assists": 0,
-          "clean_sheets": 0,
-          "goals_conceded": 0,
-          "penalties_saved": 0,
-          "penalties_missed": 0,
-          "yellow_cards": 0,
-          "red_cards": 0,
-          "saves": 0,
-          "own_goals": 0,
-          "bonus": 0,
-          "fmmp": 0,
-          "winning_goals": 0,
-          "won_tackle": 0,
-          "accurate_pass": 0,
-          "clearances_blocks_interceptions": 0,
-          "shot_target": 0,
-          "big_chance_created": 0,
-          "big_chance_missed": 0,
-          "performance_index": 0,
-          "value": 75,
-          "transfers_balance": 0,
-          "selected": 3380,
-          "transfers_in": 0,
-          "transfers_out": 0
-        },
-        {
-          "element": 177,
-          "fixture": 10,
-          "opponent_team": 3,
-          "total_points": 0,
-          "was_home": false,
-          "kickoff_time": "2026-08-20T18:00:00Z",
-          "team_h_score": 0,
-          "team_a_score": 3,
-          "round": 2,
-          "modified": false,
-          "minutes": 0,
-          "goals_scored": 0,
-          "assists": 0,
-          "clean_sheets": 0,
-          "goals_conceded": 0,
-          "penalties_saved": 0,
-          "penalties_missed": 0,
-          "yellow_cards": 0,
-          "red_cards": 0,
-          "saves": 0,
-          "own_goals": 0,
-          "bonus": 0,
-          "fmmp": 0,
-          "winning_goals": 0,
-          "won_tackle": 0,
-          "accurate_pass": 0,
-          "clearances_blocks_interceptions": 0,
-          "shot_target": 0,
-          "big_chance_created": 0,
-          "big_chance_missed": 0,
-          "performance_index": 0,
-          "value": 75,
-          "transfers_balance": -709,
-          "selected": 2862,
-          "transfers_in": 22,
-          "transfers_out": 731
         }
       ]
     },
@@ -3403,7 +3316,7 @@
       "first_name": "Abdullah",
       "second_name": "Sufuq",
       "web_name": "Sufuq",
-      "known_name": "",
+      "known_name": "Abdullah Al Anazi",
       "position": "MID",
       "history": [
         {

@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "generated_at": "2026-08-24T02:54:42.743560+00:00",
+  "generated_at": "2026-08-27T11:28:35.637131+00:00",
   "players": [
     {
       "player_id": 501,
@@ -8,7 +8,7 @@
       "first_name": "Abdulmalek",
       "second_name": "A. Al Harbi",
       "web_name": "A. Al Harbi",
-      "known_name": "",
+      "known_name": "Abdulmalik Al Harbi",
       "position": "FWD",
       "history_past": [
         {
@@ -75,7 +75,7 @@
       "first_name": "Salim",
       "second_name": "AL Najdi",
       "web_name": "Al Najdi",
-      "known_name": "",
+      "known_name": "Salem Al Najdi",
       "position": "DEF",
       "history_past": [
         {
@@ -170,7 +170,7 @@
       "first_name": "Ahmed",
       "second_name": "AL SHAMRANI",
       "web_name": "A. Al Shamrani",
-      "known_name": "",
+      "known_name": "Ahmed Al Shamrani",
       "position": "MID",
       "history_past": [
         {
@@ -209,7 +209,7 @@
       "first_name": "Faris",
       "second_name": "Abdi",
       "web_name": "Faris Abdi",
-      "known_name": "",
+      "known_name": "Faris Abdi",
       "position": "DEF",
       "history_past": [
         {
@@ -276,7 +276,7 @@
       "first_name": "Abdullah",
       "second_name": "Abdo",
       "web_name": "Abdo",
-      "known_name": "",
+      "known_name": "Abdullah Abdo",
       "position": "GK",
       "history_past": [
         {
@@ -371,7 +371,7 @@
       "first_name": "Ahmed",
       "second_name": "Abdu",
       "web_name": "A. Abdu",
-      "known_name": "",
+      "known_name": "Ahmed Abdu",
       "position": "FWD",
       "history_past": [
         {
@@ -438,7 +438,7 @@
       "first_name": "Hayder",
       "second_name": "Abdulkareem Tawfeeq Tofee",
       "web_name": "Hayder",
-      "known_name": "",
+      "known_name": "Hayder Abdulkareem",
       "position": "MID",
       "history_past": [
         {
@@ -477,7 +477,7 @@
       "first_name": "Majed",
       "second_name": "Abdullah",
       "web_name": "M. Abdullah",
-      "known_name": "",
+      "known_name": "Majed Abdullah",
       "position": "FWD",
       "history_past": [
         {
@@ -544,7 +544,7 @@
       "first_name": "Salem",
       "second_name": "Abdullah",
       "web_name": "S. Abdullah",
-      "known_name": "",
+      "known_name": "Salem Abdullah",
       "position": "FWD",
       "history_past": [
         {
@@ -583,7 +583,7 @@
       "first_name": "Waleed",
       "second_name": "Abdullah",
       "web_name": "Abdullah",
-      "known_name": "",
+      "known_name": "Waleed Abdullah",
       "position": "GK",
       "history_past": [
         {
@@ -622,7 +622,7 @@
       "first_name": "Mohammed",
       "second_name": "Abdulrahman",
       "web_name": "Abdulrahman",
-      "known_name": "",
+      "known_name": "Mohammed Abdulrahman",
       "position": "DEF",
       "history_past": [
         {
@@ -717,7 +717,7 @@
       "first_name": "Mohammed Waheeb",
       "second_name": "Abu Al Shamat",
       "web_name": "M. Al Shamat",
-      "known_name": "",
+      "known_name": "Mohammed Abu Al Shamat",
       "position": "DEF",
       "history_past": [
         {
@@ -784,7 +784,7 @@
       "first_name": "Saleh",
       "second_name": "Abu Al Shamat",
       "web_name": "S. Al Shamat",
-      "known_name": "",
+      "known_name": "Saleh Abu Al Shamat",
       "position": "MID",
       "history_past": [
         {
@@ -918,7 +918,7 @@
       "first_name": "Muhannad",
       "second_name": "Abu Taha",
       "web_name": "Abu Taha",
-      "known_name": "",
+      "known_name": "Mohannad Abu Taha",
       "position": "DEF",
       "history_past": [
         {
@@ -1035,7 +1035,7 @@
       "first_name": "Saleh",
       "second_name": "Al Aamri",
       "web_name": "S . Alamri",
-      "known_name": "",
+      "known_name": "Saleh Al Amri",
       "position": "MID",
       "history_past": [
         {
@@ -1130,7 +1130,7 @@
       "first_name": "Mehdi",
       "second_name": "Al Abboud",
       "web_name": "M. Al Abboud",
-      "known_name": "",
+      "known_name": "Mehdi Al Aboud",
       "position": "MID",
       "history_past": [
         {
@@ -1197,7 +1197,7 @@
       "first_name": "Mohammed",
       "second_name": "Al Abdullah",
       "web_name": "M. Al Abdullah",
-      "known_name": "",
+      "known_name": "Mohammed Al Abdullah",
       "position": "MID",
       "history_past": [
         {
@@ -1387,7 +1387,7 @@
       "first_name": "Malek",
       "second_name": "Al Abdulmonam",
       "web_name": "Al Abdulmonam",
-      "known_name": "",
+      "known_name": "Malek Al Abadalmanam",
       "position": "FWD",
       "history_past": [
         {
@@ -1482,7 +1482,7 @@
       "first_name": "Faisal",
       "second_name": "Al Abdulwahed",
       "web_name": "Al Abdulwahed",
-      "known_name": "",
+      "known_name": "Faisal Al Abdulwahed",
       "position": "MID",
       "history_past": [
         {
@@ -1577,7 +1577,7 @@
       "first_name": "Mohammed",
       "second_name": "Al Absi",
       "web_name": "Al Absi",
-      "known_name": "",
+      "known_name": "Mohammed Al Absi",
       "position": "GK",
       "history_past": [
         {
@@ -1672,7 +1672,7 @@
       "first_name": "Khalil",
       "second_name": "Al Absi",
       "web_name": "K. Al Absi",
-      "known_name": "",
+      "known_name": "Khalil Al Absi",
       "position": "MID",
       "history_past": [
         {
@@ -1739,7 +1739,7 @@
       "first_name": "Waleed",
       "second_name": "Al Ahmed",
       "web_name": "W. Al Ahmed",
-      "known_name": "",
+      "known_name": "Waleed Al Ahmad",
       "position": "DEF",
       "history_past": [
         {
@@ -1834,7 +1834,7 @@
       "first_name": "Abdullah bin Hassan",
       "second_name": "Al Ajyan",
       "web_name": "Al Ajyan",
-      "known_name": "",
+      "known_name": "Abdullah Al Ajyan",
       "position": "FWD",
       "history_past": [
         {
@@ -1912,7 +1912,7 @@
       "first_name": "Meshal",
       "second_name": "Al Alaeli",
       "web_name": "Al Alaeli",
-      "known_name": "",
+      "known_name": "Meshal Al Alaeli",
       "position": "DEF",
       "history_past": [
         {
@@ -2007,7 +2007,7 @@
       "first_name": "Hassan",
       "second_name": "Al Ali",
       "web_name": "H. Al Ali",
-      "known_name": "",
+      "known_name": "Hassan Al Ali",
       "position": "MID",
       "history_past": [
         {
@@ -2113,7 +2113,7 @@
       "first_name": "Turki",
       "second_name": "Al Ammar",
       "web_name": "T. Al Ammar",
-      "known_name": "",
+      "known_name": "Turki Al Ammar",
       "position": "MID",
       "history_past": [
         {
@@ -2180,7 +2180,7 @@
       "first_name": "Abdulelah",
       "second_name": "Al Amri",
       "web_name": "A. Al Amri",
-      "known_name": "",
+      "known_name": "Abdulelah Al Amri",
       "position": "DEF",
       "history_past": [
         {
@@ -2275,7 +2275,7 @@
       "first_name": "Ahmed Fadhi",
       "second_name": "Al Anazi",
       "web_name": "A. Al Anazi",
-      "known_name": "",
+      "known_name": "Ahmed Al Anazi",
       "position": "FWD",
       "history_past": [
         {
@@ -2409,7 +2409,7 @@
       "first_name": "Sultan Anwar",
       "second_name": "Al Anize",
       "web_name": "Sultan",
-      "known_name": "",
+      "known_name": "Sultan",
       "position": "DEF",
       "history_past": [
         {
@@ -2448,7 +2448,7 @@
       "first_name": "Mohammed",
       "second_name": "Al Aqel",
       "web_name": "Al Aqel",
-      "known_name": "",
+      "known_name": "Mohammed Al Aqel",
       "position": "FWD",
       "history_past": [
         {
@@ -2543,7 +2543,7 @@
       "first_name": "Nawaf",
       "second_name": "Al Aqidi",
       "web_name": "N. Al Aqidi",
-      "known_name": "",
+      "known_name": "Nawaf Al Aqidi",
       "position": "GK",
       "history_past": [
         {
@@ -2638,7 +2638,7 @@
       "first_name": "Bassem",
       "second_name": "Al Arini",
       "web_name": "Al Arini",
-      "known_name": "",
+      "known_name": "Bassem Al Arini",
       "position": "MID",
       "history_past": [
         {
@@ -2744,7 +2744,7 @@
       "first_name": "Ali",
       "second_name": "Al Asmari",
       "web_name": "Al Asmari",
-      "known_name": "",
+      "known_name": "Ali Al Asmari",
       "position": "MID",
       "history_past": [
         {
@@ -2839,7 +2839,7 @@
       "first_name": "Ramez",
       "second_name": "Al Attar",
       "web_name": "Al Attar",
-      "known_name": "",
+      "known_name": "Ramez Al Attar",
       "position": "MID",
       "history_past": [
         {
@@ -2878,7 +2878,7 @@
       "first_name": "Abdulaziz",
       "second_name": "Al Awairdhi",
       "web_name": "Al Awairdhi",
-      "known_name": "",
+      "known_name": "Abdulaziz Al Awardi",
       "position": "GK",
       "history_past": [
         {
@@ -2973,7 +2973,7 @@
       "first_name": "Farhan",
       "second_name": "Al Azmi",
       "web_name": "F. Al Azmi",
-      "known_name": "",
+      "known_name": "Farhan Al Azzmi",
       "position": "DEF",
       "history_past": [
         {
@@ -3079,7 +3079,7 @@
       "first_name": "Mohammed",
       "second_name": "Al Baqawi",
       "web_name": "Al Baqawi",
-      "known_name": "",
+      "known_name": "Mohammed Al Baqawi",
       "position": "DEF",
       "history_past": [
         {
@@ -3174,7 +3174,7 @@
       "first_name": "Osama",
       "second_name": "Al Bawardi",
       "web_name": "Al Bawardi",
-      "known_name": "",
+      "known_name": "Osama Al Bawardi",
       "position": "DEF",
       "history_past": [
         {
@@ -3403,7 +3403,7 @@
       "first_name": "Mansour",
       "second_name": "Al Bishi",
       "web_name": "M. Al Bishi",
-      "known_name": "",
+      "known_name": "Mansor Al Beshe",
       "position": "MID",
       "history_past": [
         {
@@ -3537,7 +3537,7 @@
       "first_name": "Abdullah Rashed",
       "second_name": "Al Bishi",
       "web_name": "A.R. Al Bishi",
-      "known_name": "",
+      "known_name": "Abdullah Al Bishi",
       "position": "DEF",
       "history_past": [
         {
@@ -3604,7 +3604,7 @@
       "first_name": "Nawaf",
       "second_name": "Al Bishri",
       "web_name": "N. Al Bishri",
-      "known_name": "",
+      "known_name": "Nawaf Al Bishri",
       "position": "FWD",
       "history_past": [
         {
@@ -3777,7 +3777,7 @@
       "first_name": "Abdulrahman",
       "second_name": "Al Bouq",
       "web_name": "Al Bouq",
-      "known_name": "",
+      "known_name": "Abdulrahman Al Bouq",
       "position": "GK",
       "history_past": [
         {
@@ -3883,7 +3883,7 @@
       "first_name": "Amin",
       "second_name": "Al Bukhari",
       "web_name": "A. Al Bukhari",
-      "known_name": "",
+      "known_name": "Amin Al Bukhari",
       "position": "GK",
       "history_past": [
         {
@@ -3978,7 +3978,7 @@
       "first_name": "Ali",
       "second_name": "Al Bulayhi",
       "web_name": "Al Bulayhi",
-      "known_name": "",
+      "known_name": "Ali Al Bulayhi",
       "position": "DEF",
       "history_past": [
         {
@@ -4073,7 +4073,7 @@
       "first_name": "Feras",
       "second_name": "Al Buraikan",
       "web_name": "Feras",
-      "known_name": "",
+      "known_name": "Feras Al Brikan",
       "position": "FWD",
       "history_past": [
         {
@@ -4207,7 +4207,7 @@
       "first_name": "Mohammed",
       "second_name": "Al Burayk",
       "web_name": "Al Burayk",
-      "known_name": "",
+      "known_name": "Mohammed Al Burayk",
       "position": "DEF",
       "history_past": [
         {
@@ -4341,7 +4341,7 @@
       "first_name": "Abdulraouf",
       "second_name": "Al Dakheel",
       "web_name": "Al Dakheel",
-      "known_name": "",
+      "known_name": "Abdulraouf Al Duqayl",
       "position": "GK",
       "history_past": [
         {
@@ -4436,7 +4436,7 @@
       "first_name": "Abdurahman",
       "second_name": "Al Dakheel",
       "web_name": "Al Dakheel",
-      "known_name": "",
+      "known_name": "Abdurahman Al Dakheel",
       "position": "DEF",
       "history_past": [
         {
@@ -4503,7 +4503,7 @@
       "first_name": "Mohammed",
       "second_name": "Al Darwish",
       "web_name": "Al Darwish",
-      "known_name": "",
+      "known_name": "Muhammad Al Darwish",
       "position": "MID",
       "history_past": [
         {
@@ -4542,7 +4542,7 @@
       "first_name": "Meshal Sulaiman",
       "second_name": "Al Dawood",
       "web_name": "Al Dawood",
-      "known_name": "",
+      "known_name": "Meshal Al Dawood",
       "position": "DEF",
       "history_past": [
         {
@@ -4676,7 +4676,7 @@
       "first_name": "Salem",
       "second_name": "Al Dawsari",
       "web_name": "Salem",
-      "known_name": "",
+      "known_name": "Salem Al Dawsari",
       "position": "MID",
       "history_past": [
         {
@@ -4866,7 +4866,7 @@
       "first_name": "Mohammed Walid",
       "second_name": "Al Dawsari",
       "web_name": "M.W. Al Dawsari",
-      "known_name": "",
+      "known_name": "Mohammed Al Dossary",
       "position": "DEF",
       "history_past": [
         {
@@ -4905,7 +4905,7 @@
       "first_name": "Nasser",
       "second_name": "Al Dawsari",
       "web_name": "N. Al Dawsari",
-      "known_name": "",
+      "known_name": "Nasser Al Dawsari",
       "position": "MID",
       "history_past": [
         {
@@ -5000,7 +5000,7 @@
       "first_name": "Abdulrahman",
       "second_name": "Al Dawsari",
       "web_name": "A. Al Dawsari",
-      "known_name": "",
+      "known_name": "Abdulrahman Al Dosari",
       "position": "MID",
       "history_past": [
         {
@@ -5067,7 +5067,7 @@
       "first_name": "Khalifah",
       "second_name": "Al Dawsari",
       "web_name": "K. Al Dawsari",
-      "known_name": "",
+      "known_name": "Khalifah Al Dawsari",
       "position": "DEF",
       "history_past": [
         {
@@ -5268,7 +5268,7 @@
       "first_name": "Mohammed",
       "second_name": "Al Dowaish",
       "web_name": "Al Dowaish",
-      "known_name": "",
+      "known_name": "Mohammed Al Dowaish",
       "position": "DEF",
       "history_past": [
         {
@@ -5363,7 +5363,7 @@
       "first_name": "Hisham",
       "second_name": "Al Dubais",
       "web_name": "Al Dubais",
-      "known_name": "",
+      "known_name": "Hisham Al Dubais",
       "position": "MID",
       "history_past": [
         {
@@ -5430,7 +5430,7 @@
       "first_name": "Abdulaziz",
       "second_name": "Al Duwaihi",
       "web_name": "Al Duwaihi",
-      "known_name": "",
+      "known_name": "Abdulaziz Al Dhuwayhi",
       "position": "MID",
       "history_past": [
         {
@@ -5469,7 +5469,7 @@
       "first_name": "Hussain",
       "second_name": "Al Eissa",
       "web_name": "Al Essa",
-      "known_name": "",
+      "known_name": "Hussain Al Eissa",
       "position": "MID",
       "history_past": [
         {
@@ -5564,7 +5564,7 @@
       "first_name": "Abdulaziz",
       "second_name": "Al Elewa",
       "web_name": "Al Elewa",
-      "known_name": "",
+      "known_name": "Abdulaziz Al Elewai",
       "position": "MID",
       "history_past": [
         {
@@ -5659,7 +5659,7 @@
       "first_name": "Waleed",
       "second_name": "Al Enezi",
       "web_name": "W. Al Enezi",
-      "known_name": "",
+      "known_name": "Waleed Al Anzi",
       "position": "GK",
       "history_past": [
         {
@@ -5793,7 +5793,7 @@
       "first_name": "Sultan bin Abdulaziz bin Mohammed",
       "second_name": "Al Essa",
       "web_name": "S. Al Essa",
-      "known_name": "",
+      "known_name": "Sultan Al Essa",
       "position": "DEF",
       "history_past": [
         {
@@ -5860,7 +5860,7 @@
       "first_name": "Abdullah bin Fahad bin Abdulaziz",
       "second_name": "Al Fahad Al Mkabbas",
       "web_name": "Al Fahad",
-      "known_name": "",
+      "known_name": "Abdullah Al Fahad",
       "position": "DEF",
       "history_past": [
         {
@@ -5994,7 +5994,7 @@
       "first_name": "Abdulaziz",
       "second_name": "Al Faraj",
       "web_name": "A. Al Faraj",
-      "known_name": "",
+      "known_name": "Abdulaziz Al Faraj",
       "position": "DEF",
       "history_past": [
         {
@@ -6089,7 +6089,7 @@
       "first_name": "Sultan",
       "second_name": "Al Farhan",
       "web_name": "Al Farhan",
-      "known_name": "",
+      "known_name": "Sultan Farhan",
       "position": "MID",
       "history_past": [
         {
@@ -6156,7 +6156,7 @@
       "first_name": "Abdulaziz Khalid",
       "second_name": "Al Fawaz",
       "web_name": "Al Fawaz",
-      "known_name": "",
+      "known_name": "Abdulaziz Al Fawaz",
       "position": "MID",
       "history_past": [
         {
@@ -6223,7 +6223,7 @@
       "first_name": "Rakan Khalid",
       "second_name": "Al Ghamdi",
       "web_name": "R. Al Ghamdi",
-      "known_name": "",
+      "known_name": "Rakan Al Ghamdi",
       "position": "MID",
       "history_past": [
         {
@@ -6262,7 +6262,7 @@
       "first_name": "Hamed",
       "second_name": "Al Ghamdi",
       "web_name": "H. Al Ghamdi",
-      "known_name": "",
+      "known_name": "Hamed Al Ghamdi",
       "position": "MID",
       "history_past": [
         {
@@ -6424,7 +6424,7 @@
       "first_name": "Abdulrahman Ali",
       "second_name": "Al Ghamdi",
       "web_name": "A. Al Ghamdi",
-      "known_name": "",
+      "known_name": "Abdulrahman Al Ghamdi",
       "position": "GK",
       "history_past": [
         {
@@ -6491,7 +6491,7 @@
       "first_name": "Majed",
       "second_name": "Al Ghamdi",
       "web_name": "M. Al Ghamdi",
-      "known_name": "",
+      "known_name": "Majed Al Ghamdi",
       "position": "GK",
       "history_past": [
         {
@@ -6558,7 +6558,7 @@
       "first_name": "Fares",
       "second_name": "Al Ghamdi",
       "web_name": "F. Al Ghamdi",
-      "known_name": "",
+      "known_name": "Faris Al Ghamdi",
       "position": "MID",
       "history_past": [
         {
@@ -6653,7 +6653,7 @@
       "first_name": "Feras",
       "second_name": "Al Ghamdi",
       "web_name": "F. Al Ghamdi",
-      "known_name": "",
+      "known_name": "Feras Al Ghamdi",
       "position": "MID",
       "history_past": [
         {
@@ -6748,7 +6748,7 @@
       "first_name": "Ahmed",
       "second_name": "Al Ghamdi",
       "web_name": "A. Al Ghamdi",
-      "known_name": "",
+      "known_name": "Ahmed Al Ghamdi",
       "position": "MID",
       "history_past": [
         {
@@ -6843,7 +6843,7 @@
       "first_name": "Ziyad",
       "second_name": "Al Ghamdi",
       "web_name": "Z. Al Ghamdi",
-      "known_name": "",
+      "known_name": "Ziyad Al Ghamdi",
       "position": "MID",
       "history_past": [
         {
@@ -6882,7 +6882,7 @@
       "first_name": "Faisal",
       "second_name": "Al Ghamdi",
       "web_name": "F. Al Ghamdi",
-      "known_name": "",
+      "known_name": "Faisal Al Ghamdi",
       "position": "MID",
       "history_past": [
         {
@@ -7150,7 +7150,7 @@
       "first_name": "Sultan",
       "second_name": "Al Ghannam",
       "web_name": "S. Al Ghannam",
-      "known_name": "",
+      "known_name": "Sultan Al Ghannam",
       "position": "DEF",
       "history_past": [
         {
@@ -7245,7 +7245,7 @@
       "first_name": "Khalid",
       "second_name": "Al Ghannam",
       "web_name": "K. Al Ghanam",
-      "known_name": "",
+      "known_name": "Khalid Al Ghannam",
       "position": "MID",
       "history_past": [
         {
@@ -7435,7 +7435,7 @@
       "first_name": "Nawaf",
       "second_name": "Al Habashi",
       "web_name": "N. Al Habashi",
-      "known_name": "",
+      "known_name": "Nawaf Al Habashi",
       "position": "MID",
       "history_past": [
         {
@@ -7541,7 +7541,7 @@
       "first_name": "Abdullah",
       "second_name": "Al Hafith",
       "web_name": "Al Hafith",
-      "known_name": "",
+      "known_name": "Abdullah Al Hafith",
       "position": "DEF",
       "history_past": [
         {
@@ -7636,7 +7636,7 @@
       "first_name": "Marwan",
       "second_name": "Al Haidari",
       "web_name": "Al Haidari",
-      "known_name": "",
+      "known_name": "Marwan Al Haidari",
       "position": "GK",
       "history_past": [
         {
@@ -7731,7 +7731,7 @@
       "first_name": "Ala",
       "second_name": "Al Hajji",
       "web_name": "Al Hajji",
-      "known_name": "",
+      "known_name": "Alaa Al Hejji",
       "position": "MID",
       "history_past": [
         {
@@ -7893,7 +7893,7 @@
       "first_name": "Fawaz Yousef",
       "second_name": "Al Hamad",
       "web_name": "Al Hamad",
-      "known_name": "",
+      "known_name": "Fawaz Al Hamad",
       "position": "MID",
       "history_past": [
         {
@@ -8027,7 +8027,7 @@
       "first_name": "Abdullah",
       "second_name": "Al Hamddan",
       "web_name": "A. Hamddan",
-      "known_name": "",
+      "known_name": "Abdullah Al Hamddan",
       "position": "FWD",
       "history_past": [
         {
@@ -8122,7 +8122,7 @@
       "first_name": "Saeed",
       "second_name": "Al Hamsal",
       "web_name": "Al Hamsal",
-      "known_name": "",
+      "known_name": "Saeed Al Hamsal",
       "position": "DEF",
       "history_past": [
         {
@@ -8217,7 +8217,7 @@
       "first_name": "Abdulhadi",
       "second_name": "Al Harajin",
       "web_name": "Al Harajin",
-      "known_name": "",
+      "known_name": "Abdulhadi Al Harajin",
       "position": "MID",
       "history_past": [
         {
@@ -8379,7 +8379,7 @@
       "first_name": "Moteb",
       "second_name": "Al Harbi",
       "web_name": "M. Al Harbi",
-      "known_name": "",
+      "known_name": "Moteb Al Harbi",
       "position": "DEF",
       "history_past": [
         {
@@ -8474,7 +8474,7 @@
       "first_name": "Abdulaziz",
       "second_name": "Al Harbi",
       "web_name": "A. Al Harbi",
-      "known_name": "",
+      "known_name": "Abdulaziz Al Harbi",
       "position": "DEF",
       "history_past": [
         {
@@ -8541,7 +8541,7 @@
       "first_name": "Nawaf",
       "second_name": "Al Harthi",
       "web_name": "N. Al Harthi",
-      "known_name": "",
+      "known_name": "Nawaf Al Harthi",
       "position": "MID",
       "history_past": [
         {
@@ -8714,7 +8714,7 @@
       "first_name": "Ali",
       "second_name": "Al Hassan",
       "web_name": "Al Hassan",
-      "known_name": "",
+      "known_name": "Ali Al Hassan",
       "position": "MID",
       "history_past": [
         {
@@ -8809,7 +8809,7 @@
       "first_name": "Abbas",
       "second_name": "Al Hassan",
       "web_name": "Abbas",
-      "known_name": "",
+      "known_name": "Abbas Al Hassan",
       "position": "MID",
       "history_past": [
         {
@@ -8876,7 +8876,7 @@
       "first_name": "Nawaf Mazen",
       "second_name": "Al Hawairy",
       "web_name": "Al Hawairy",
-      "known_name": "",
+      "known_name": "Nawaf Mazen Al Hawairy",
       "position": "DEF",
       "history_past": [
         {
@@ -8915,7 +8915,7 @@
       "first_name": "Murad",
       "second_name": "Al Hawsawi",
       "web_name": "M. Al Hawsawi",
-      "known_name": "",
+      "known_name": "Murad Al Hawsawi",
       "position": "MID",
       "history_past": [
         {
@@ -9144,7 +9144,7 @@
       "first_name": "Basaam",
       "second_name": "Al Hurayji",
       "web_name": "Basaam",
-      "known_name": "",
+      "known_name": "Bassam Al Hurayji",
       "position": "DEF",
       "history_past": [
         {
@@ -9239,7 +9239,7 @@
       "first_name": "Ali Al Hussain",
       "second_name": "Al Hussain Boulahrech",
       "web_name": "A. Al Hussain",
-      "known_name": "",
+      "known_name": "Al Hussain Boulahrech",
       "position": "MID",
       "history_past": [
         {
@@ -9306,7 +9306,7 @@
       "first_name": "Turki",
       "second_name": "Al Jaadi",
       "web_name": "T. Al Jaadi",
-      "known_name": "",
+      "known_name": "Turki Al Jaadi",
       "position": "DEF",
       "history_past": [
         {
@@ -9373,7 +9373,7 @@
       "first_name": "Abdulmalik bin Saleh",
       "second_name": "Al Jaber",
       "web_name": "A. Al Jaber",
-      "known_name": "",
+      "known_name": "Abdulmalik Al Jaber",
       "position": "MID",
       "history_past": [
         {
@@ -9479,7 +9479,7 @@
       "first_name": "Nawaf",
       "second_name": "Al Jadaani",
       "web_name": "N. Al Jadaani",
-      "known_name": "",
+      "known_name": "Nawaf Al Jadaani",
       "position": "MID",
       "history_past": [
         {
@@ -9546,7 +9546,7 @@
       "first_name": "Abdullah",
       "second_name": "Al Jadaani",
       "web_name": "A. Al Jadaani",
-      "known_name": "",
+      "known_name": "Abdullah Al Jadani",
       "position": "GK",
       "history_past": [
         {
@@ -9613,7 +9613,7 @@
       "first_name": "Mohammed Eissa",
       "second_name": "Al Jamaan",
       "web_name": "Al Jamaan",
-      "known_name": "",
+      "known_name": "Mohammed Issa",
       "position": "MID",
       "history_past": [
         {
@@ -9747,7 +9747,7 @@
       "first_name": "Ziyad",
       "second_name": "Al Jari",
       "web_name": "Al Jari",
-      "known_name": "",
+      "known_name": "Ziyad Al Jari",
       "position": "DEF",
       "history_past": [
         {
@@ -9842,7 +9842,7 @@
       "first_name": "Fahad",
       "second_name": "Al Jayzani",
       "web_name": "F. Al Jayzani",
-      "known_name": "",
+      "known_name": "Fahad Al Jayzani",
       "position": "MID",
       "history_past": [
         {
@@ -9881,7 +9881,7 @@
       "first_name": "Hamad",
       "second_name": "Al Jayzani",
       "web_name": "Al Jayzani",
-      "known_name": "",
+      "known_name": "Hamad Al Jayzani",
       "position": "DEF",
       "history_past": [
         {
@@ -9976,7 +9976,7 @@
       "first_name": "Ziad",
       "second_name": "Al Johani",
       "web_name": "Al Johani",
-      "known_name": "",
+      "known_name": "Ziyad Al Johani",
       "position": "MID",
       "history_past": [
         {
@@ -10071,7 +10071,7 @@
       "first_name": "Safwan",
       "second_name": "Al Johani",
       "web_name": "S. Al Johani",
-      "known_name": "",
+      "known_name": "Safwan Al Johani",
       "position": "DEF",
       "history_past": [
         {
@@ -10110,7 +10110,7 @@
       "first_name": "Ahmed",
       "second_name": "Al Julaydan",
       "web_name": "Al Julaydan",
-      "known_name": "",
+      "known_name": "Ahmed Al Julaydan",
       "position": "DEF",
       "history_past": [
         {
@@ -10205,7 +10205,7 @@
       "first_name": "Musab",
       "second_name": "Al Juwayr",
       "web_name": "Al Juwayr",
-      "known_name": "",
+      "known_name": "Musab Al Juwayr",
       "position": "MID",
       "history_past": [
         {
@@ -10339,7 +10339,7 @@
       "first_name": "Mohammed",
       "second_name": "Al Kadi",
       "web_name": "M. Al Kadi",
-      "known_name": "",
+      "known_name": "Mohammed Al Kadi",
       "position": "MID",
       "history_past": [
         {
@@ -10378,7 +10378,7 @@
       "first_name": "Koshaim Mohammed",
       "second_name": "Al Karani",
       "web_name": "K. Al Qahtani",
-      "known_name": "",
+      "known_name": "Keshim Al Qahtani",
       "position": "FWD",
       "history_past": [
         {
@@ -10417,7 +10417,7 @@
       "first_name": "Ahmed",
       "second_name": "Al Kassar",
       "web_name": "Al Kassar",
-      "known_name": "",
+      "known_name": "Ahmed Al Kassar",
       "position": "GK",
       "history_past": [
         {
@@ -10512,7 +10512,7 @@
       "first_name": "Mohammed",
       "second_name": "Al Khaibari",
       "web_name": "M. Al Khaibari",
-      "known_name": "",
+      "known_name": "Mohammed Al Khaibari",
       "position": "DEF",
       "history_past": [
         {
@@ -10607,7 +10607,7 @@
       "first_name": "Abdulelah",
       "second_name": "Al Khaibari",
       "web_name": "A. Al Khaibari",
-      "known_name": "",
+      "known_name": "Abdulelah Al Khaibari",
       "position": "DEF",
       "history_past": [
         {
@@ -10702,7 +10702,7 @@
       "first_name": "Abdulrahman",
       "second_name": "Al Khaibari",
       "web_name": "A. Al Khaibari",
-      "known_name": "",
+      "known_name": "Abdul Rahman Al Khaibari",
       "position": "DEF",
       "history_past": [
         {
@@ -10741,7 +10741,7 @@
       "first_name": "Ammar",
       "second_name": "Al Khaibari",
       "web_name": "A. Al Khaibari",
-      "known_name": "",
+      "known_name": "Ammar Al Khaibari",
       "position": "MID",
       "history_past": [
         {
@@ -10780,7 +10780,7 @@
       "first_name": "Abdullah",
       "second_name": "Al Khaibari",
       "web_name": "A. Al Khaibari",
-      "known_name": "",
+      "known_name": "Abdullah Al Khaibari",
       "position": "MID",
       "history_past": [
         {
@@ -10875,7 +10875,7 @@
       "first_name": "Thamer",
       "second_name": "Al Khaibari",
       "web_name": "Khaibari",
-      "known_name": "",
+      "known_name": "Thamer Al Khaibri",
       "position": "FWD",
       "history_past": [
         {
@@ -11104,7 +11104,7 @@
       "first_name": "Abdulmajeed",
       "second_name": "Al Khathami",
       "web_name": "Al Khathami",
-      "known_name": "",
+      "known_name": "Abdulmajeed Al Khathami",
       "position": "FWD",
       "history_past": [
         {
@@ -11171,7 +11171,7 @@
       "first_name": "Hamad",
       "second_name": "Al Khorayef",
       "web_name": "Al Khorayef",
-      "known_name": "",
+      "known_name": "Hamad Al Khorayef",
       "position": "FWD",
       "history_past": [
         {
@@ -11238,7 +11238,7 @@
       "first_name": "Mohammed",
       "second_name": "Al Kuwaykibi",
       "web_name": "Al Kuwaykibi",
-      "known_name": "",
+      "known_name": "Mohammed Al Kuwaykibi",
       "position": "MID",
       "history_past": [
         {
@@ -11372,7 +11372,7 @@
       "first_name": "Mohammed",
       "second_name": "Al Mahasneh",
       "web_name": "Al Mahasneh",
-      "known_name": "",
+      "known_name": "Mohammed Al Mahasnah",
       "position": "GK",
       "history_past": [
         {
@@ -11506,7 +11506,7 @@
       "first_name": "Abdulelah",
       "second_name": "Al Malki",
       "web_name": "Al Malki",
-      "known_name": "",
+      "known_name": "Abdulelah Al Malki",
       "position": "MID",
       "history_past": [
         {
@@ -11601,7 +11601,7 @@
       "first_name": "Ali",
       "second_name": "Al Masoud",
       "web_name": "A. Al Masoud",
-      "known_name": "",
+      "known_name": "Ali Al Masoud",
       "position": "FWD",
       "history_past": [
         {
@@ -11696,7 +11696,7 @@
       "first_name": "Salman",
       "second_name": "Al Matar",
       "web_name": "Al Matar",
-      "known_name": "",
+      "known_name": "Salman Matar",
       "position": "FWD",
       "history_past": [
         {
@@ -11735,7 +11735,7 @@
       "first_name": "Osama",
       "second_name": "Al Mermesh",
       "web_name": "O. Al Mermesh",
-      "known_name": "",
+      "known_name": "Osama Al Mermesh",
       "position": "GK",
       "history_past": [
         {
@@ -11830,7 +11830,7 @@
       "first_name": "Abdullah",
       "second_name": "Al Mogren",
       "web_name": "Al Mogren",
-      "known_name": "",
+      "known_name": "Abdullah Al Mogren",
       "position": "FWD",
       "history_past": [
         {
@@ -11925,7 +11925,7 @@
       "first_name": "Saad",
       "second_name": "Al Mosa",
       "web_name": "S. Al Mosa",
-      "known_name": "",
+      "known_name": "Saad Al Mosa",
       "position": "DEF",
       "history_past": [
         {
@@ -12020,7 +12020,7 @@
       "first_name": "Salman Ali",
       "second_name": "Al Mosawa",
       "web_name": "Al Mosawa",
-      "known_name": "",
+      "known_name": "Salman Al Mosawa",
       "position": "MID",
       "history_past": [
         {
@@ -12059,7 +12059,7 @@
       "first_name": "Yousef",
       "second_name": "Al Mozairib",
       "web_name": "Y. Al Mozairib",
-      "known_name": "",
+      "known_name": "Yousef Al Shammari",
       "position": "FWD",
       "history_past": [
         {
@@ -12126,7 +12126,7 @@
       "first_name": "Muteb",
       "second_name": "Al Mufarrij",
       "web_name": "Al Mufarrij",
-      "known_name": "",
+      "known_name": "Muteb Al Mufarrij",
       "position": "DEF",
       "history_past": [
         {
@@ -12221,7 +12221,7 @@
       "first_name": "Ahmed",
       "second_name": "Al Muhaimeed",
       "web_name": "Al Muhaimeed",
-      "known_name": "",
+      "known_name": "Ahmad Al Mhemaid",
       "position": "DEF",
       "history_past": [
         {
@@ -12366,7 +12366,7 @@
       "first_name": "Bader",
       "second_name": "Al Mutairi",
       "web_name": "B. Al Mutairi",
-      "known_name": "",
+      "known_name": "Bader Al Mutairi",
       "position": "MID",
       "history_past": [
         {
@@ -12461,7 +12461,7 @@
       "first_name": "Faisal",
       "second_name": "Al Mutairi",
       "web_name": "F. Al Mutairi",
-      "known_name": "",
+      "known_name": "Faisal Al Mutairi",
       "position": "MID",
       "history_past": [
         {
@@ -12500,7 +12500,7 @@
       "first_name": "Meshal",
       "second_name": "Al Mutairi",
       "web_name": "M. Al Mutairi",
-      "known_name": "",
+      "known_name": "Meshal Al Mutairi",
       "position": "MID",
       "history_past": [
         {
@@ -12645,7 +12645,7 @@
       "first_name": "Eid",
       "second_name": "Al Muwallad",
       "web_name": "E. Al Muwallad",
-      "known_name": "",
+      "known_name": "Eid Al Muwallad",
       "position": "MID",
       "history_past": [
         {
@@ -12740,7 +12740,7 @@
       "first_name": "Sami",
       "second_name": "Al Naji",
       "web_name": "Al Naji",
-      "known_name": "",
+      "known_name": "Sami Al Naji",
       "position": "MID",
       "history_past": [
         {
@@ -12835,7 +12835,7 @@
       "first_name": "Raghed",
       "second_name": "Al Najjar",
       "web_name": "R. Al Najjar",
-      "known_name": "",
+      "known_name": "Raghid Najjar",
       "position": "GK",
       "history_past": [
         {
@@ -13008,7 +13008,7 @@
       "first_name": "Ahmed",
       "second_name": "Al Nakhli",
       "web_name": "A. Al Nakhli",
-      "known_name": "",
+      "known_name": "Ahmed Al Nakhli",
       "position": "DEF",
       "history_past": [
         {
@@ -13075,7 +13075,7 @@
       "first_name": "Awad",
       "second_name": "Al Nashri",
       "web_name": "Al Nashri",
-      "known_name": "",
+      "known_name": "Awad Al Nashri",
       "position": "MID",
       "history_past": [
         {
@@ -13170,7 +13170,7 @@
       "first_name": "Saad",
       "second_name": "Al Nasser",
       "web_name": "S. Al Nasser",
-      "known_name": "",
+      "known_name": "Saad Al Nasser",
       "position": "DEF",
       "history_past": [
         {
@@ -13265,7 +13265,7 @@
       "first_name": "Meshari",
       "second_name": "Al Nemer",
       "web_name": "Al Nemer",
-      "known_name": "",
+      "known_name": "Meshari Al Nemer",
       "position": "FWD",
       "history_past": [
         {
@@ -13360,7 +13360,7 @@
       "first_name": "Fahad",
       "second_name": "Al Obaid",
       "web_name": "Al Obaid",
-      "known_name": "",
+      "known_name": "Fahad Al Obaid",
       "position": "DEF",
       "history_past": [
         {
@@ -13399,7 +13399,7 @@
       "first_name": "Abdulrahman bin Obaid",
       "second_name": "Al Obaid",
       "web_name": "A. Al Obaid",
-      "known_name": "",
+      "known_name": "Abdulrahman Al Obaid",
       "position": "MID",
       "history_past": [
         {
@@ -13438,7 +13438,7 @@
       "first_name": "Abdulrahman",
       "second_name": "Al Obud",
       "web_name": "Al Obud",
-      "known_name": "",
+      "known_name": "Abdulrahman Al Obud",
       "position": "MID",
       "history_past": [
         {
@@ -13533,7 +13533,7 @@
       "first_name": "Madallah",
       "second_name": "Al Olayan",
       "web_name": "Al Olayan",
-      "known_name": "",
+      "known_name": "Madallah Al Olayan",
       "position": "DEF",
       "history_past": [
         {
@@ -13628,7 +13628,7 @@
       "first_name": "Mohammed",
       "second_name": "Al Oqil",
       "web_name": "Al Oqil",
-      "known_name": "",
+      "known_name": "Mohammed Al Aqeel",
       "position": "MID",
       "history_past": [
         {
@@ -13723,7 +13723,7 @@
       "first_name": "Muhammad Turki",
       "second_name": "Al Otaibi",
       "web_name": "Al Otaibi",
-      "known_name": "",
+      "known_name": "Muhammad Al Otaibi",
       "position": "GK",
       "history_past": [
         {
@@ -13762,7 +13762,7 @@
       "first_name": "Radhi",
       "second_name": "Al Otaibi",
       "web_name": "Al Otaibi",
-      "known_name": "",
+      "known_name": "Radhi Al Otaibi",
       "position": "DEF",
       "history_past": [
         {
@@ -13857,7 +13857,7 @@
       "first_name": "Anas",
       "second_name": "Al Otaibi",
       "web_name": "A. Al Otaibi",
-      "known_name": "",
+      "known_name": "Anas Al Otaibi",
       "position": "FWD",
       "history_past": [
         {
@@ -14097,7 +14097,7 @@
       "first_name": "Mohammed",
       "second_name": "Al Owais",
       "web_name": "Al Owais",
-      "known_name": "",
+      "known_name": "Mohammed Al Owais",
       "position": "GK",
       "history_past": [
         {
@@ -14164,7 +14164,7 @@
       "first_name": "Abdulmalek",
       "second_name": "Al Oyayari",
       "web_name": "Malik",
-      "known_name": "",
+      "known_name": "Abdulmalik Al Oyayari",
       "position": "DEF",
       "history_past": [
         {
@@ -14231,7 +14231,7 @@
       "first_name": "Abdullah",
       "second_name": "Al Qahtani",
       "web_name": "A. Al Qahtani",
-      "known_name": "",
+      "known_name": "Abdullah Al Qahtani",
       "position": "MID",
       "history_past": [
         {
@@ -14326,7 +14326,7 @@
       "first_name": "Mohammed",
       "second_name": "Al Qahtani",
       "web_name": "M. Al Qahtani",
-      "known_name": "",
+      "known_name": "Mohammed Al Qahtani",
       "position": "MID",
       "history_past": [
         {
@@ -14421,7 +14421,7 @@
       "first_name": "Hussain",
       "second_name": "Al Qahtani",
       "web_name": "H. Al Qahtani",
-      "known_name": "",
+      "known_name": "Hussain Al Qahtani",
       "position": "MID",
       "history_past": [
         {
@@ -14516,7 +14516,7 @@
       "first_name": "Mubarak Abdulrahman",
       "second_name": "Al Rajeh",
       "web_name": "Al Rajeh",
-      "known_name": "",
+      "known_name": "Mubarak Al Rajeh",
       "position": "DEF",
       "history_past": [
         {
@@ -14611,7 +14611,7 @@
       "first_name": "Khalid",
       "second_name": "Al Rammah",
       "web_name": "Al Rammah",
-      "known_name": "",
+      "known_name": "Khaled Al Rammah",
       "position": "DEF",
       "history_past": [
         {
@@ -14706,7 +14706,7 @@
       "first_name": "Saud Ghali",
       "second_name": "Al Rashed",
       "web_name": "S. Al Rashid",
-      "known_name": "",
+      "known_name": "Saud Al Rashed",
       "position": "DEF",
       "history_past": [
         {
@@ -14773,7 +14773,7 @@
       "first_name": "Fahad",
       "second_name": "Al Rashidi",
       "web_name": "F. Al Rashidi",
-      "known_name": "",
+      "known_name": "Fahad Al Rashidi",
       "position": "MID",
       "history_past": [
         {
@@ -14868,7 +14868,7 @@
       "first_name": "Mukhair",
       "second_name": "Al Rashidi",
       "web_name": "Al Rashidi",
-      "known_name": "",
+      "known_name": "Makhir Al Rashidi",
       "position": "DEF",
       "history_past": [
         {
@@ -15041,7 +15041,7 @@
       "first_name": "Saeed",
       "second_name": "Al Rubaie",
       "web_name": "Al Rubaie",
-      "known_name": "",
+      "known_name": "Saeed Al Rubaie",
       "position": "DEF",
       "history_past": [
         {
@@ -15136,7 +15136,7 @@
       "first_name": "Mohammed",
       "second_name": "Al Rubaie",
       "web_name": "Al Rubaie",
-      "known_name": "",
+      "known_name": "Mohammed Al Yami",
       "position": "GK",
       "history_past": [
         {
@@ -15231,7 +15231,7 @@
       "first_name": "Yazan",
       "second_name": "Al Ruwaili",
       "web_name": "Y. Al Ruwaili",
-      "known_name": "",
+      "known_name": "Yazan Al Ruwaili",
       "position": "GK",
       "history_past": [
         {
@@ -15270,7 +15270,7 @@
       "first_name": "Muhannad Yahya",
       "second_name": "Al Saad",
       "web_name": "Muhannad Al Saad",
-      "known_name": "",
+      "known_name": "Muhannad Al Saad",
       "position": "FWD",
       "history_past": [
         {
@@ -15365,7 +15365,7 @@
       "first_name": "Nawaf",
       "second_name": "Al Saadi",
       "web_name": "Al Saadi",
-      "known_name": "",
+      "known_name": "Nawaf Al Saadi",
       "position": "MID",
       "history_past": [
         {
@@ -15460,7 +15460,7 @@
       "first_name": "Mohammed",
       "second_name": "Al Saedi",
       "web_name": "Al Saedi",
-      "known_name": "",
+      "known_name": "Mohammed Al Saedi",
       "position": "MID",
       "history_past": [
         {
@@ -15594,7 +15594,7 @@
       "first_name": "Marwan",
       "second_name": "Al Sahafi",
       "web_name": "M. Al Sahafi",
-      "known_name": "",
+      "known_name": "Marwan Al Sahafi",
       "position": "MID",
       "history_past": [
         {
@@ -15689,7 +15689,7 @@
       "first_name": "Mohammed",
       "second_name": "Al Sahihi",
       "web_name": "Al Sahihi",
-      "known_name": "",
+      "known_name": "Mohammed Al Sahihi",
       "position": "MID",
       "history_past": [
         {
@@ -15767,7 +15767,7 @@
       "first_name": "Jalal",
       "second_name": "Al Salem",
       "web_name": "J. Al Salem",
-      "known_name": "",
+      "known_name": "Jalal Al Salem",
       "position": "MID",
       "history_past": [
         {
@@ -15806,7 +15806,7 @@
       "first_name": "Abdullah",
       "second_name": "Al Salem",
       "web_name": "A. Al Salem",
-      "known_name": "",
+      "known_name": "Abdullah Al Salem",
       "position": "FWD",
       "history_past": [
         {
@@ -15901,7 +15901,7 @@
       "first_name": "Awn",
       "second_name": "Al Saluli",
       "web_name": "Awn",
-      "known_name": "",
+      "known_name": "Awn Al Saluli",
       "position": "DEF",
       "history_past": [
         {
@@ -15996,7 +15996,7 @@
       "first_name": "Fawaz",
       "second_name": "Al Saqour",
       "web_name": "Al Saqour",
-      "known_name": "",
+      "known_name": "Fawaz Al Soqoor",
       "position": "DEF",
       "history_past": [
         {
@@ -16091,7 +16091,7 @@
       "first_name": "Mohammed",
       "second_name": "Al Sarnoukh",
       "web_name": "Al Sarnoukh",
-      "known_name": "",
+      "known_name": "Mohammed Al Sarnoukh",
       "position": "DEF",
       "history_past": [
         {
@@ -16130,7 +16130,7 @@
       "first_name": "Basil",
       "second_name": "Al Sayyali",
       "web_name": "Al Sayyali",
-      "known_name": "",
+      "known_name": "Basil Al Sayyali",
       "position": "MID",
       "history_past": [
         {
@@ -16264,7 +16264,7 @@
       "first_name": "Ali",
       "second_name": "Al Shaafi",
       "web_name": "Al Shaafi",
-      "known_name": "",
+      "known_name": "Ali Al Shaafi",
       "position": "DEF",
       "history_past": [
         {
@@ -16359,7 +16359,7 @@
       "first_name": "Yasir",
       "second_name": "Al Shahrani",
       "web_name": "Y. Al Shahrani",
-      "known_name": "",
+      "known_name": "Yasser Al Shahrani",
       "position": "DEF",
       "history_past": [
         {
@@ -16588,7 +16588,7 @@
       "first_name": "Yasir Abdullah",
       "second_name": "Al Shammari",
       "web_name": "Y. Al Shammari",
-      "known_name": "",
+      "known_name": "Yasir Shammari",
       "position": "MID",
       "history_past": [
         {
@@ -16627,7 +16627,7 @@
       "first_name": "Abdurahman",
       "second_name": "Al Shammari",
       "web_name": "A. Al Shammari",
-      "known_name": "",
+      "known_name": "Abdurahman Al Shammari",
       "position": "GK",
       "history_past": [
         {
@@ -16828,7 +16828,7 @@
       "first_name": "Sattam",
       "second_name": "Al Shammari",
       "web_name": "S. Al Shammari",
-      "known_name": "",
+      "known_name": "Sattam Al Shammari",
       "position": "GK",
       "history_past": [
         {
@@ -16895,7 +16895,7 @@
       "first_name": "Farha",
       "second_name": "Al Shamrani",
       "web_name": "F. Al Shamrani",
-      "known_name": "",
+      "known_name": "Farhah Al Shamrani",
       "position": "MID",
       "history_past": [
         {
@@ -17057,7 +17057,7 @@
       "first_name": "Muhannad",
       "second_name": "Al Shanqiti",
       "web_name": "Al Shanqeeti",
-      "known_name": "",
+      "known_name": "Muhannad Al Shanqiti",
       "position": "DEF",
       "history_past": [
         {
@@ -17152,7 +17152,7 @@
       "first_name": "Hamed",
       "second_name": "Al Shanqiti",
       "web_name": "Al Shanqeeti",
-      "known_name": "",
+      "known_name": "Hamed Al Shanqiti",
       "position": "GK",
       "history_past": [
         {
@@ -17247,7 +17247,7 @@
       "first_name": "Mohammed Ali",
       "second_name": "Al Shanqiti",
       "web_name": "M. Al Shanqiti",
-      "known_name": "",
+      "known_name": "Mohammed Al Shanqiti",
       "position": "DEF",
       "history_past": [
         {
@@ -17314,7 +17314,7 @@
       "first_name": "Abdullah Ahmed",
       "second_name": "Al Shanqiti",
       "web_name": "A. Al Shanqiti",
-      "known_name": "",
+      "known_name": "Abdullah Al Shanqiti",
       "position": "DEF",
       "history_past": [
         {
@@ -17409,7 +17409,7 @@
       "first_name": "Raed",
       "second_name": "Al Shanqiti",
       "web_name": "Al Shanqiti",
-      "known_name": "",
+      "known_name": "Raed Al Shanqiti",
       "position": "MID",
       "history_past": [
         {
@@ -17515,7 +17515,7 @@
       "first_name": "Nader",
       "second_name": "Al Sharari",
       "web_name": "N. Al Sharari",
-      "known_name": "",
+      "known_name": "Nader Al Sharari",
       "position": "DEF",
       "history_past": [
         {
@@ -17649,7 +17649,7 @@
       "first_name": "Saad",
       "second_name": "Al Sharfa",
       "web_name": "Al Sharfa",
-      "known_name": "",
+      "known_name": "Saad Al Sharfa",
       "position": "FWD",
       "history_past": [
         {
@@ -17744,7 +17744,7 @@
       "first_name": "Saleh",
       "second_name": "Al Shehri",
       "web_name": "S.Al Shehri",
-      "known_name": "",
+      "known_name": "Saleh Al Shehri",
       "position": "FWD",
       "history_past": [
         {
@@ -17839,7 +17839,7 @@
       "first_name": "Sultan",
       "second_name": "Al Shehri",
       "web_name": "S. Al Shehri",
-      "known_name": "",
+      "known_name": "Sultan Al Shehri",
       "position": "DEF",
       "history_past": [
         {
@@ -17906,7 +17906,7 @@
       "first_name": "Talal",
       "second_name": "Al Shubili",
       "web_name": "Al Shubili",
-      "known_name": "",
+      "known_name": "Talal Al Shubili",
       "position": "MID",
       "history_past": [
         {
@@ -18012,7 +18012,7 @@
       "first_name": "Mohammed",
       "second_name": "Al Shwirekh",
       "web_name": "Al Shwirekh",
-      "known_name": "",
+      "known_name": "Mohammed Al Shwirekh",
       "position": "DEF",
       "history_past": [
         {
@@ -18107,7 +18107,7 @@
       "first_name": "Hussain",
       "second_name": "Al Sibyani",
       "web_name": "H. Al Sibyani",
-      "known_name": "",
+      "known_name": "Hussain Al Sibyani",
       "position": "DEF",
       "history_past": [
         {
@@ -18202,7 +18202,7 @@
       "first_name": "Ahmed Mohammed",
       "second_name": "Al Siyahi",
       "web_name": "Al Siyahi",
-      "known_name": "",
+      "known_name": "Ahmed Al Siyahi",
       "position": "MID",
       "history_past": [
         {
@@ -18241,7 +18241,7 @@
       "first_name": "Khalid",
       "second_name": "Al Subaie",
       "web_name": "Al Subaie",
-      "known_name": "",
+      "known_name": "Khalid Al Subaie",
       "position": "DEF",
       "history_past": [
         {
@@ -18336,7 +18336,7 @@
       "first_name": "Faisal Ali Muslim",
       "second_name": "Al Subhi",
       "web_name": "Al Subhi",
-      "known_name": "",
+      "known_name": "Faisal Al Subhi",
       "position": "MID",
       "history_past": [
         {
@@ -18375,7 +18375,7 @@
       "first_name": "Faisal",
       "second_name": "Al Subiani",
       "web_name": "Al Subiani",
-      "known_name": "",
+      "known_name": "Faisal Al Subiani",
       "position": "MID",
       "history_past": [
         {
@@ -18470,7 +18470,7 @@
       "first_name": "Hussain",
       "second_name": "Al Sultan",
       "web_name": "Al Sultan",
-      "known_name": "",
+      "known_name": "Hussain Al Sultan",
       "position": "FWD",
       "history_past": [
         {
@@ -18537,7 +18537,7 @@
       "first_name": "Abdulaziz",
       "second_name": "Al Suwailem",
       "web_name": "Al Suwailem",
-      "known_name": "",
+      "known_name": "Abdulaziz Al Suwailem",
       "position": "DEF",
       "history_past": [
         {
@@ -18654,7 +18654,7 @@
       "first_name": "Hassan",
       "second_name": "Al Tambakti",
       "web_name": "H. Al Tambakti",
-      "known_name": "",
+      "known_name": "Hassan Al Tambakti",
       "position": "DEF",
       "history_past": [
         {
@@ -18749,7 +18749,7 @@
       "first_name": "Mohammed Fuad",
       "second_name": "Al Thani",
       "web_name": "M. Al Thani",
-      "known_name": "",
+      "known_name": "Mohammed Al Thani",
       "position": "DEF",
       "history_past": [
         {
@@ -18844,7 +18844,7 @@
       "first_name": "Osama",
       "second_name": "Al Thumairi",
       "web_name": "Al Thumairi",
-      "known_name": "",
+      "known_name": "Osama Al Thumayri",
       "position": "GK",
       "history_past": [
         {
@@ -18939,7 +18939,7 @@
       "first_name": "Rakan",
       "second_name": "Al Tulayhi",
       "web_name": "Al Tulayhi",
-      "known_name": "",
+      "known_name": "Rakan Al Tulayhi",
       "position": "MID",
       "history_past": [
         {
@@ -19140,7 +19140,7 @@
       "first_name": "Habib",
       "second_name": "Al Watyan",
       "web_name": "Al Watyan",
-      "known_name": "",
+      "known_name": "Habib Al Watyan",
       "position": "GK",
       "history_past": [
         {
@@ -19235,7 +19235,7 @@
       "first_name": "Ammar",
       "second_name": "Al Yahibi",
       "web_name": "Al Yahibi",
-      "known_name": "",
+      "known_name": "Amar Al Yuhaybi",
       "position": "DEF",
       "history_past": [
         {
@@ -19274,7 +19274,7 @@
       "first_name": "Muhannad",
       "second_name": "Al Yahya",
       "web_name": "Al Yahya",
-      "known_name": "",
+      "known_name": "Muhannad Al Yahya",
       "position": "GK",
       "history_past": [
         {
@@ -19341,7 +19341,7 @@
       "first_name": "Hamad",
       "second_name": "Al Yami",
       "web_name": "H. Al Yami",
-      "known_name": "",
+      "known_name": "Hamad Al Yami",
       "position": "DEF",
       "history_past": [
         {
@@ -19436,7 +19436,7 @@
       "first_name": "Suhayb Ayman",
       "second_name": "Al Zaid",
       "web_name": "Al Zaid",
-      "known_name": "",
+      "known_name": "Suhayb Al Zaid",
       "position": "MID",
       "history_past": [
         {
@@ -19503,7 +19503,7 @@
       "first_name": "Mohammed bin Bandar",
       "second_name": "Al Zaid",
       "web_name": "M. Al Zaid",
-      "known_name": "",
+      "known_name": "Mohammed Al Zaid",
       "position": "MID",
       "history_past": [
         {
@@ -19542,7 +19542,7 @@
       "first_name": "Abdullah",
       "second_name": "Al Zaid",
       "web_name": "A. Al Zaid",
-      "known_name": "",
+      "known_name": "Abdullah Al Zaid",
       "position": "MID",
       "history_past": [
         {
@@ -19581,7 +19581,7 @@
       "first_name": "Hussain",
       "second_name": "Al Zarie",
       "web_name": "Al Zarie",
-      "known_name": "",
+      "known_name": "Hussain Al Zarie",
       "position": "DEF",
       "history_past": [
         {
@@ -19620,7 +19620,7 @@
       "first_name": "Yaseen",
       "second_name": "Al Zubaidi",
       "web_name": "Y. Al Zubaidi",
-      "known_name": "",
+      "known_name": "Yaseen Al Zubaidi",
       "position": "MID",
       "history_past": [
         {
@@ -19715,7 +19715,7 @@
       "first_name": "Fahad Aqeel",
       "second_name": "Al Zubaidi",
       "web_name": "F. Al Zubaidi",
-      "known_name": "",
+      "known_name": "Fahad Al Zubaidi",
       "position": "FWD",
       "history_past": [
         {
@@ -19782,7 +19782,7 @@
       "first_name": "Hammam",
       "second_name": "Al-Hammami",
       "web_name": "Al Hammami",
-      "known_name": "",
+      "known_name": "Hammam Al Hammami",
       "position": "MID",
       "history_past": [
         {
@@ -19877,7 +19877,7 @@
       "first_name": "Salman",
       "second_name": "Al-Jadani",
       "web_name": "Al Jadani",
-      "known_name": "",
+      "known_name": "Salman Al Jadani",
       "position": "GK",
       "history_past": [
         {
@@ -19955,7 +19955,7 @@
       "first_name": "Ali",
       "second_name": "Alabdrabalnabi",
       "web_name": "Abdoulraouf",
-      "known_name": "",
+      "known_name": "Ali Abdoulraouf Alabdrabalnabi",
       "position": "MID",
       "history_past": [
         {
@@ -20022,7 +20022,7 @@
       "first_name": "Abdullah",
       "second_name": "Alammar",
       "web_name": "A. Al Ammar",
-      "known_name": "",
+      "known_name": "Abdullah Al Ammar",
       "position": "DEF",
       "history_past": [
         {
@@ -20251,7 +20251,7 @@
       "first_name": "Yahia",
       "second_name": "Ali Al Shehri",
       "web_name": "Y. Al Shehri",
-      "known_name": "",
+      "known_name": "Yahia Al Shehri",
       "position": "MID",
       "history_past": [
         {
@@ -20346,7 +20346,7 @@
       "first_name": "Sultan",
       "second_name": "Ali Harun",
       "web_name": "Harun",
-      "known_name": "",
+      "known_name": "Sultan Harun",
       "position": "FWD",
       "history_past": [
         {
@@ -20452,7 +20452,7 @@
       "first_name": "Abgullah",
       "second_name": "Almuhaysin",
       "web_name": "Al Muhaysin",
-      "known_name": "",
+      "known_name": "Abdullah Al Muhaysin",
       "position": "GK",
       "history_past": [
         {
@@ -20491,7 +20491,7 @@
       "first_name": "Ziad",
       "second_name": "Alsahafi",
       "web_name": "Z. Alsahafi",
-      "known_name": "",
+      "known_name": "Ziyad Al Sahafi",
       "position": "DEF",
       "history_past": [
         {
@@ -20586,7 +20586,7 @@
       "first_name": "Abdulrahman",
       "second_name": "Alsanby",
       "web_name": "Al Sanbi",
-      "known_name": "",
+      "known_name": "Abdulrahman Al Sanbi",
       "position": "GK",
       "history_past": [
         {
@@ -20720,7 +20720,7 @@
       "first_name": "Awad",
       "second_name": "Aman",
       "web_name": "Aman",
-      "known_name": "",
+      "known_name": "Awad Aman",
       "position": "DEF",
       "history_past": [
         {
@@ -20882,7 +20882,7 @@
       "first_name": "Luís Manuel",
       "second_name": "Arantes Maximiano",
       "web_name": "Maximiano",
-      "known_name": "",
+      "known_name": "Luís Maximiano",
       "position": "GK",
       "history_past": [
         {
@@ -20921,7 +20921,7 @@
       "first_name": "Haitham",
       "second_name": "Asiri",
       "web_name": "H. Asiri",
-      "known_name": "",
+      "known_name": "Haitham Asiri",
       "position": "MID",
       "history_past": [
         {
@@ -21055,7 +21055,7 @@
       "first_name": "Khalid",
       "second_name": "Asiri",
       "web_name": "K. Asiri",
-      "known_name": "",
+      "known_name": "Khalid Al Asiri",
       "position": "DEF",
       "history_past": [
         {
@@ -21094,7 +21094,7 @@
       "first_name": "Ahmed",
       "second_name": "Asiri",
       "web_name": "A. Asiri",
-      "known_name": "",
+      "known_name": "Ahmed Asiri",
       "position": "DEF",
       "history_past": [
         {
@@ -21228,7 +21228,7 @@
       "first_name": "Abdulrazzaq Sawlan",
       "second_name": "Awaji",
       "web_name": "Awaji",
-      "known_name": "",
+      "known_name": "Abdulrazzaq Awaji",
       "position": "FWD",
       "history_past": [
         {
@@ -21267,7 +21267,7 @@
       "first_name": "Ibrahim Montasser",
       "second_name": "Azzam",
       "web_name": "Azzam",
-      "known_name": "",
+      "known_name": "Ibrahim Azzam",
       "position": "MID",
       "history_past": [
         {
@@ -21306,7 +21306,7 @@
       "first_name": "Turki",
       "second_name": "Baaljawsh",
       "web_name": "Baaljawsh",
-      "known_name": "",
+      "known_name": "Turki Ba Al Jawsh",
       "position": "GK",
       "history_past": [
         {
@@ -21401,7 +21401,7 @@
       "first_name": "Saeed",
       "second_name": "Baattia",
       "web_name": "Baattia",
-      "known_name": "",
+      "known_name": "Saeed Baattia",
       "position": "DEF",
       "history_past": [
         {
@@ -21535,7 +21535,7 @@
       "first_name": "Hattan",
       "second_name": "Bahebri",
       "web_name": "Bahebri",
-      "known_name": "",
+      "known_name": "Hattan Bahbri",
       "position": "MID",
       "history_past": [
         {
@@ -21630,7 +21630,7 @@
       "first_name": "Essam",
       "second_name": "Bahri",
       "web_name": "Bahri",
-      "known_name": "",
+      "known_name": "Essam Bahri",
       "position": "MID",
       "history_past": [
         {
@@ -21736,7 +21736,7 @@
       "first_name": "Ahmed",
       "second_name": "Bamasud",
       "web_name": "Bamasud",
-      "known_name": "",
+      "known_name": "Ahmed Bamasud",
       "position": "DEF",
       "history_past": [
         {
@@ -21870,7 +21870,7 @@
       "first_name": "Ibrahem",
       "second_name": "Barabaa",
       "web_name": "Barabaa",
-      "known_name": "",
+      "known_name": "Ibrahem Barabaa",
       "position": "MID",
       "history_past": [
         {
@@ -21948,7 +21948,7 @@
       "first_name": "Mohammed",
       "second_name": "Barnawi",
       "web_name": "Barnawi",
-      "known_name": "",
+      "known_name": "Mohammed Barnawi",
       "position": "DEF",
       "history_past": [
         {
@@ -22311,7 +22311,7 @@
       "first_name": "Saad",
       "second_name": "Belobaid",
       "web_name": "Belobaid",
-      "known_name": "",
+      "known_name": "Saad Yaslam",
       "position": "DEF",
       "history_past": [
         {
@@ -22540,7 +22540,7 @@
       "first_name": "Bento Matheus",
       "second_name": "Bento",
       "web_name": "Bento",
-      "known_name": "",
+      "known_name": "Bento",
       "position": "GK",
       "history_past": [
         {
@@ -23009,7 +23009,7 @@
       "first_name": "Ângelo Gabriel",
       "second_name": "Borges Damaceno",
       "web_name": "Ângelo",
-      "known_name": "",
+      "known_name": "Ângelo",
       "position": "MID",
       "history_past": [
         {
@@ -23249,7 +23249,7 @@
       "first_name": "Nawaf",
       "second_name": "Boushal",
       "web_name": "Boushal",
-      "known_name": "",
+      "known_name": "Nawaf Bu Washl",
       "position": "DEF",
       "history_past": [
         {
@@ -23500,7 +23500,7 @@
       "first_name": "Haroune",
       "second_name": "Camara",
       "web_name": "Camara",
-      "known_name": "",
+      "known_name": "Haroune Camara",
       "position": "FWD",
       "history_past": [
         {
@@ -23874,7 +23874,7 @@
       "first_name": "Daniel",
       "second_name": "Castelo Podence",
       "web_name": "Podence",
-      "known_name": "",
+      "known_name": "Daniel Podence",
       "position": "MID",
       "history_past": [
         {
@@ -24047,7 +24047,7 @@
       "first_name": "Leandro Miguel",
       "second_name": "Curto Antunes",
       "web_name": "Antunes",
-      "known_name": "",
+      "known_name": "Leandro Antunes",
       "position": "FWD",
       "history_past": [
         {
@@ -24125,7 +24125,7 @@
       "first_name": "Sabri",
       "second_name": "Dahal",
       "web_name": "Dahal",
-      "known_name": "",
+      "known_name": "Sabri Dahal",
       "position": "MID",
       "history_past": [
         {
@@ -24164,7 +24164,7 @@
       "first_name": "Awwad",
       "second_name": "Dahal",
       "web_name": "Dahal",
-      "known_name": "",
+      "known_name": "Awad Dahal",
       "position": "DEF",
       "history_past": [
         {
@@ -24203,7 +24203,7 @@
       "first_name": "Mohammed",
       "second_name": "Dakhilallah",
       "web_name": "M. Al Dawsari",
-      "known_name": "",
+      "known_name": "Mohammed Al Dosari",
       "position": "DEF",
       "history_past": [
         {
@@ -24365,7 +24365,7 @@
       "first_name": "Faisal Mohammed",
       "second_name": "Darisi",
       "web_name": "F. Darisi",
-      "known_name": "",
+      "known_name": "Faisal Darisi",
       "position": "DEF",
       "history_past": [
         {
@@ -24404,7 +24404,7 @@
       "first_name": "Abdulkarim",
       "second_name": "Darisi",
       "web_name": "Darisi",
-      "known_name": "",
+      "known_name": "Abdulkarim Darisi",
       "position": "MID",
       "history_past": [
         {
@@ -24499,7 +24499,7 @@
       "first_name": "Majed",
       "second_name": "Dawran",
       "web_name": "Dawran",
-      "known_name": "",
+      "known_name": "Majed Dawran",
       "position": "MID",
       "history_past": [
         {
@@ -25024,7 +25024,7 @@
       "first_name": "Hassan",
       "second_name": "Edreis",
       "web_name": "Edreis",
-      "known_name": "",
+      "known_name": "Hassan Idris",
       "position": "MID",
       "history_past": [
         {
@@ -25225,7 +25225,7 @@
       "first_name": "Ryan",
       "second_name": "Enad",
       "web_name": "Enad",
-      "known_name": "",
+      "known_name": "Rayan Enad",
       "position": "MID",
       "history_past": [
         {
@@ -25398,7 +25398,7 @@
       "first_name": "Ayman",
       "second_name": "Fallatah",
       "web_name": "A. Fallatah",
-      "known_name": "",
+      "known_name": "Ayman Fallatah",
       "position": "MID",
       "history_past": [
         {
@@ -25493,7 +25493,7 @@
       "first_name": "Mohammed Ahmed",
       "second_name": "Fallatah",
       "web_name": "M. Fallatah",
-      "known_name": "",
+      "known_name": "Mohammed Fallatah",
       "position": "MID",
       "history_past": [
         {
@@ -25560,7 +25560,7 @@
       "first_name": "Muath",
       "second_name": "Faqeehi",
       "web_name": "Faqeehi",
-      "known_name": "",
+      "known_name": "Muath Fagihy",
       "position": "DEF",
       "history_past": [
         {
@@ -25655,7 +25655,7 @@
       "first_name": "Joao",
       "second_name": "Felix",
       "web_name": "Joao Felix",
-      "known_name": "",
+      "known_name": "João Félix",
       "position": "MID",
       "history_past": [
         {
@@ -25694,7 +25694,7 @@
       "first_name": "Roger",
       "second_name": "Fernandes",
       "web_name": "R. Fernandes",
-      "known_name": "",
+      "known_name": "Roger Fernandes",
       "position": "MID",
       "history_past": [
         {
@@ -25733,7 +25733,7 @@
       "first_name": "Nacho",
       "second_name": "Fernandez",
       "web_name": "Nacho",
-      "known_name": "",
+      "known_name": "Nacho",
       "position": "DEF",
       "history_past": [
         {
@@ -25800,7 +25800,7 @@
       "first_name": "Emad Adnan",
       "second_name": "Fidaa",
       "web_name": "Fidaa",
-      "known_name": "",
+      "known_name": "Emad Fidaa",
       "position": "GK",
       "history_past": [
         {
@@ -26040,7 +26040,7 @@
       "first_name": "Abdulrahman",
       "second_name": "Ghareeb",
       "web_name": "Ghareeb",
-      "known_name": "",
+      "known_name": "Abdulrahman Ghareeb",
       "position": "MID",
       "history_past": [
         {
@@ -26135,7 +26135,7 @@
       "first_name": "Andrei",
       "second_name": "Girotto",
       "web_name": "Girotto",
-      "known_name": "",
+      "known_name": "Andrei Girotto",
       "position": "DEF",
       "history_past": [
         {
@@ -26308,7 +26308,7 @@
       "first_name": "Matheus",
       "second_name": "Gonçalves",
       "web_name": "Matheus",
-      "known_name": "",
+      "known_name": "Matheus Gonçalves",
       "position": "MID",
       "history_past": [
         {
@@ -26386,7 +26386,7 @@
       "first_name": "Abdulaziz",
       "second_name": "Hadhood",
       "web_name": "A. Hadhood",
-      "known_name": "",
+      "known_name": "Abdulaziz Hadhood",
       "position": "FWD",
       "history_past": [
         {
@@ -26615,7 +26615,7 @@
       "first_name": "Rayan",
       "second_name": "Hamed",
       "web_name": "Hamed",
-      "known_name": "",
+      "known_name": "Rayan Hamed",
       "position": "DEF",
       "history_past": [
         {
@@ -26710,7 +26710,7 @@
       "first_name": "Mansour",
       "second_name": "Hamzi",
       "web_name": "M. Hamzi",
-      "known_name": "",
+      "known_name": "Mansour Hamzi",
       "position": "DEF",
       "history_past": [
         {
@@ -26805,7 +26805,7 @@
       "first_name": "Saad Hussain",
       "second_name": "Haqawi",
       "web_name": "Haqawi",
-      "known_name": "",
+      "known_name": "Saad Haqawi",
       "position": "FWD",
       "history_past": [
         {
@@ -26939,7 +26939,7 @@
       "first_name": "Mohammed",
       "second_name": "Harboush",
       "web_name": "Harboush",
-      "known_name": "",
+      "known_name": "Mohammed Essa Hurbush",
       "position": "DEF",
       "history_past": [
         {
@@ -27112,7 +27112,7 @@
       "first_name": "Abdulbasit",
       "second_name": "Hawsawi",
       "web_name": "A. Hawsawi",
-      "known_name": "",
+      "known_name": "Abdulbasit Hawsawi",
       "position": "GK",
       "history_past": [
         {
@@ -27207,7 +27207,7 @@
       "first_name": "Islam",
       "second_name": "Hawsawi",
       "web_name": "I. Hawsawi",
-      "known_name": "",
+      "known_name": "Islam Hawsawi",
       "position": "DEF",
       "history_past": [
         {
@@ -27274,7 +27274,7 @@
       "first_name": "Aser",
       "second_name": "Hawsawi",
       "web_name": "A. Hawsawi",
-      "known_name": "",
+      "known_name": "Aser Hawsawi",
       "position": "DEF",
       "history_past": [
         {
@@ -27313,7 +27313,7 @@
       "first_name": "Zakaria",
       "second_name": "Hawsawi",
       "web_name": "Z. Hawsawi",
-      "known_name": "",
+      "known_name": "Zakaria Hawsawi",
       "position": "DEF",
       "history_past": [
         {
@@ -27408,7 +27408,7 @@
       "first_name": "Abdulelah",
       "second_name": "Hawsawi",
       "web_name": "A. Hawsawi",
-      "known_name": "",
+      "known_name": "Abdulelah Hawsawi",
       "position": "MID",
       "history_past": [
         {
@@ -27687,7 +27687,7 @@
       "first_name": "Sulaiman",
       "second_name": "Hazazi",
       "web_name": "S. Hazazi",
-      "known_name": "",
+      "known_name": "Sulaiman Hazazi",
       "position": "DEF",
       "history_past": [
         {
@@ -27726,7 +27726,7 @@
       "first_name": "Ali",
       "second_name": "Hazazi",
       "web_name": "A. Hazazi",
-      "known_name": "",
+      "known_name": "Ali Hazazi",
       "position": "MID",
       "history_past": [
         {
@@ -27983,7 +27983,7 @@
       "first_name": "Theo",
       "second_name": "Hernandez",
       "web_name": "T. Hernandez",
-      "known_name": "",
+      "known_name": "Théo Hernández",
       "position": "DEF",
       "history_past": [
         {
@@ -28022,7 +28022,7 @@
       "first_name": "Abdulrahman",
       "second_name": "Hindi",
       "web_name": "Hindi",
-      "known_name": "",
+      "known_name": "Abdulrahman Hindi",
       "position": "MID",
       "history_past": [
         {
@@ -28089,7 +28089,7 @@
       "first_name": "Abdulbasit",
       "second_name": "Hindi",
       "web_name": "Hindi",
-      "known_name": "",
+      "known_name": "Abdulbasit Hindi",
       "position": "DEF",
       "history_past": [
         {
@@ -28251,7 +28251,7 @@
       "first_name": "Eyad Sidi",
       "second_name": "Houssa",
       "web_name": "Houssa",
-      "known_name": "",
+      "known_name": "Eyad Houssa",
       "position": "MID",
       "history_past": [
         {
@@ -28290,7 +28290,7 @@
       "first_name": "Uday",
       "second_name": "Hussein",
       "web_name": "Hussein",
-      "known_name": "",
+      "known_name": "Odai Slimani",
       "position": "MID",
       "history_past": [
         {
@@ -28329,7 +28329,7 @@
       "first_name": "Roger",
       "second_name": "Ibañez",
       "web_name": "Ibañez",
-      "known_name": "",
+      "known_name": "Roger Ibañez",
       "position": "DEF",
       "history_past": [
         {
@@ -28424,7 +28424,7 @@
       "first_name": "Mohamed",
       "second_name": "Ibrahim",
       "web_name": "Ibrahim",
-      "known_name": "",
+      "known_name": "Mohammed Ibrahim",
       "position": "GK",
       "history_past": [
         {
@@ -28530,7 +28530,7 @@
       "first_name": "Mohammed",
       "second_name": "Jahfali",
       "web_name": "M. Jahfali",
-      "known_name": "",
+      "known_name": "Mohammed Jahfali",
       "position": "DEF",
       "history_past": [
         {
@@ -28636,7 +28636,7 @@
       "first_name": "Rakan",
       "second_name": "Jaman",
       "web_name": "Al Jaman",
-      "known_name": "",
+      "known_name": "Rakan bin Jaman",
       "position": "MID",
       "history_past": [
         {
@@ -28809,7 +28809,7 @@
       "first_name": "Rakan",
       "second_name": "Kaabi",
       "web_name": "R. Kaabi",
-      "known_name": "",
+      "known_name": "Rakan Kaabi",
       "position": "MID",
       "history_past": [
         {
@@ -28943,7 +28943,7 @@
       "first_name": "Hassan",
       "second_name": "Kadish",
       "web_name": "Kadish",
-      "known_name": "",
+      "known_name": "Hassan Kadish",
       "position": "DEF",
       "history_past": [
         {
@@ -29038,7 +29038,7 @@
       "first_name": "Majed",
       "second_name": "Kanabah",
       "web_name": "M. Kanaba",
-      "known_name": "",
+      "known_name": "Majed Kanabah",
       "position": "MID",
       "history_past": [
         {
@@ -29133,7 +29133,7 @@
       "first_name": "Mohammed",
       "second_name": "Kanno",
       "web_name": "Kanno",
-      "known_name": "",
+      "known_name": "Mohamed Kanno",
       "position": "MID",
       "history_past": [
         {
@@ -29267,7 +29267,7 @@
       "first_name": "Mohammed",
       "second_name": "Khabrani",
       "web_name": "M.Khabrani",
-      "known_name": "",
+      "known_name": "Mohammed Al Khabrani",
       "position": "DEF",
       "history_past": [
         {
@@ -29362,7 +29362,7 @@
       "first_name": "Abdullah",
       "second_name": "Khateeb",
       "web_name": "Khateeb",
-      "known_name": "",
+      "known_name": "Abdullah Khateeb",
       "position": "DEF",
       "history_past": [
         {
@@ -29747,7 +29747,7 @@
       "first_name": "Ali",
       "second_name": "Lajami",
       "web_name": "A. Lajami",
-      "known_name": "",
+      "known_name": "Ali Lajami",
       "position": "DEF",
       "history_past": [
         {
@@ -29842,7 +29842,7 @@
       "first_name": "Qasem",
       "second_name": "Lajami",
       "web_name": "Q. Lajami",
-      "known_name": "",
+      "known_name": "Qasem Lajami",
       "position": "DEF",
       "history_past": [
         {
@@ -30015,7 +30015,7 @@
       "first_name": "Yazan",
       "second_name": "Madani",
       "web_name": "Madani",
-      "known_name": "",
+      "known_name": "Yazan Madani",
       "position": "DEF",
       "history_past": [
         {
@@ -30054,7 +30054,7 @@
       "first_name": "Abdullah",
       "second_name": "Madu",
       "web_name": "Madu",
-      "known_name": "",
+      "known_name": "Abdullah Madu",
       "position": "DEF",
       "history_past": [
         {
@@ -30149,7 +30149,7 @@
       "first_name": "Abdulhakim",
       "second_name": "Maghfoury",
       "web_name": "Maghfoury",
-      "known_name": "",
+      "known_name": "Abdulhakim Maghfori",
       "position": "MID",
       "history_past": [
         {
@@ -30188,7 +30188,7 @@
       "first_name": "Ibrahim",
       "second_name": "Mahnashi",
       "web_name": "Mahnashi",
-      "known_name": "",
+      "known_name": "Ibrahim Mahnashi",
       "position": "MID",
       "history_past": [
         {
@@ -30255,7 +30255,7 @@
       "first_name": "Mohammed",
       "second_name": "Mahzari",
       "web_name": "Mahzari",
-      "known_name": "",
+      "known_name": "Mohammed Mahzari",
       "position": "DEF",
       "history_past": [
         {
@@ -30417,7 +30417,7 @@
       "first_name": "Ali Abdulqader",
       "second_name": "Makki",
       "web_name": "Makki",
-      "known_name": "",
+      "known_name": "Ali Makki",
       "position": "DEF",
       "history_past": [
         {
@@ -30512,7 +30512,7 @@
       "first_name": "Mustafa",
       "second_name": "Malayekah",
       "web_name": "Malayekah",
-      "known_name": "",
+      "known_name": "Mustafa Malayekah",
       "position": "GK",
       "history_past": [
         {
@@ -30618,7 +30618,7 @@
       "first_name": "Sultan",
       "second_name": "Mandash",
       "web_name": "Mandash",
-      "known_name": "",
+      "known_name": "Sultan Mandash",
       "position": "MID",
       "history_past": [
         {
@@ -30808,7 +30808,7 @@
       "first_name": "Mohammed",
       "second_name": "Maran",
       "web_name": "Maran",
-      "known_name": "",
+      "known_name": "Mohammed Marran",
       "position": "FWD",
       "history_past": [
         {
@@ -30903,7 +30903,7 @@
       "first_name": "Lázaro Vinícius",
       "second_name": "Marques",
       "web_name": "Lázaro",
-      "known_name": "",
+      "known_name": "Lázaro",
       "position": "MID",
       "history_past": [
         {
@@ -31048,7 +31048,7 @@
       "first_name": "Naif",
       "second_name": "Masoud",
       "web_name": "Naif",
-      "known_name": "",
+      "known_name": "Naif Masoud",
       "position": "MID",
       "history_past": [
         {
@@ -31595,7 +31595,7 @@
       "first_name": "Majed",
       "second_name": "Mohammed Ali Qasheesh",
       "web_name": "Qasheesh",
-      "known_name": "",
+      "known_name": "Majed Qasheesh",
       "position": "DEF",
       "history_past": [
         {
@@ -31796,7 +31796,7 @@
       "first_name": "Bader",
       "second_name": "Munshi",
       "web_name": "Munshi",
-      "known_name": "",
+      "known_name": "Bader Munshi",
       "position": "MID",
       "history_past": [
         {
@@ -32036,7 +32036,7 @@
       "first_name": "Rúben",
       "second_name": "Neves",
       "web_name": "Neves",
-      "known_name": "",
+      "known_name": "Rúben Neves",
       "position": "MID",
       "history_past": [
         {
@@ -32237,7 +32237,7 @@
       "first_name": "Abdulaziz",
       "second_name": "Noor",
       "web_name": "A. Noor",
-      "known_name": "",
+      "known_name": "Abdulaziz Noor",
       "position": "MID",
       "history_past": [
         {
@@ -32449,7 +32449,7 @@
       "first_name": "Otávio Edmilson",
       "second_name": "Otávio",
       "web_name": "Otávio",
-      "known_name": "",
+      "known_name": "Otávio",
       "position": "MID",
       "history_past": [
         {
@@ -32583,7 +32583,7 @@
       "first_name": "Raed",
       "second_name": "Ozaybi",
       "web_name": "Ozaybi",
-      "known_name": "",
+      "known_name": "Raed Ozaybi",
       "position": "GK",
       "history_past": [
         {
@@ -32756,7 +32756,7 @@
       "first_name": "Danilo",
       "second_name": "Pereira",
       "web_name": "Danilo Pereira",
-      "known_name": "",
+      "known_name": "Danilo Pereira",
       "position": "DEF",
       "history_past": [
         {
@@ -32940,7 +32940,7 @@
       "first_name": "António José",
       "second_name": "Pinheiro de Carvalho",
       "web_name": "Tozé",
-      "known_name": "",
+      "known_name": "Tozé",
       "position": "MID",
       "history_past": [
         {
@@ -33102,7 +33102,7 @@
       "first_name": "Hussain",
       "second_name": "Qassem",
       "web_name": "H. Qassem",
-      "known_name": "",
+      "known_name": "Hussain Qassem",
       "position": "DEF",
       "history_past": [
         {
@@ -33197,7 +33197,7 @@
       "first_name": "Mohammed",
       "second_name": "Qassem",
       "web_name": "M. Qasem",
-      "known_name": "",
+      "known_name": "Mohammed Qassim",
       "position": "DEF",
       "history_past": [
         {
@@ -33426,7 +33426,7 @@
       "first_name": "Abdullah",
       "second_name": "Radif",
       "web_name": "Radif",
-      "known_name": "",
+      "known_name": "Abdullah Radif",
       "position": "FWD",
       "history_past": [
         {
@@ -33627,7 +33627,7 @@
       "first_name": "Saif",
       "second_name": "Rashad Mohamed",
       "web_name": "Rashad",
-      "known_name": "",
+      "known_name": "Saif Rajab",
       "position": "MID",
       "history_past": [
         {
@@ -33694,7 +33694,7 @@
       "first_name": "Pedro",
       "second_name": "Rebocho",
       "web_name": "Rebocho",
-      "known_name": "",
+      "known_name": "Pedro Rebocho",
       "position": "DEF",
       "history_past": [
         {
@@ -33789,7 +33789,7 @@
       "first_name": "Ahmed",
       "second_name": "Rehaili",
       "web_name": "Rehaili",
-      "known_name": "",
+      "known_name": "Ahmad Al Harbi",
       "position": "GK",
       "history_past": [
         {
@@ -33884,7 +33884,7 @@
       "first_name": "Jason",
       "second_name": "Remeseiro",
       "web_name": "Remeseiro",
-      "known_name": "",
+      "known_name": "Jason",
       "position": "MID",
       "history_past": [
         {
@@ -34029,7 +34029,7 @@
       "first_name": "Wenderson",
       "second_name": "Rodrigues do Nascimento Galeno",
       "web_name": "Galeno",
-      "known_name": "",
+      "known_name": "Galeno",
       "position": "MID",
       "history_past": [
         {
@@ -34135,7 +34135,7 @@
       "first_name": "Cristiano",
       "second_name": "Ronaldo",
       "web_name": "Ronaldo",
-      "known_name": "",
+      "known_name": "Cristiano Ronaldo",
       "position": "FWD",
       "history_past": [
         {
@@ -34403,7 +34403,7 @@
       "first_name": "Abdullah Matuq",
       "second_name": "Saeed",
       "web_name": "Matuq",
-      "known_name": "",
+      "known_name": "Abdullah Matuq",
       "position": "FWD",
       "history_past": [
         {
@@ -34660,7 +34660,7 @@
       "first_name": "Mohammed",
       "second_name": "Salem Al Dawsari",
       "web_name": "M. Al Dawsari",
-      "known_name": "",
+      "known_name": "Mohammed Al Dossary",
       "position": "DEF",
       "history_past": [
         {
@@ -34727,7 +34727,7 @@
       "first_name": "Mailson",
       "second_name": "Santos",
       "web_name": "Mailson",
-      "known_name": "",
+      "known_name": "Mailson",
       "position": "GK",
       "history_past": [
         {
@@ -34917,7 +34917,7 @@
       "first_name": "Mohammed",
       "second_name": "Sawaan",
       "web_name": "Sawaan",
-      "known_name": "",
+      "known_name": "Muhammad Sawaan",
       "position": "MID",
       "history_past": [
         {
@@ -35118,7 +35118,7 @@
       "first_name": "Alfa",
       "second_name": "Semedo",
       "web_name": "A. Semedo",
-      "known_name": "",
+      "known_name": "Alfa Semedo",
       "position": "MID",
       "history_past": [
         {
@@ -35185,7 +35185,7 @@
       "first_name": "Bruno Miguel",
       "second_name": "Semedo Varela",
       "web_name": "Varela",
-      "known_name": "",
+      "known_name": "Bruno Varela",
       "position": "GK",
       "history_past": [
         {
@@ -35224,7 +35224,7 @@
       "first_name": "Riyadh",
       "second_name": "Sharahili",
       "web_name": "Sharahili",
-      "known_name": "",
+      "known_name": "Riyadh Sharahili",
       "position": "MID",
       "history_past": [
         {
@@ -35330,7 +35330,7 @@
       "first_name": "Ahmed",
       "second_name": "Sharahili",
       "web_name": "Sharahili",
-      "known_name": "",
+      "known_name": "Ahmed Sharahili",
       "position": "DEF",
       "history_past": [
         {
@@ -35425,7 +35425,7 @@
       "first_name": "Meshal",
       "second_name": "Sibyani",
       "web_name": "M. Sibyani",
-      "known_name": "",
+      "known_name": "Meshal Sibyani",
       "position": "DEF",
       "history_past": [
         {
@@ -35637,7 +35637,7 @@
       "first_name": "Jefferson",
       "second_name": "Soares Oliveira Ramos",
       "web_name": "Jefferson",
-      "known_name": "",
+      "known_name": "Jefferson Ramos",
       "position": "FWD",
       "history_past": [
         {
@@ -35676,7 +35676,7 @@
       "first_name": "Ramzi",
       "second_name": "Solan",
       "web_name": "R. Solan",
-      "known_name": "",
+      "known_name": "Ramzi Solan",
       "position": "DEF",
       "history_past": [
         {
@@ -35771,7 +35771,7 @@
       "first_name": "Abdullah",
       "second_name": "Sufuq",
       "web_name": "Sufuq",
-      "known_name": "",
+      "known_name": "Abdullah Al Anazi",
       "position": "MID",
       "history_past": [
         {
@@ -35905,7 +35905,7 @@
       "first_name": "Mohammed Ahmed",
       "second_name": "Suhluli",
       "web_name": "Suhluli",
-      "known_name": "",
+      "known_name": "Mohammed Suhluli",
       "position": "MID",
       "history_past": [
         {
@@ -36000,7 +36000,7 @@
       "first_name": "Mohammed",
       "second_name": "Sulaiman",
       "web_name": "M. Bakr",
-      "known_name": "",
+      "known_name": "Mohammed Sulaiman",
       "position": "DEF",
       "history_past": [
         {
@@ -36106,7 +36106,7 @@
       "first_name": "Meshari",
       "second_name": "Sunyur",
       "web_name": "Sunyur",
-      "known_name": "",
+      "known_name": "Meshari Sunyur",
       "position": "GK",
       "history_past": [
         {
@@ -36318,7 +36318,7 @@
       "first_name": "Marzouq",
       "second_name": "Tambakti",
       "web_name": "M. Tambakti",
-      "known_name": "",
+      "known_name": "Marzouq Tambakti",
       "position": "DEF",
       "history_past": [
         {
@@ -36413,7 +36413,7 @@
       "first_name": "Sattam",
       "second_name": "Tambakti",
       "web_name": "S. Tambakti",
-      "known_name": "",
+      "known_name": "Sattam Al Tumbukti",
       "position": "DEF",
       "history_past": [
         {
@@ -36452,7 +36452,7 @@
       "first_name": "Sultan bin Mohammed",
       "second_name": "Tanker",
       "web_name": "S Tanker",
-      "known_name": "",
+      "known_name": "Sultan Tanker",
       "position": "DEF",
       "history_past": [
         {
@@ -36491,7 +36491,7 @@
       "first_name": "Abdullah bin Hassoun",
       "second_name": "Tarmin",
       "web_name": "Tarmin",
-      "known_name": "",
+      "known_name": "Abdullah Tarmin",
       "position": "DEF",
       "history_past": [
         {
@@ -36558,7 +36558,7 @@
       "first_name": "Jehad",
       "second_name": "Thakri",
       "web_name": "J. Thakri",
-      "known_name": "",
+      "known_name": "Jehad Thakri",
       "position": "DEF",
       "history_past": [
         {
@@ -36876,7 +36876,7 @@
       "first_name": "Ayman",
       "second_name": "Yahya",
       "web_name": "Ayman Yahya",
-      "known_name": "",
+      "known_name": "Aiman Yahya",
       "position": "DEF",
       "history_past": [
         {
@@ -37038,7 +37038,7 @@
       "first_name": "Ibrahim",
       "second_name": "Zaid",
       "web_name": "Zaid",
-      "known_name": "",
+      "known_name": "Ibrahim Zaied",
       "position": "GK",
       "history_past": [
         {
@@ -37222,7 +37222,7 @@
       "first_name": "Saud",
       "second_name": "bin Zaydan",
       "web_name": "bin Zaydan",
-      "known_name": "",
+      "known_name": "Saud bin Zaydan",
       "position": "MID",
       "history_past": [
         {
@@ -37317,7 +37317,7 @@
       "first_name": "Ricardo Mathias",
       "second_name": "da Silva",
       "web_name": "Mathias",
-      "known_name": "",
+      "known_name": "Ricardo Mathias",
       "position": "FWD",
       "history_past": [
         {
