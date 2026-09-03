@@ -1,3 +1,5 @@
 player_id,fixture_id,gameweek,kickoff_time,was_home,opponent_team_id,opponent_team_name,team_h_score,team_a_score,modified,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,fmmp,winning_goals,won_tackle,accurate_pass,clearances_blocks_interceptions,shot_target,big_chance_created,big_chance_missed,performance_index,total_points,value,selected,transfers_in,transfers_out,transfers_balance
 87,2,1,2026-08-13T18:00:00Z,False,18,Diriyah Club,0,1,False,90,0,0,1,0,0,0,0,1,0,0,0,0,0,2,21,10,0,0,0,67,6,50,3171,0,0,0
 87,15,2,2026-08-22T18:00:00Z,True,16,Abha,4,0,False,45,0,0,0,0,0,0,0,0,0,0,0,0,0,2,17,2,0,0,0,50,1,50,6566,1252,371,881
+87,33,4,2026-08-29T16:05:00Z,False,13,Al Kholood,3,1,False,25,0,0,0,2,0,0,0,0,0,0,0,0,0,1,17,1,0,0,0,0,0,50,6144,258,357,-99
+87,36,4,2026-09-01T18:00:00Z,False,4,Al Hilal,3,0,False,86,0,0,0,3,0,0,0,0,0,0,0,0,0,1,22,2,0,0,0,25,1,50,6144,258,357,-99

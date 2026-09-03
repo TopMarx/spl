@@ -1,3 +1,5 @@
 player_id,fixture_id,gameweek,kickoff_time,was_home,opponent_team_id,opponent_team_name,team_h_score,team_a_score,modified,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,fmmp,winning_goals,won_tackle,accurate_pass,clearances_blocks_interceptions,shot_target,big_chance_created,big_chance_missed,performance_index,total_points,value,selected,transfers_in,transfers_out,transfers_balance
 188,5,1,2026-08-14T18:00:00Z,True,17,Al Faisaly,4,2,False,70,0,0,0,2,0,0,0,0,0,0,0,0,0,0,21,4,0,0,0,38,2,60,3392,0,0,0
 188,10,2,2026-08-20T18:00:00Z,False,3,Al Fayha,0,3,False,90,0,0,1,0,0,0,0,0,0,0,0,0,0,1,44,8,2,0,1,92,5,60,3148,51,588,-537
+188,28,4,2026-08-28T18:00:00Z,False,7,Al Khaleej,1,5,False,90,0,1,0,1,0,0,0,0,0,0,2,0,0,2,62,5,0,1,1,95,8,60,3124,138,208,-70
+188,36,4,2026-09-01T18:00:00Z,True,1,Al Ahli,3,0,False,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60,3124,138,208,-70

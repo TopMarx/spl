@@ -9144,7 +9144,7 @@
   {
     "code": 2672494,
     "event": 4,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 30,
     "kickoff_time": "2026-08-28T15:50:00Z",
@@ -9491,7 +9491,7 @@
   {
     "code": 2672495,
     "event": 4,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 27,
     "kickoff_time": "2026-08-28T16:00:00Z",
@@ -9843,7 +9843,7 @@
   {
     "code": 2672496,
     "event": 4,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 28,
     "kickoff_time": "2026-08-28T18:00:00Z",
@@ -10238,7 +10238,7 @@
   {
     "code": 2672497,
     "event": 4,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 29,
     "kickoff_time": "2026-08-28T18:00:00Z",
@@ -10590,7 +10590,7 @@
   {
     "code": 2672498,
     "event": 4,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 33,
     "kickoff_time": "2026-08-29T16:05:00Z",
@@ -10955,7 +10955,7 @@
   {
     "code": 2672499,
     "event": 4,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 31,
     "kickoff_time": "2026-08-29T18:00:00Z",
@@ -11298,7 +11298,7 @@
   {
     "code": 2672500,
     "event": 4,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 32,
     "kickoff_time": "2026-08-29T18:00:00Z",
@@ -11651,7 +11651,7 @@
   {
     "code": 2672501,
     "event": 4,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 34,
     "kickoff_time": "2026-08-30T16:05:00Z",
@@ -11993,7 +11993,7 @@
   {
     "code": 2672502,
     "event": 4,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 35,
     "kickoff_time": "2026-08-30T18:00:00Z",
@@ -12366,7 +12366,7 @@
   {
     "code": 2672493,
     "event": 4,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 36,
     "kickoff_time": "2026-09-01T18:00:00Z",

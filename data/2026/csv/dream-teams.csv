@@ -32,14 +32,25 @@ gw,3,8,658,433036,Tijjani Reijnders,MID,13,False
 gw,3,9,244,139110,Ondrej Duda,MID,12,False
 gw,3,10,395,510595,Leandro Antunes,FWD,10,False
 gw,3,11,294,78007,Joshua King,FWD,10,False
-season,,1,438,425632,Mailson,GK,31,True
-season,,2,338,423618,Abdulelah Al Amri,DEF,27,False
-season,,3,229,194203,Jack Hendry,DEF,26,False
-season,,4,465,88477,Nacho,DEF,26,False
-season,,5,332,518620,Ângelo,MID,30,False
-season,,6,291,194252,Steven Bergwijn,MID,29,False
-season,,7,328,428399,João Félix,MID,29,False
-season,,8,329,110979,Sadio Mane,MID,28,False
-season,,9,224,165796,Álvaro Medrán,MID,26,False
-season,,10,74,144485,Ivan Toney,FWD,26,False
-season,,11,553,59966,Alexandre Lacazette,FWD,24,False
+gw,4,1,675,218362,Adrian Semper,GK,15,False
+gw,4,2,464,604258,Mohammed Abu Al Shamat,DEF,15,False
+gw,4,3,181,86129,Kalidou Koulibaly,DEF,10,False
+gw,4,4,210,222784,Théo Hernández,DEF,10,False
+gw,4,5,176,450070,Crysencio Summerville,MID,26,True
+gw,4,6,209,194384,Sultan Mandash,MID,23,False
+gw,4,7,207,180793,Sergej Savić,MID,21,False
+gw,4,8,625,441293,Lázaro,MID,18,False
+gw,4,9,200,171317,Rúben Neves,MID,17,False
+gw,4,10,177,447203,Darwin Nunez Nunez,FWD,17,False
+gw,4,11,611,229225,Alimami Gory,FWD,11,False
+season,,1,282,104407,Predrag Rajkovic,GK,35,False
+season,,2,338,423618,Abdulelah Al Amri,DEF,31,False
+season,,3,464,604258,Mohammed Abu Al Shamat,DEF,31,False
+season,,4,229,194203,Jack Hendry,DEF,29,False
+season,,5,465,88477,Nacho,DEF,29,False
+season,,6,200,171317,Rúben Neves,MID,43,True
+season,,7,176,450070,Crysencio Summerville,MID,40,False
+season,,8,207,180793,Sergej Savić,MID,38,False
+season,,9,209,194384,Sultan Mandash,MID,33,False
+season,,10,332,518620,Ângelo,MID,33,False
+season,,11,74,144485,Ivan Toney,FWD,33,False
