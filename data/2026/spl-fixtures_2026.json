@@ -13592,7 +13592,7 @@
         "identifier": "clearances_blocks_interceptions",
         "a": [
           {
-            "value": 18,
+            "value": 17,
             "element": 465
           },
           {
@@ -13600,7 +13600,7 @@
             "element": 462
           },
           {
-            "value": 7,
+            "value": 8,
             "element": 466
           },
           {
@@ -13617,7 +13617,7 @@
           },
           {
             "value": 4,
-            "element": 488
+            "element": 473
           },
           {
             "value": 3,
@@ -13625,15 +13625,15 @@
           },
           {
             "value": 3,
-            "element": 473
+            "element": 471
+          },
+          {
+            "value": 3,
+            "element": 488
           },
           {
             "value": 2,
             "element": 470
-          },
-          {
-            "value": 2,
-            "element": 471
           },
           {
             "value": 1,
@@ -13654,8 +13654,8 @@
             "element": 55
           },
           {
-            "value": 9,
-            "element": 628
+            "value": 8,
+            "element": 56
           },
           {
             "value": 8,
@@ -13663,7 +13663,11 @@
           },
           {
             "value": 8,
-            "element": 615
+            "element": 177
+          },
+          {
+            "value": 8,
+            "element": 628
           },
           {
             "value": 7,
@@ -13671,26 +13675,22 @@
           },
           {
             "value": 7,
-            "element": 56
-          },
-          {
-            "value": 7,
-            "element": 177
-          },
-          {
-            "value": 5,
             "element": 53
           },
           {
-            "value": 5,
+            "value": 7,
+            "element": 615
+          },
+          {
+            "value": 4,
             "element": 65
           },
           {
-            "value": 5,
+            "value": 4,
             "element": 629
           },
           {
-            "value": 3,
+            "value": 2,
             "element": 58
           },
           {
