@@ -1,15 +1,9 @@
 name: Fantasy Saudi Pro League Fetch
 
+# Runs are started by the ism-fantasy-scheduler Cloudflare Worker through
+# workflow_dispatch with a `slot` input. There is deliberately no `schedule`
+# trigger: GitHub's cron queue was starting runs hours late.
 on:
-  schedule:
-    # Fallback only. Runs are started on time by the ism-fantasy-scheduler
-    # Cloudflare Worker via workflow_dispatch; GitHub's own cron queue starts
-    # runs hours late. These map onto the same slots in the "Resolve slot"
-    # step. Remove this block once the Worker has run cleanly for a week.
-    - cron: '30 2 * * *'                 # nightly
-    - cron: '30 3 * * *'                 # retry
-    - cron: '30 4 * * *'                 # final
-    - cron: '30 10,12,14,16,18 * * *'    # daytime closure checks
   workflow_dispatch:
     inputs:
       slot:
@@ -72,27 +66,16 @@ jobs:
       - name: Resolve slot
         id: slot
         env:
-          EVENT_NAME: ${{ github.event_name }}
-          CRON: ${{ github.event.schedule }}
           INPUT_SLOT: ${{ github.event.inputs.slot }}
         run: |
-          # Which slot is this run? The external scheduler passes it as the
-          # `slot` input. GitHub's own schedule (fallback) is mapped from the
-          # cron hour. A run started by hand without a slot is `manual`.
+          # Which slot is this run? The ism-fantasy-scheduler Worker passes it
+          # as the `slot` input. A run started by hand without a slot is `manual`.
           #   nightly — daily run: refresh bootstrap/fixtures, fetch yesterday's results
           #   retry   — repeat nightly only if it fetched nothing; write nothing when idle
           #   final   — last retry; the only slot that fails on an unreachable API
           #   daytime — gameweek-closure check; write nothing when idle
           #   manual  — like nightly, but fails on an unreachable API
           SLOT="$INPUT_SLOT"
-          if [ "$EVENT_NAME" == "schedule" ]; then
-            case "$CRON" in
-              *" 2 * * *") SLOT=nightly ;;
-              *" 3 * * *") SLOT=retry ;;
-              *" 4 * * *") SLOT=final ;;
-              *)           SLOT=daytime ;;
-            esac
-          fi
           case "$SLOT" in
             "") SLOT=manual ;;
             manual|nightly|retry|final|daytime) ;;

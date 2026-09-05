@@ -98,10 +98,10 @@ without needing to know the current season year:
 
 Runs are started on time by an external scheduler — the
 [ism-fantasy-scheduler](https://github.com/TopMarx/ism-fantasy-scheduler)
-Cloudflare Worker — through `workflow_dispatch` with a `slot` input. GitHub's
-own cron queue has been starting runs hours late, so the workflow's
-`schedule` block is kept only as a fallback during the changeover; it maps
-its cron hours onto the same slots. Each day, UTC:
+Cloudflare Worker — through `workflow_dispatch` with a `slot` input. The
+workflow has no `schedule` trigger of its own: GitHub's cron queue was
+starting runs hours late, so all scheduling lives in the Worker. Each day,
+UTC:
 
 | Time | Slot | What happens |
 |---|---|---|
