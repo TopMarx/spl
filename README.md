@@ -96,12 +96,11 @@ without needing to know the current season year:
 
 ## Update schedule
 
-Runs are started on time by an external scheduler — the
-[ism-fantasy-scheduler](https://github.com/TopMarx/ism-fantasy-scheduler)
-Cloudflare Worker — through `workflow_dispatch` with a `slot` input. The
-workflow has no `schedule` trigger of its own: GitHub's cron queue was
-starting runs hours late, so all scheduling lives in the Worker. Each day,
-UTC:
+Runs are started on time by an external scheduler, a small Cloudflare Worker
+called `ism-fantasy-scheduler`, through `workflow_dispatch` with a `slot`
+input. The workflow has no `schedule` trigger of its own: GitHub's cron queue
+was starting runs hours late, so all scheduling lives in the Worker. Each
+day, UTC:
 
 | Time | Slot | What happens |
 |---|---|---|
@@ -126,14 +125,11 @@ but fails, rather than defers, if the API is unreachable.
 
 ### Monitoring
 
-Every successful, non-deferred run ends by pinging a
-[Healthchecks.io](https://healthchecks.io) check whose URL is held in the
-repo secret `HEARTBEAT_PING_URL` (the step skips itself if the secret is
-unset). The check expects a ping at least once a day, so an alert means no
-run in this repo has completed for over a day. That is how a dead scheduler
-or an expired token gets noticed: a run that never starts sends no failure
-email. Idle runs ping too, deliberately, because the check watches that runs
-happen, not that data changed.
+Every successful run ends by pinging a [Healthchecks.io](https://healthchecks.io)
+check, so the maintainer is alerted if this repository goes more than a day
+without a completed run — the silent failure case, where the scheduler or
+its credentials have stopped working and no run starts at all. Idle runs
+ping too: the check watches that runs happen, not that data changed.
 
 ### Provisional results
 
