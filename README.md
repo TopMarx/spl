@@ -124,6 +124,17 @@ an idle day, so idle retries and daytime checks leave no commits behind. A
 run started by hand from the Actions tab (slot `manual`) behaves like nightly
 but fails, rather than defers, if the API is unreachable.
 
+### Monitoring
+
+Every successful, non-deferred run ends by pinging a
+[Healthchecks.io](https://healthchecks.io) check whose URL is held in the
+repo secret `HEARTBEAT_PING_URL` (the step skips itself if the secret is
+unset). The check expects a ping at least once a day, so an alert means no
+run in this repo has completed for over a day. That is how a dead scheduler
+or an expired token gets noticed: a run that never starts sends no failure
+email. Idle runs ping too, deliberately, because the check watches that runs
+happen, not that data changed.
+
 ### Provisional results
 
 A match is picked up as soon as the league API reports a result — including a
