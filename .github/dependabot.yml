@@ -1,0 +1,12 @@
+# Keeps the GitHub Actions used by the fetch workflow current. The workflow
+# pins each action to a major version (@v7), so minor and patch releases are
+# picked up automatically and only a new major needs a change here — a
+# monthly look is plenty. Python and requests are not tracked: requests is
+# unpinned and always installs its latest release, and the Python minor is
+# bumped by hand once a year as part of the annual maintenance.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
