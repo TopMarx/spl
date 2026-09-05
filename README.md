@@ -88,7 +88,7 @@ without needing to know the current season year:
 |---|---|
 | `latest/spl-bootstrap.json` | Current bootstrap |
 | `latest/spl-fixtures.json` | Current fixtures |
-| `latest/players-{team_opta_id}.json` | Per-team player histories (one file per team) |
+| `latest/players-{team_opta_id}.json` | Per-team player histories (one file per team; appears after the team's first fetched match of the season — stale previous-season files are removed rather than left in place) |
 | `latest/fetch-manifest.json` | Fetch metadata and completion status |
 | `latest/players-history-past.json` | Previous-season summaries per player (regenerated on GW closure) |
 
@@ -109,7 +109,34 @@ Player element-summary files are only fetched when needed, keeping API
 usage polite and minimal.
 
 If match data is still being processed at 1am, retries run automatically at 2am
-and 3am UTC.
+and 3am UTC. If the league API itself is unreachable at 1am or 2am (for
+example a server error or maintenance), that run is skipped and the next
+retry picks up; only the 3am run reports an unreachable API as a failure.
+
+Gameweek closure is also checked during the day, at 09:00, 12:00, 15:00,
+18:00 and 21:00 UTC, because the platform usually confirms and checks a
+gameweek's data the day after its last match. Those runs write nothing
+unless a fetch actually happens, so idle checks leave no commits behind. A
+closure spotted by any run is fetched straight away, even if players were
+already fetched earlier that day.
+
+### Provisional results
+
+A match is picked up as soon as the league API reports a result — including a
+**provisional** one (`finished_provisional` true, `finished` still false),
+where the platform's final data checks are still pending. Any stat can still
+change when the match data is revised. This platform may not confirm a
+fixture until the gameweek closes, so waiting for `finished` would mean no
+daily data at all.
+
+Provisional stats are corrected automatically: every team that has played
+in the current gameweek is re-fetched on each subsequent match day, and the
+gameweek-closure fetch refreshes every player once the platform confirms
+the data.
+
+If the platform marks the gameweek `finished` before `data_checked`, the
+previous day's matches are still fetched that morning; the full closure
+fetch follows once the data checks complete.
 
 ### Season rollover
 
@@ -180,8 +207,15 @@ of the most recent fetch:
 | `gw_closure` | Full fetch of all players on GW closure |
 | `forced` | Manual full fetch via workflow dispatch |
 | `none` | No matches yesterday, nothing to fetch |
-| `waiting` | GW finished but data not yet checked |
+| `waiting` | GW finished but data not yet checked, and no matches yesterday to fetch |
 | `blocked` | Match data still processing, retrying next run |
+
+Additional fields: `reason` explains why a `none`/`waiting` run fetched
+nothing; `blocked_reason` explains a `blocked` run; `event_status` records
+the event-status verdict behind a player fetch (`all matches processed`,
+`provisional points on ... (final data checks pending — stats may still
+change)`, or `event-status unavailable` where the platform has no
+event-status endpoint).
 
 ---
 

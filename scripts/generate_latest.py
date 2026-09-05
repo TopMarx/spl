@@ -17,7 +17,10 @@ Writes to:
   latest/{slug}-fixtures.json
   latest/fetch-manifest.json
   latest/players-{team_opta_id}.json      — one file per team, current season
-                                          history only, all players on that team
+                                          history only, all players on that team.
+                                          A team's file appears after its first
+                                          fetched match of the season; files left
+                                          over from a previous season are removed.
 
 Player file format:
   {
@@ -130,13 +133,18 @@ def run(args):
 
     # ── Determine whether to regenerate history_past ──────────
     # history_past is essentially static within a season, so we only
-    # regenerate it on full player fetches (GW closure / forced) or
-    # when the target file doesn't exist yet.
+    # regenerate it on full player fetches (GW closure / forced), when the
+    # target file doesn't exist yet, or when it was built for a previous
+    # season (so a new season never serves last season's file).
     fetch_type = manifest.get("fetch_type") if isinstance(manifest, dict) else None
     history_past_path = latest_dir / "players-history-past.json"
+    existing_history_past = load_json(history_past_path) if history_past_path.exists() else None
+    existing_season = (
+        existing_history_past.get("season") if isinstance(existing_history_past, dict) else None
+    )
     write_history_past = (
         fetch_type in ("gw_closure", "forced")
-        or not history_past_path.exists()
+        or existing_season != args.season  # missing, or left over from last season
     )
 
     # ── Build per-team player files ───────────────────────────
@@ -210,6 +218,29 @@ def run(args):
         if team_opta_id not in team_players:
             team_players[team_opta_id] = []
         team_players[team_opta_id].append(player_entry)
+
+    # Remove stale per-team files:
+    #   - teams no longer in the league (relegated teams' files would
+    #     otherwise linger with last season's data forever)
+    #   - current teams whose file was built for a previous season and is
+    #     not being rewritten now (early in a season, teams that haven't
+    #     played yet). A missing file is preferable to one silently carrying
+    #     last season's squad and stats.
+    current_team_files = {f"players-{info['code']}.json" for info in team_lookup.values()}
+    rewriting = {f"players-{opta_id}.json" for opta_id in team_players}
+    for existing in sorted(latest_dir.glob("players-*.json")):
+        if existing.name == history_past_path.name or existing.name in rewriting:
+            continue
+        if existing.name not in current_team_files:
+            why = "team not in current season"
+        else:
+            data = load_json(existing)
+            file_season = data.get("season") if isinstance(data, dict) else None
+            if file_season == args.season:
+                continue
+            why = f"built for season {file_season}, not yet refreshed for {args.season}"
+        existing.unlink()
+        print(f"  REMOVED stale {existing.name} ({why})")
 
     # Write one file per team
     for team_opta_id, players in sorted(team_players.items()):

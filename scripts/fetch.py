@@ -19,21 +19,40 @@ On GW closure or forced fetch, also fetches:
   (Not every league platform exposes all of these — failures on the
   optional extras are logged and do not fail the run.)
 
-Checks event-status before any player fetch to ensure all match data
-is fully processed (points: "r"). If any match is live or unprocessed,
-exits cleanly — the workflow retries at the next scheduled runs.
+Checks event-status (where the platform provides it) before any player
+fetch. If any match is still live (points: "l") or has no points at all
+(points: ""), exits cleanly — the workflow retries at the next scheduled
+runs. Provisional points (points: "p", final data checks still pending)
+are accepted. Platforms without an event-status endpoint proceed.
+
+A fixture counts as having a result as soon as the API reports one —
+confirmed (`finished`) or provisional (`finished_provisional`). ISM
+platforms may not confirm a fixture until the gameweek closes, so waiting
+for `finished` would mean no daily data at all. Provisional stats are
+corrected by the re-fetches described below.
 
 Fetches player element-summaries when:
   - Matches were played yesterday (active GW): all players on teams that
-    have played any match in the current GW so far (catches stat revisions)
+    have played any match in the current GW so far — finished or
+    provisional. Re-fetching earlier teams each day corrects provisional
+    stats and catches revisions.
   - GW closure (finished + data_checked both True, not yet recorded in
     manifest): all players
+  (An active-GW fetch also runs while the GW is finished but not yet
+  data_checked — some platforms flip `finished` the night of the last
+  match and `data_checked` only the next day.)
 
 Failed players are retried once at the end of each run. Persistent failures
 are recorded in the manifest by player ID for visibility.
 
 The manifest (fetch-manifest.json) is committed back to the repo between
 GitHub Actions runs to persist state across VM instances.
+
+Gameweek closure is fetched as soon as any run sees it — a nightly slot or
+a daytime closure check — even if players were already fetched earlier that
+day; the once-a-day guard only applies to active-GW fetches. With
+--no-idle-writes (used by the daytime checks) nothing is written unless a
+player fetch goes ahead, so idle runs leave nothing to commit.
 
 Season guard: after downloading the bootstrap, the season is derived from
 the first event's deadline_time and compared against --season. On mismatch
@@ -47,6 +66,7 @@ Usage:
   python3 fetch.py --season 2026 --output data/2026 --date 2026-07-10
   python3 fetch.py --season 2026 --output data/2026 --force
   python3 fetch.py --season 2026 --output data/2026 --dry-run
+  python3 fetch.py --season 2026 --output data/2026 --no-idle-writes
 """
 
 from __future__ import annotations
@@ -257,13 +277,40 @@ def write_manifest(output: Path, manifest: dict) -> None:
     print(f"  → {manifest_path}")
 
 
+def maybe_write_manifest(output: Path, manifest: dict, write_now: bool) -> None:
+    """Write the manifest unless this run must leave the tree untouched
+    (dry run, or --no-idle-writes with nothing fetched)."""
+    if write_now:
+        write_manifest(output, manifest)
+    else:
+        print("  (manifest not written — dry run or --no-idle-writes)")
+
+
+def save_json(path: Path, data: dict | list) -> None:
+    """Write API data to disk with Opta-licensed fields stripped."""
+    with open(path, "w") as f:
+        json.dump(strip_opta_fields(data), f, indent=2)
+    print(f"  → {path}")
+
+
 # ─── Event Status ─────────────────────────────────────────────
 
 def check_event_status(session: requests.Session, yesterday) -> tuple[bool, str]:
     """
-    Fetch event-status and check whether all recent match data is processed.
-    Blocks if any match on or before yesterday shows points='l' (live) or
-    points='' (unprocessed). Only proceeds when all show points='r'.
+    Fetch event-status and check whether recent match data can be fetched.
+
+    Per-date `points` values seen from the API:
+      'l'  live — block
+      ''   no points yet — block
+      'p'  provisional (final data checks pending) — proceed
+      'r'  confirmed — proceed
+
+    Blocks if any match on or before yesterday is live or has no points.
+    Provisional points are accepted; the reason string says so, so the
+    caller can record that the fetched data may still change.
+
+    Not every league platform exposes event-status — if the request fails
+    (e.g. 404) the fetch proceeds and the reason says so.
     Returns (ok_to_fetch, reason).
     """
     try:
@@ -272,6 +319,7 @@ def check_event_status(session: requests.Session, yesterday) -> tuple[bool, str]
         print(f"  WARNING: Could not fetch event-status: {e} — proceeding anyway")
         return True, "event-status unavailable"
 
+    provisional_dates: list[str] = []
     for entry in status_data.get("status", []):
         date_str = entry.get("date", "")
         points = entry.get("points", "")
@@ -287,7 +335,13 @@ def check_event_status(session: requests.Session, yesterday) -> tuple[bool, str]
             return False, f"match on {date_str} is still live (points='l')"
         if points == "":
             return False, f"match on {date_str} has not yet been processed (points='')"
+        if points == "p":
+            provisional_dates.append(date_str)
+        elif points != "r":
+            print(f"  NOTE: unrecognised event-status points={points!r} on {date_str} — proceeding")
 
+    if provisional_dates:
+        return True, f"provisional points on {', '.join(provisional_dates)} (final data checks pending — stats may still change)"
     return True, "all matches processed"
 
 
@@ -338,21 +392,32 @@ def get_current_gw(bootstrap: dict) -> dict | None:
     return None
 
 
+def fixture_has_result(fix: dict) -> bool:
+    """
+    True once a fixture has a result — confirmed (`finished`) or provisional
+    (`finished_provisional`: full time reached, final data checks pending).
+    ISM platforms may leave a fixture provisional until the gameweek closes,
+    so daily fetches must accept provisional results or they would fetch
+    nothing until GW closure.
+    """
+    return bool(fix.get("finished") or fix.get("finished_provisional"))
+
+
 def get_teams_played_in_gw(fixtures: list, gw: int) -> set[int]:
-    """Get team IDs that have played any finished match in the given GW."""
+    """Get team IDs that have a result (finished or provisional) in the given GW."""
     teams = set()
     for fix in fixtures:
-        if fix.get("event") == gw and fix.get("finished"):
+        if fix.get("event") == gw and fixture_has_result(fix):
             teams.add(fix["team_h"])
             teams.add(fix["team_a"])
     return teams
 
 
 def get_fixtures_on_date(fixtures: list, target_date) -> list:
-    """Find finished fixtures with a kickoff on the target date (UTC)."""
+    """Find fixtures with a result (finished or provisional) kicking off on the target date (UTC)."""
     matched = []
     for fix in fixtures:
-        if not fix.get("finished"):
+        if not fixture_has_result(fix):
             continue
         ko = fix.get("kickoff_time")
         if not ko:
@@ -537,6 +602,10 @@ def run(args):
         print(f"\n  Manifest: last run {manifest.get('last_run', 'unknown')}")
         print(f"  Last GW closure recorded: GW{manifest.get('last_closed_gw', 'none')}")
 
+    # Per-run diagnostics must not leak from a previous run's outcome
+    for key in ("reason", "blocked_reason", "event_status"):
+        manifest.pop(key, None)
+
     session = requests.Session()
     session.headers.update(HEADERS)
 
@@ -570,11 +639,13 @@ def run(args):
 
     output.mkdir(parents=True, exist_ok=True)
 
-    if not args.dry_run:
-        bootstrap_path = output / f"{SLUG}-bootstrap_{args.season}.json"
-        with open(bootstrap_path, "w") as f:
-            json.dump(strip_opta_fields(bootstrap), f, indent=2)
-        print(f"  → {bootstrap_path}")
+    # --no-idle-writes (daytime closure checks): defer every write until a
+    # player fetch actually goes ahead, so an idle run leaves nothing to commit.
+    write_now = not args.dry_run and not args.no_idle_writes
+
+    bootstrap_path = output / f"{SLUG}-bootstrap_{args.season}.json"
+    if write_now:
+        save_json(bootstrap_path, bootstrap)
 
     elements = [
         el for el in bootstrap.get("elements", [])
@@ -591,14 +662,15 @@ def run(args):
         print(f"  FATAL: Failed to fetch fixtures after {MAX_RETRIES} attempts: {e}")
         raise SystemExit(1)
 
-    if not args.dry_run:
-        fixtures_path = output / f"{SLUG}-fixtures_{args.season}.json"
-        with open(fixtures_path, "w") as f:
-            json.dump(strip_opta_fields(fixtures), f, indent=2)
-        print(f"  → {fixtures_path}")
+    fixtures_path = output / f"{SLUG}-fixtures_{args.season}.json"
+    if write_now:
+        save_json(fixtures_path, fixtures)
 
     finished_count = sum(1 for fix in fixtures if fix.get("finished"))
-    print(f"  {len(fixtures)} fixtures ({finished_count} finished)")
+    provisional_count = sum(
+        1 for fix in fixtures if fix.get("finished_provisional") and not fix.get("finished")
+    )
+    print(f"  {len(fixtures)} fixtures ({finished_count} finished, {provisional_count} provisional)")
 
     team_lookup = {t["id"]: t for t in bootstrap.get("teams", [])}
 
@@ -609,7 +681,7 @@ def run(args):
     if not current_gw:
         print("  No current GW — off season or between seasons. Nothing to fetch.")
         manifest.update({"season": args.season, "fetch_type": "none", "reason": "no current GW"})
-        write_manifest(output, manifest)
+        maybe_write_manifest(output, manifest, write_now)
         set_github_outputs("", "none")
         print("\nDone!")
         return
@@ -627,22 +699,29 @@ def run(args):
     print("\n[4/5] Determining fetch scope...")
 
     fetch_type = "none"
+    skip_reason = ""  # recorded in the manifest when nothing is fetched
     team_ids: set[int] | None = None  # None = fetch all players
-
-    if not args.force and manifest.get("last_run"):
-        last_run = datetime.fromisoformat(manifest["last_run"])
-        last_fetch_type = manifest.get("fetch_type")
-        if (last_run.date() == datetime.now(timezone.utc).date()
-                and last_fetch_type not in ("blocked", "waiting", "none")):
-            print(f"  Already fetched today ({last_fetch_type} at {last_run.strftime('%H:%M')} UTC) — skipping")
-            set_github_outputs("", "none")
-            return
+    gw_closed = gw_finished and gw_data_checked
 
     if args.force:
         print(f"  --force forcing full player fetch")
         fetch_type = "forced"
 
-    elif not gw_finished:
+    elif gw_closed and last_closed_gw < gw_number:
+        print(f"  GW{gw_number} closed (finished + data_checked) — running full closure fetch")
+        fetch_type = "gw_closure"
+        closure_gw = gw_number
+
+    elif gw_closed:
+        print(f"  GW{gw_number} closure already recorded in manifest — nothing to fetch")
+        fetch_type = "none"  # already closed
+        skip_reason = f"GW{gw_number} closure already recorded"
+
+    else:
+        # GW still in progress, or finished but awaiting the platform's data
+        # checks. Some platforms flip `finished` the night of the last match
+        # and `data_checked` only the next day — yesterday's results are
+        # fetched in that window too, rather than waiting a day for closure.
         closure_gw = gw_number
         # ── Check if previous GW was not closed ───────────────
         if last_closed_gw < gw_number - 1:
@@ -662,32 +741,40 @@ def run(args):
             closure_gw = gw_number - 1
         else:
             fixtures_yesterday = get_fixtures_on_date(fixtures, target_date)
-            if not fixtures_yesterday:
-                print(f"  No matches on {target_date} — nothing to fetch")
-                fetch_type = "none"
-            else:
+            if fixtures_yesterday:
                 team_ids = get_teams_played_in_gw(fixtures, gw_number)
                 print(f"  {len(fixtures_yesterday)} match(es) on {target_date}:")
                 for fix in fixtures_yesterday:
-                        h = team_lookup.get(fix["team_h"], {}).get("short_name", "?")
-                        a = team_lookup.get(fix["team_a"], {}).get("short_name", "?")
-                        print(f"    {h} {fix['team_h_score']}-{fix['team_a_score']} {a}")
+                    h = team_lookup.get(fix["team_h"], {}).get("short_name", "?")
+                    a = team_lookup.get(fix["team_a"], {}).get("short_name", "?")
+                    tag = "" if fix.get("finished") else "  (provisional)"
+                    print(f"    {h} {fix['team_h_score']}-{fix['team_a_score']} {a}{tag}")
+                if gw_finished:
+                    print(f"  GW{gw_number} finished but data_checked is False — "
+                          f"fetching yesterday's results now; closure fetch follows once checked")
                 print(f"  Fetching all teams that have played in GW{gw_number} so far ({len(team_ids)} teams)")
                 fetch_type = "active_gw"
+            elif gw_finished:
+                print(f"  GW{gw_number} finished but data_checked is False — waiting")
+                fetch_type = "waiting"
+                skip_reason = f"GW{gw_number} finished but data_checked is False"
+            else:
+                print(f"  No matches on {target_date} — nothing to fetch")
+                fetch_type = "none"
+                skip_reason = f"no matches on {target_date}"
 
-
-    elif not gw_data_checked:
-        print(f"  GW{gw_number} finished but data_checked is False — waiting")
-        fetch_type = "waiting"
-    
-    elif last_closed_gw < gw_number:
-        print(f"  GW{gw_number} closed (finished + data_checked) — running full closure fetch")
-        fetch_type = "gw_closure"
-        closure_gw = gw_number
-    
-    else:
-        print(f"  GW{gw_number} closure already recorded in manifest — nothing to fetch")
-        fetch_type = "none"  # already closed
+    # ── Once-a-day guard (active-GW fetches only) ─────────────
+    # The 2am/3am retry slots must not re-fetch the same teams. Closure is
+    # exempt: it is guarded by last_closed_gw and may be spotted by any run,
+    # including the daytime closure checks. --force is manual.
+    if fetch_type == "active_gw" and manifest.get("last_run"):
+        last_run = datetime.fromisoformat(manifest["last_run"])
+        last_fetch_type = manifest.get("fetch_type")
+        if (last_run.date() == datetime.now(timezone.utc).date()
+                and last_fetch_type not in ("blocked", "waiting", "none")):
+            print(f"  Already fetched today ({last_fetch_type} at {last_run.strftime('%H:%M')} UTC) — skipping")
+            set_github_outputs("", "none")
+            return
 
     # ── Early exit if nothing to fetch ────────────────────────
     if fetch_type in ("none", "waiting"):
@@ -695,8 +782,9 @@ def run(args):
             "season": args.season,
             "current_gw": gw_number,
             "fetch_type": fetch_type,
+            "reason": skip_reason,
         })
-        write_manifest(output, manifest)
+        maybe_write_manifest(output, manifest, write_now)
         set_github_outputs(gw_number, fetch_type)
         print("\nDone!")
         return
@@ -704,9 +792,11 @@ def run(args):
     # ── Check event-status before fetching players ────────────
     print("\n[5/5] Fetching player data...")
 
+    event_status = "skipped (--force)"
     if not args.force:
         print("  Checking event-status...")
         ok, reason = check_event_status(session, target_date)
+        event_status = reason
         if not ok:
             print(f"  BLOCKED: {reason}")
             print("  Workflow will retry at next scheduled run.")
@@ -716,13 +806,18 @@ def run(args):
                 "fetch_type": "blocked",
                 "blocked_reason": reason,
             })
-            write_manifest(output, manifest)
+            maybe_write_manifest(output, manifest, write_now)
             set_github_outputs(gw_number, "blocked")
             print("\nDone!")
             return
         print(f"  event-status OK: {reason}")
 
     # ── Fetch players ─────────────────────────────────────────
+    if args.no_idle_writes and not args.dry_run:
+        # A fetch is going ahead — write the snapshots deferred from steps 1-2
+        save_json(bootstrap_path, bootstrap)
+        save_json(fixtures_path, fixtures)
+
     players_dir.mkdir(parents=True, exist_ok=True)
 
     expected, fetched, failed_ids = fetch_players(
@@ -771,6 +866,7 @@ def run(args):
         "season": args.season,
         "current_gw": gw_number,
         "fetch_type": fetch_type,
+        "event_status": event_status,
         "expected_count": expected,
         "fetched_count": fetched,
         "failed_ids": failed_ids,
@@ -807,6 +903,9 @@ def main():
                         help="Force a full player fetch")
     parser.add_argument("--dry-run", action="store_true",
                         help="Preview only — no files written, no player API calls")
+    parser.add_argument("--no-idle-writes", action="store_true",
+                        help="Write nothing unless a player fetch goes ahead "
+                             "(used by the daytime closure checks)")
     args = parser.parse_args()
 
     run(args)
