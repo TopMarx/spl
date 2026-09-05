@@ -126,10 +126,9 @@ but fails, rather than defers, if the API is unreachable.
 ### Monitoring
 
 Every successful run ends by pinging a [Healthchecks.io](https://healthchecks.io)
-check, so the maintainer is alerted if this repository goes more than a day
-without a completed run — the silent failure case, where the scheduler or
-its credentials have stopped working and no run starts at all. Idle runs
-ping too: the check watches that runs happen, not that data changed.
+check, so if this repository goes more than a day without a completed run
+the maintainer is alerted. This catches the silent failure where the
+scheduler or its credentials have stopped working and no run starts at all.
 
 ### Provisional results
 
