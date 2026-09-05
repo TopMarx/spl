@@ -58,7 +58,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v7
         with:
-          python-version: '3.12'
+          python-version: '3.14'
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -157,14 +157,22 @@ jobs:
         run: python3 scripts/fetch.py ${{ steps.fetch_args.outputs.args }}
 
       # ── Generate CSVs and latest/ (only when players were fetched) ──
+      # These steps and the commit also run when the fetch step failed part-way
+      # (a player still missing after its retry): the players that did arrive
+      # and the manifest listing the failed IDs are committed, and the run
+      # still fails so the failure is seen. An empty fetch_type means the
+      # script stopped before reporting anything (season guard, API down), so
+      # there is nothing to generate or commit.
 
       - name: Generate CSVs
         if: |
           steps.season.outputs.skip != 'true' &&
           github.event.inputs.dry_run != 'true' &&
+          steps.fetch.outputs.fetch_type != '' &&
           steps.fetch.outputs.fetch_type != 'none' &&
           steps.fetch.outputs.fetch_type != 'waiting' &&
-          steps.fetch.outputs.fetch_type != 'blocked'
+          steps.fetch.outputs.fetch_type != 'blocked' &&
+          !cancelled()
         run: |
           python3 scripts/generate_csv.py \
             --season ${{ steps.season.outputs.season }}
@@ -173,9 +181,11 @@ jobs:
         if: |
           steps.season.outputs.skip != 'true' &&
           github.event.inputs.dry_run != 'true' &&
+          steps.fetch.outputs.fetch_type != '' &&
           steps.fetch.outputs.fetch_type != 'none' &&
           steps.fetch.outputs.fetch_type != 'waiting' &&
-          steps.fetch.outputs.fetch_type != 'blocked'
+          steps.fetch.outputs.fetch_type != 'blocked' &&
+          !cancelled()
         run: |
           python3 scripts/generate_latest.py \
             --season ${{ steps.season.outputs.season }}
@@ -183,7 +193,11 @@ jobs:
       # ── Commit and push ──────────────────────────────────────
 
       - name: Commit and push
-        if: steps.season.outputs.skip != 'true' && github.event.inputs.dry_run != 'true'
+        if: |
+          steps.season.outputs.skip != 'true' &&
+          github.event.inputs.dry_run != 'true' &&
+          steps.fetch.outputs.fetch_type != '' &&
+          !cancelled()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -194,9 +208,10 @@ jobs:
 
       # ── Optional heartbeat ───────────────────────────────────
       # Set a repo secret named HEARTBEAT_PING_URL to enable; skipped otherwise.
+      # Not sent for dry runs: a dry run must not stand in for a real one.
 
       - name: Heartbeat ping
-        if: success() && steps.season.outputs.skip != 'true'
+        if: success() && steps.season.outputs.skip != 'true' && github.event.inputs.dry_run != 'true'
         env:
           PING_URL: ${{ secrets.HEARTBEAT_PING_URL }}
         run: |

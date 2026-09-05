@@ -51,8 +51,9 @@ GitHub Actions runs to persist state across VM instances.
 Gameweek closure is fetched as soon as any run sees it — a nightly slot or
 a daytime closure check — even if players were already fetched earlier that
 day; the once-a-day guard only applies to active-GW fetches. With
---no-idle-writes (used by the daytime checks) nothing is written unless a
-player fetch goes ahead, so idle runs leave nothing to commit.
+--no-idle-writes (used by the retry, final and daytime slots) nothing is
+written unless a player fetch goes ahead, so idle runs leave nothing to
+commit.
 
 Season guard: after downloading the bootstrap, the season is derived from
 the first event's deadline_time and compared against --season. On mismatch
@@ -725,17 +726,19 @@ def run(args):
         closure_gw = gw_number
         # ── Check if previous GW was not closed ───────────────
         if last_closed_gw < gw_number - 1:
-            # Quick turnaround: previous GW finished but not yet recorded in manifest. Example:
-            # | Day (1am CRON) | Matches yesterday      | current_gw | last_closed_gw | finished |
-            # |----------------|------------------------|------------|----------------|----------|
-            # | Thu            | GW10 Wed matches       | GW10       | 9              | false    |
-            # | Fri            | GW10 Thu 8pm match     | GW10       | 9              | false    |
-            # | Sat            | GW11 Fri 8pm match     | GW11       | 9              | false    |
-            # on the Friday CRON the GW is not finished per the bootstrap, so "gw_closure" never triggers
-            # ------------------------------------------------------------------------------------
-            # checking if last_closed_gw is less than gw -1 triggers the "gw_closure"
-            # fetch_type is set to "gw_closure" even though the current GW is also active —
-            # this is intentional and has no downstream impact as gw_closure is informational.
+            # Quick turnaround: the previous GW is over but its closure was never
+            # recorded. Example (each row is that day's nightly run):
+            # | Day | Matches yesterday   | current_gw | last_closed_gw | finished |
+            # |-----|---------------------|------------|----------------|----------|
+            # | Thu | GW10 Wed matches    | GW10       | 9              | false    |
+            # | Fri | GW10 Thu 8pm match  | GW10       | 9              | false    |
+            # | Sat | GW11 Fri 8pm match  | GW11       | 9              | false    |
+            # On Friday the bootstrap does not yet show GW10 finished, so the
+            # normal closure branch never fires; by Saturday GW11 is current.
+            # last_closed_gw < gw - 1 catches this and closes GW10 now, whether
+            # or not the platform ever sets its data_checked flag (some never
+            # do). fetch_type is "gw_closure" even though the current GW is
+            # also active — intentional; the label is informational.
             print(f"  GW{gw_number - 1} closed but not yet recorded — prioritising backfill closure fetch")
             fetch_type = "gw_closure"
             closure_gw = gw_number - 1
@@ -764,14 +767,17 @@ def run(args):
                 skip_reason = f"no matches on {target_date}"
 
     # ── Once-a-day guard (active-GW fetches only) ─────────────
-    # The 2am/3am retry slots must not re-fetch the same teams. Closure is
-    # exempt: it is guarded by last_closed_gw and may be spotted by any run,
-    # including the daytime closure checks. --force is manual.
+    # The retry and final slots must not re-fetch the same teams after a
+    # completed nightly fetch. A fetch that failed part-way (a player still
+    # missing after its retry) is repeated. Closure is exempt: it is guarded
+    # by last_closed_gw and may be spotted by any run, including the daytime
+    # closure checks. --force is manual.
     if fetch_type == "active_gw" and manifest.get("last_run"):
         last_run = datetime.fromisoformat(manifest["last_run"])
         last_fetch_type = manifest.get("fetch_type")
         if (last_run.date() == datetime.now(timezone.utc).date()
-                and last_fetch_type not in ("blocked", "waiting", "none")):
+                and last_fetch_type not in ("blocked", "waiting", "none")
+                and manifest.get("completed", True)):
             print(f"  Already fetched today ({last_fetch_type} at {last_run.strftime('%H:%M')} UTC) — skipping")
             set_github_outputs("", "none")
             return
@@ -908,7 +914,7 @@ def main():
                         help="Preview only — no files written, no player API calls")
     parser.add_argument("--no-idle-writes", action="store_true",
                         help="Write nothing unless a player fetch goes ahead "
-                             "(used by the daytime closure checks)")
+                             "(used by the retry, final and daytime slots)")
     args = parser.parse_args()
 
     run(args)

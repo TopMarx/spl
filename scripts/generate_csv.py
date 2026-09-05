@@ -72,6 +72,17 @@ def player_display_name(el: dict) -> str:
     return f"{first} {second}".strip()
 
 
+def gw_dirs(gameweeks_dir: Path) -> list[Path]:
+    """gw{N} directories in gameweek order (gw2 before gw10)."""
+    numbered = []
+    for d in gameweeks_dir.glob("gw*"):
+        try:
+            numbered.append((int(d.name[2:]), d))
+        except ValueError:
+            continue
+    return [d for _, d in sorted(numbered)]
+
+
 # ─── Generators ───────────────────────────────────────────────
 
 def generate_players(bootstrap: dict, team_lookup: dict, csv_dir: Path) -> None:
@@ -219,7 +230,7 @@ def generate_live(gameweeks_dir: Path, csv_dir: Path) -> None:
     ]
 
     rows = []
-    for gw_dir in sorted(gameweeks_dir.glob("gw*")):
+    for gw_dir in gw_dirs(gameweeks_dir):
         live_path = gw_dir / "live.json"
         live = load_json(live_path)
         if not isinstance(live, dict):
@@ -274,7 +285,7 @@ def generate_dream_teams(
             })
         return result
 
-    for gw_dir in sorted(gameweeks_dir.glob("gw*")):
+    for gw_dir in gw_dirs(gameweeks_dir):
         dt_path = gw_dir / "dream-team.json"
         data = load_json(dt_path)
         if not isinstance(data, dict):

@@ -113,7 +113,9 @@ plus live points, GW dream team, season dream team, and regions. The
 platform usually confirms and checks a gameweek's data during the day after
 its last match, which is what the daytime checks are for. A closure spotted
 by any run is fetched straight away, even if players were already fetched
-earlier that day.
+earlier that day. A gameweek the platform never marks `data_checked` is still
+treated as closed once the next gameweek has become current, so its closure
+fetch is not skipped.
 
 Player element-summary files are only fetched when needed, keeping API usage
 polite and minimal. Only the nightly run refreshes bootstrap and fixtures on
