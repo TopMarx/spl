@@ -2,12 +2,27 @@ name: Fantasy Saudi Pro League Fetch
 
 on:
   schedule:
-    - cron: '7 1 * * *'   # Primary fetch at 1am UTC
-    - cron: '7 2 * * *'   # Retry if 1am blocked by live/unprocessed data
-    - cron: '7 3 * * *'   # Final retry if 2am still blocked
-    - cron: '7 9,12,15,18,21 * * *'   # Daytime closure checks (write nothing unless a fetch happens)
+    # Fallback only. Runs are started on time by the ism-fantasy-scheduler
+    # Cloudflare Worker via workflow_dispatch; GitHub's own cron queue starts
+    # runs hours late. These map onto the same slots in the "Resolve slot"
+    # step. Remove this block once the Worker has run cleanly for a week.
+    - cron: '30 2 * * *'                 # nightly
+    - cron: '30 3 * * *'                 # retry
+    - cron: '30 4 * * *'                 # final
+    - cron: '30 10,12,14,16,18 * * *'    # daytime closure checks
   workflow_dispatch:
     inputs:
+      slot:
+        description: 'Scheduler slot (manual = run now like nightly, fail if the API is down)'
+        required: false
+        default: manual
+        type: choice
+        options:
+          - manual
+          - nightly
+          - retry
+          - final
+          - daytime
       dry_run:
         description: 'Dry run (no files written)'
         required: false
@@ -54,11 +69,42 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Determine current season
-        id: season
+      - name: Resolve slot
+        id: slot
         env:
           EVENT_NAME: ${{ github.event_name }}
           CRON: ${{ github.event.schedule }}
+          INPUT_SLOT: ${{ github.event.inputs.slot }}
+        run: |
+          # Which slot is this run? The external scheduler passes it as the
+          # `slot` input. GitHub's own schedule (fallback) is mapped from the
+          # cron hour. A run started by hand without a slot is `manual`.
+          #   nightly — daily run: refresh bootstrap/fixtures, fetch yesterday's results
+          #   retry   — repeat nightly only if it fetched nothing; write nothing when idle
+          #   final   — last retry; the only slot that fails on an unreachable API
+          #   daytime — gameweek-closure check; write nothing when idle
+          #   manual  — like nightly, but fails on an unreachable API
+          SLOT="$INPUT_SLOT"
+          if [ "$EVENT_NAME" == "schedule" ]; then
+            case "$CRON" in
+              *" 2 * * *") SLOT=nightly ;;
+              *" 3 * * *") SLOT=retry ;;
+              *" 4 * * *") SLOT=final ;;
+              *)           SLOT=daytime ;;
+            esac
+          fi
+          case "$SLOT" in
+            "") SLOT=manual ;;
+            manual|nightly|retry|final|daytime) ;;
+            *) echo "FATAL: unknown slot '$SLOT'"; exit 1 ;;
+          esac
+          echo "Slot: $SLOT"
+          echo "slot=$SLOT" >> $GITHUB_OUTPUT
+
+      - name: Determine current season
+        id: season
+        env:
+          SLOT: ${{ steps.slot.outputs.slot }}
         run: |
           # Derived from the league API itself (first event's deadline_time),
           # NOT the calendar. The old game keeps serving last season's data
@@ -66,21 +112,22 @@ jobs:
           # finished season during that window.
           #
           # If the API is unreachable (5xx, between-games maintenance) on the
-          # 1am or 2am slot, defer to the next scheduled retry instead of
-          # failing — a transient outage that clears by 3am should not raise
-          # an alert. The 3am slot and manual runs still fail on an
-          # unreachable API so a real outage is seen once a day.
+          # nightly, retry or daytime slot, defer to the next slot instead of
+          # failing — a transient outage should not raise an alert. The final
+          # slot and manual runs still fail on an unreachable API, so a real
+          # outage is seen once a day.
           set +e
           SEASON=$(python3 scripts/current_season.py)
           STATUS=$?
           set -e
           if [ "$STATUS" -ne 0 ] || ! [[ "$SEASON" =~ ^20[0-9]{2}$ ]]; then
-            if [ "$EVENT_NAME" == "schedule" ] && [[ "$CRON" != *" 3 * * *" ]]; then
-              echo "League API unavailable (exit $STATUS) — deferring to the next scheduled retry"
-              echo "League API unavailable at this slot — deferred to the next scheduled retry" >> "$GITHUB_STEP_SUMMARY"
-              echo "skip=true" >> $GITHUB_OUTPUT
-              exit 0
-            fi
+            case "$SLOT" in
+              nightly|retry|daytime)
+                echo "League API unavailable (exit $STATUS) — deferring to the next slot"
+                echo "League API unavailable at the $SLOT slot — deferred to the next slot" >> "$GITHUB_STEP_SUMMARY"
+                echo "skip=true" >> $GITHUB_OUTPUT
+                exit 0 ;;
+            esac
             echo "FATAL: could not derive season from the league API (exit $STATUS, output '$SEASON')"
             exit 1
           fi
@@ -93,20 +140,16 @@ jobs:
         id: fetch_args
         if: steps.season.outputs.skip != 'true'
         env:
-          EVENT_NAME: ${{ github.event_name }}
-          CRON: ${{ github.event.schedule }}
+          SLOT: ${{ steps.slot.outputs.slot }}
         run: |
           ARGS="--season ${{ steps.season.outputs.season }} --output data/${{ steps.season.outputs.season }}"
 
-          # The 1-3am slots are the daily runs and always refresh bootstrap and
-          # fixtures. Any other schedule is a daytime closure check: it writes
-          # (and so commits) only when a player fetch actually happens.
-          if [ "$EVENT_NAME" == "schedule" ]; then
-            case "$CRON" in
-              *" 1 * * *"|*" 2 * * *"|*" 3 * * *") ;;
-              *) ARGS="$ARGS --no-idle-writes" ;;
-            esac
-          fi
+          # Only the nightly and manual slots refresh bootstrap and fixtures on
+          # an idle day. Retries and daytime closure checks write — and so
+          # commit — only when a player fetch actually happens.
+          case "$SLOT" in
+            retry|final|daytime) ARGS="$ARGS --no-idle-writes" ;;
+          esac
 
           if [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
             ARGS="$ARGS --dry-run"
