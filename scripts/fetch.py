@@ -860,7 +860,10 @@ def run(args):
         manifest["last_closed_gw"] = closure_gw
       
     elif fetch_type == "forced" and completed:
-        manifest["last_closed_gw"] = gw_number if gw_finished else gw_number - 1
+        # A forced run only counts as the closure of a GW whose data checks
+        # are done. A GW that is finished but not yet data_checked must still
+        # get its confirmed-data closure fetch once the platform checks it.
+        manifest["last_closed_gw"] = gw_number if (gw_finished and gw_data_checked) else gw_number - 1
 
     manifest.update({
         "season": args.season,
