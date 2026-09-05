@@ -124,8 +124,15 @@ jobs:
         if: steps.season.outputs.skip != 'true'
         env:
           SLOT: ${{ steps.slot.outputs.slot }}
+          SEASON: ${{ steps.season.outputs.season }}
+          # Inputs arrive through the environment, never spliced into the
+          # script: a workflow_dispatch input is text from whoever started the
+          # run, and this job can push to the repo.
+          INPUT_DRY_RUN: ${{ github.event.inputs.dry_run }}
+          INPUT_FORCE: ${{ github.event.inputs.force }}
+          INPUT_DATE: ${{ github.event.inputs.date }}
         run: |
-          ARGS="--season ${{ steps.season.outputs.season }} --output data/${{ steps.season.outputs.season }}"
+          ARGS="--season $SEASON --output data/$SEASON"
 
           # Only the nightly and manual slots refresh bootstrap and fixtures on
           # an idle day. Retries and daytime closure checks write — and so
@@ -134,16 +141,20 @@ jobs:
             retry|final|daytime) ARGS="$ARGS --no-idle-writes" ;;
           esac
 
-          if [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
+          if [ "$INPUT_DRY_RUN" == "true" ]; then
             ARGS="$ARGS --dry-run"
           fi
 
-          if [ "${{ github.event.inputs.force }}" == "true" ]; then
+          if [ "$INPUT_FORCE" == "true" ]; then
             ARGS="$ARGS --force"
           fi
 
-          if [ -n "${{ github.event.inputs.date }}" ]; then
-            ARGS="$ARGS --date ${{ github.event.inputs.date }}"
+          if [ -n "$INPUT_DATE" ]; then
+            if ! [[ "$INPUT_DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+              echo "FATAL: date must be YYYY-MM-DD, got '$INPUT_DATE'"
+              exit 1
+            fi
+            ARGS="$ARGS --date $INPUT_DATE"
           fi
 
           echo "args=$ARGS" >> $GITHUB_OUTPUT
@@ -154,7 +165,9 @@ jobs:
       - name: Run fetch
         id: fetch
         if: steps.season.outputs.skip != 'true'
-        run: python3 scripts/fetch.py ${{ steps.fetch_args.outputs.args }}
+        env:
+          ARGS: ${{ steps.fetch_args.outputs.args }}
+        run: python3 scripts/fetch.py $ARGS
 
       # ── Generate CSVs and latest/ (only when players were fetched) ──
       # These steps and the commit also run when the fetch step failed part-way
