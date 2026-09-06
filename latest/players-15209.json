@@ -2,7 +2,7 @@
   "team_opta_id": 15209,
   "team_name": "NEOM SC",
   "season": 2026,
-  "generated_at": "2026-09-06T02:50:27.840924+00:00",
+  "generated_at": "2026-09-06T12:50:13.748601+00:00",
   "players": [
     {
       "player_id": 622,
@@ -7639,6 +7639,55 @@
           "selected": 31,
           "transfers_in": 0,
           "transfers_out": 3
+        }
+      ]
+    },
+    {
+      "player_id": 682,
+      "opta_id": 195982,
+      "first_name": "Valentín",
+      "second_name": "Vada",
+      "web_name": "Vada",
+      "known_name": "",
+      "position": "MID",
+      "history": [
+        {
+          "element": 682,
+          "fixture": 39,
+          "opponent_team": 7,
+          "total_points": 0,
+          "was_home": true,
+          "kickoff_time": "2026-09-03T16:30:00Z",
+          "team_h_score": 3,
+          "team_a_score": 0,
+          "round": 5,
+          "modified": false,
+          "minutes": 0,
+          "goals_scored": 0,
+          "assists": 0,
+          "clean_sheets": 0,
+          "goals_conceded": 0,
+          "penalties_saved": 0,
+          "penalties_missed": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "saves": 0,
+          "own_goals": 0,
+          "bonus": 0,
+          "fmmp": 0,
+          "winning_goals": 0,
+          "won_tackle": 0,
+          "accurate_pass": 0,
+          "clearances_blocks_interceptions": 0,
+          "shot_target": 0,
+          "big_chance_created": 0,
+          "big_chance_missed": 0,
+          "performance_index": 0,
+          "value": 60,
+          "transfers_balance": 0,
+          "selected": 0,
+          "transfers_in": 0,
+          "transfers_out": 0
         }
       ]
     },

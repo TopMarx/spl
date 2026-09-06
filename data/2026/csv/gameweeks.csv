@@ -3,7 +3,7 @@ id,name,deadline_time,average_entry_score,highest_score,finished,data_checked,is
 2,Round 2,2026-08-20T17:55:00Z,75,169,True,True,False,False,False
 3,Round 3,2026-08-24T16:35:00Z,46,133,True,True,False,False,False
 4,Round 4,2026-08-28T15:45:00Z,79,182,True,True,True,False,False
-5,Round 5,2026-09-03T15:50:00Z,76,174,False,False,False,True,False
+5,Round 5,2026-09-03T15:50:00Z,82,174,True,True,False,True,False
 6,Round 6,2026-09-07T15:25:00Z,0,,False,False,False,False,True
 7,Round 7,2026-09-11T15:20:00Z,0,,False,False,False,False,False
 8,Round 8,2026-10-09T13:45:00Z,0,,False,False,False,False,False
