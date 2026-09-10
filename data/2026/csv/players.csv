@@ -1,20 +1,20 @@
 player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_id,team_name,team_short_name,element_type,position,status,news,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,fmmp,winning_goals,won_tackle,accurate_pass,clearances_blocks_interceptions,shot_target,big_chance_created,big_chance_missed,performance_index,total_points,now_cost,selected_by_percent
-74,144485,Ivan,Toney,Toney,,1,6770,Al Ahli,AHL,4,FWD,a,,515,8,0,3,9,0,0,0,2,0,0,5,1,2,2,78,13,14,2,5,471,61,121,48.6
+74,144485,Ivan,Toney,Toney,,1,6770,Al Ahli,AHL,4,FWD,a,,515,8,0,3,9,0,0,0,2,0,0,5,1,2,2,78,13,14,2,5,471,61,121,48.9
 75,222564,Francisco,Trincao,Trincao,Trincão,1,6770,Al Ahli,AHL,3,MID,a,,494,2,2,3,8,0,0,0,0,0,0,3,0,0,4,131,25,4,5,0,383,35,79,6.1
-76,243157,Wenderson,Rodrigues do Nascimento Galeno,Galeno,Galeno,1,6770,Al Ahli,AHL,3,MID,a,,335,0,1,2,5,0,0,0,0,0,0,0,0,0,0,72,18,3,1,2,271,14,74,6.9
+76,243157,Wenderson,Rodrigues do Nascimento Galeno,Galeno,Galeno,1,6770,Al Ahli,AHL,3,MID,a,,335,0,1,2,5,0,0,0,0,0,0,0,0,0,0,72,18,3,1,2,271,14,74,6.8
 77,515117,Eduard,Spertsyan,Spertsyan,,1,6770,Al Ahli,AHL,3,MID,a,,498,2,2,3,9,0,0,0,1,0,0,4,1,1,3,194,27,2,5,0,412,42,72,32.1
 78,430788,Roger,Ibañez,Ibañez,Roger Ibañez,1,6770,Al Ahli,AHL,2,DEF,a,,540,0,0,3,9,0,0,0,1,0,0,3,0,0,5,365,75,2,0,1,384,40,65,34.5
 80,250793,Feras,Al Buraikan,Feras,Feras Al Brikan,1,6770,Al Ahli,AHL,4,FWD,a,,215,0,1,0,5,0,0,0,0,0,0,0,0,0,7,27,8,0,0,0,77,13,59,2.8
 81,228286,Édouard,Mendy,Mendy,,1,6770,Al Ahli,AHL,1,GK,a,,450,0,0,2,9,0,0,0,0,0,11,1,0,0,0,130,36,0,0,0,261,20,55,9.7
 82,566447,Matheus,Gonçalves,Matheus,Matheus Gonçalves,1,6770,Al Ahli,AHL,3,MID,a,,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,4,0,0,0,0,1,54,0.5
-83,439128,Merih,Demiral,Demiral,,1,6770,Al Ahli,AHL,2,DEF,a,,411,0,0,2,9,0,0,0,0,1,0,1,0,0,5,224,43,1,0,1,248,22,56,26.1
+83,439128,Merih,Demiral,Demiral,,1,6770,Al Ahli,AHL,2,DEF,a,,411,0,0,2,9,0,0,0,0,1,0,1,0,0,5,224,43,1,0,1,248,22,56,26.0
 84,538001,Saleh,Abu Al Shamat,S. Al Shamat,Saleh Abu Al Shamat,1,6770,Al Ahli,AHL,3,MID,a,,96,0,1,0,2,0,0,0,0,0,0,0,0,0,5,46,14,1,2,2,0,9,55,0.6
 85,574464,Valentin,Atangana Edoa,Atangana,,1,6770,Al Ahli,AHL,3,MID,a,,517,0,0,3,9,0,0,0,2,0,0,0,0,0,9,151,43,2,0,0,365,19,55,1.5
 86,604259,Naif,Masoud,Naif,Naif Masoud,1,6770,Al Ahli,AHL,3,MID,a,,54,1,0,0,0,0,0,0,1,0,0,0,0,0,1,26,4,1,0,0,0,9,49,0.1
-87,591447,Zakaria,Hawsawi,Z. Hawsawi,Zakaria Hawsawi,1,6770,Al Ahli,AHL,2,DEF,a,,253,0,0,1,5,0,0,0,1,0,0,0,0,0,6,79,16,0,0,0,142,9,49,4.1
+87,591447,Zakaria,Hawsawi,Z. Hawsawi,Zakaria Hawsawi,1,6770,Al Ahli,AHL,2,DEF,a,,253,0,0,1,5,0,0,0,1,0,0,0,0,0,6,79,16,0,0,0,142,9,49,4.0
 88,511120,Ziad,Al Johani,Al Johani,Ziyad Al Johani,1,6770,Al Ahli,AHL,3,MID,a,,244,0,0,2,2,0,0,0,1,0,0,0,0,0,1,72,21,0,0,1,202,10,49,0.2
 89,514614,Saad,Belobaid,Belobaid,Saad Yaslam,1,6770,Al Ahli,AHL,2,DEF,a,,254,0,3,1,4,0,0,0,1,0,0,3,1,0,4,88,15,0,2,0,188,25,49,2.2
-91,514747,Abdulrahman,Alsanby,Al Sanbi,Abdulrahman Al Sanbi,1,6770,Al Ahli,AHL,1,GK,a,,90,0,0,1,0,0,0,0,0,0,3,2,0,0,0,26,7,0,0,0,88,10,45,5.1
+91,514747,Abdulrahman,Alsanby,Al Sanbi,Abdulrahman Al Sanbi,1,6770,Al Ahli,AHL,1,GK,a,,90,0,0,1,0,0,0,0,0,0,3,2,0,0,0,26,7,0,0,0,88,10,45,5.0
 93,727083,Bello,Suleiman,Bello,,1,6770,Al Ahli,AHL,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0.1
 95,642997,Ibrahim Montasser,Azzam,Azzam,Ibrahim Azzam,1,6770,Al Ahli,AHL,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0.0
 96,561163,Matteo,Dams,Dams,,1,6770,Al Ahli,AHL,2,DEF,u,Move to Club Brugge - إنتقال إلى كلوب بروج,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0.2
@@ -46,7 +46,7 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 121,666168,Muntathir,Al Shaqaq,M. Al Shaqaq,,2,6772,Al Fateh,FAT,2,DEF,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0.1
 122,738980,Abdulaziz,Al Suwailem,Al Suwailem,Abdulaziz Al Suwailem,2,6772,Al Fateh,FAT,2,DEF,a,,262,0,0,1,3,0,0,0,0,0,0,0,0,0,4,112,27,0,0,0,161,16,45,0.1
 123,722176,Fawaz Yousef,Al Hamad,Al Hamad,Fawaz Al Hamad,2,6772,Al Fateh,FAT,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0.1
-125,711791,Jefferson,Soares Oliveira Ramos,Jefferson,Jefferson Ramos,2,6772,Al Fateh,FAT,4,FWD,d,Doubtful - مشكوك في مشاركته,30,0,0,0,1,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,2,44,1.0
+125,711791,Jefferson,Soares Oliveira Ramos,Jefferson,Jefferson Ramos,2,6772,Al Fateh,FAT,4,FWD,d,Doubtful - مشكوك في مشاركته,30,0,0,0,1,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,2,44,0.9
 126,669101,Abdulaziz,Al Dabbas,Al Dabbas,,2,6772,Al Fateh,FAT,4,FWD,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0.0
 127,642991,Abdulaziz Khalid,Al Fawaz,Al Fawaz,Abdulaziz Al Fawaz,2,6772,Al Fateh,FAT,3,MID,a,,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,4,0,0,0,35,2,45,0.1
 128,564908,Ali,Al Masoud,A. Al Masoud,Ali Al Masoud,2,6772,Al Fateh,FAT,4,FWD,a,,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,2,44,0.2
@@ -56,7 +56,7 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 132,523772,Othman,Al Othman,O. Al Othman,,2,6772,Al Fateh,FAT,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0.0
 133,621478,Saad,Al Sharfa,Al Sharfa,Saad Al Sharfa,2,6772,Al Fateh,FAT,4,FWD,a,,45,0,0,0,0,0,0,0,0,0,0,0,0,0,1,20,0,0,0,0,0,5,45,0.1
 134,511952,Ziyad,Al Jari,Al Jari,Ziyad Al Jari,2,6772,Al Fateh,FAT,2,DEF,a,,50,0,0,0,0,0,0,0,0,0,0,0,0,0,1,26,9,0,0,0,0,4,44,0.0
-135,231849,Kennedy,Boateng,Boateng,,2,6772,Al Fateh,FAT,2,DEF,a,,445,0,0,1,7,0,0,0,2,0,0,0,0,0,4,198,49,1,0,1,221,19,45,0.4
+135,231849,Kennedy,Boateng,Boateng,,2,6772,Al Fateh,FAT,2,DEF,d,Doubtful - مشكوك في مشاركته,445,0,0,1,7,0,0,0,2,0,0,0,0,0,4,198,49,1,0,1,221,19,45,0.4
 136,206078,Marwane,Saadane,Saadane,,2,6772,Al Fateh,FAT,2,DEF,d,Doubtful - مشكوك في مشاركته,405,0,0,1,5,0,0,0,1,0,0,0,0,0,5,177,60,1,0,1,253,23,50,0.5
 137,606749,Fahad Aqeel,Al Zubaidi,F. Al Zubaidi,Fahad Al Zubaidi,2,6772,Al Fateh,FAT,4,FWD,a,,166,0,0,1,2,0,0,0,0,0,0,0,0,0,0,40,13,3,1,1,65,8,49,1.2
 138,544062,Mihai,Lixandru,Lixandru,,2,6772,Al Fateh,FAT,3,MID,a,,507,0,0,2,7,0,0,0,0,0,0,0,0,0,7,196,36,1,1,0,222,19,49,0.3
@@ -116,8 +116,8 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 178,517800,Hamad,Al Yami,H. Al Yami,Hamad Al Yami,4,1317,Al Hilal,HIL,2,DEF,d,Doubtful - مشكوك في مشاركته,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0.0
 179,423623,Hassan,Al Tambakti,H. Al Tambakti,Hassan Al Tambakti,4,1317,Al Hilal,HIL,2,DEF,a,,180,0,0,2,2,0,0,0,1,0,0,0,0,0,2,111,18,1,0,0,120,13,55,4.4
 180,121145,João Pedro,Cavaco Cancelo,Cancelo,,4,1317,Al Hilal,HIL,2,DEF,u,Move to Barcelona - انتقال الى برشلونة,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60,3.3
-181,86129,Kalidou,Koulibaly,Koulibaly,,4,1317,Al Hilal,HIL,2,DEF,a,,522,0,1,3,5,1,0,0,0,0,0,3,0,0,7,260,49,1,1,3,419,35,50,19.6
-182,19927,Karim,Benzema,Benzema,,4,1317,Al Hilal,HIL,4,FWD,u,Free Agent - لاعب حرّ,159,1,0,1,2,0,0,0,0,0,0,1,0,0,2,32,2,1,1,1,169,10,99,9.0
+181,86129,Kalidou,Koulibaly,Koulibaly,,4,1317,Al Hilal,HIL,2,DEF,a,,522,0,1,3,5,1,0,0,0,0,0,3,0,0,7,260,49,1,1,3,419,35,50,19.5
+182,19927,Karim,Benzema,Benzema,,4,1317,Al Hilal,HIL,4,FWD,u,Free Agent - لاعب حرّ,159,1,0,1,2,0,0,0,0,0,0,1,0,0,2,32,2,1,1,1,169,10,99,8.9
 183,181092,Malcom,De Oliveira,Malcom,,4,1317,Al Hilal,HIL,3,MID,u,Move to Al Jazira - إنتقال الى الجزيرة,90,1,0,0,2,0,0,0,0,0,0,0,0,0,0,16,1,1,0,1,81,7,85,1.5
 184,492970,Mathieu,Patouillet,Patouillet,,4,1317,Al Hilal,HIL,1,GK,u,Free Agent - لاعب حرّ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0.1
 185,642977,Meshal Sulaiman,Al Dawood,Al Dawood,Meshal Al Dawood,4,1317,Al Hilal,HIL,2,DEF,a,,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,2,39,0.0
@@ -126,7 +126,7 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 188,170031,Mohammed,Kanno,Kanno,Mohamed Kanno,4,1317,Al Hilal,HIL,3,MID,a,,413,0,1,2,5,0,0,0,1,0,0,2,0,0,5,209,31,4,1,4,368,21,59,2.2
 189,153885,Mohammed,Al Owais,Al Owais,Mohammed Al Owais,4,1317,Al Hilal,HIL,1,GK,a,,90,0,0,0,2,0,0,0,0,0,3,0,0,0,0,14,5,0,0,0,53,2,44,0.3
 190,725254,Mohammed,Al Sarnoukh,Al Sarnoukh,Mohammed Al Sarnoukh,4,1317,Al Hilal,HIL,2,DEF,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,0.1
-191,517563,Mohammed,Mahzari,Mahzari,Mohammed Mahzari,4,1317,Al Hilal,HIL,2,DEF,a,,533,0,2,3,5,0,0,0,0,0,0,1,1,0,5,205,51,0,3,0,410,42,51,23.8
+191,517563,Mohammed,Mahzari,Mahzari,Mohammed Mahzari,4,1317,Al Hilal,HIL,2,DEF,a,,533,0,2,3,5,0,0,0,0,0,0,1,1,0,5,205,51,0,3,0,410,42,51,24.0
 192,623063,Mohammed,bin Al Muhaysh,Al Muhaysh,,4,1317,Al Hilal,HIL,2,DEF,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39,0.0
 194,505480,Moteb,Al Harbi,M. Al Harbi,Moteb Al Harbi,4,1317,Al Hilal,HIL,2,DEF,a,,354,0,0,2,4,0,0,0,0,0,0,0,0,0,5,196,33,1,1,0,264,20,50,1.6
 195,635631,Murad,Al Hawsawi,M. Al Hawsawi,Murad Al Hawsawi,4,1317,Al Hilal,HIL,3,MID,a,,20,0,0,0,0,0,0,0,0,0,0,0,0,0,1,28,5,0,0,0,0,3,49,0.0
@@ -144,16 +144,16 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 207,180793,Sergej,Savić,Savić,,4,1317,Al Hilal,HIL,3,MID,a,,527,4,1,3,5,0,0,0,1,0,0,6,0,4,8,241,41,5,4,1,468,56,96,14.7
 208,606747,Suhayb Ayman,Al Zaid,Al Zaid,Suhayb Al Zaid,4,1317,Al Hilal,HIL,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0.0
 209,194384,Sultan,Mandash,Mandash,Sultan Mandash,4,1317,Al Hilal,HIL,3,MID,a,,380,2,2,3,1,0,0,0,0,0,0,4,2,0,7,127,21,3,3,3,355,37,60,4.9
-210,222784,Theo,Hernandez,T. Hernandez,Théo Hernández,4,1317,Al Hilal,HIL,2,DEF,d,Doubtful - مشكوك في مشاركته,133,1,0,0,1,0,0,0,0,0,0,0,0,0,1,46,7,2,0,0,155,11,63,14.1
+210,222784,Theo,Hernandez,T. Hernandez,Théo Hernández,4,1317,Al Hilal,HIL,2,DEF,d,Doubtful - مشكوك في مشاركته,133,1,0,0,1,0,0,0,0,0,0,0,0,0,1,46,7,2,0,0,155,11,63,14.0
 211,615812,Turki Mashour,Al Ghamil,Al Ghamil,,4,1317,Al Hilal,HIL,4,FWD,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0.0
-212,120026,Yassine,Bono,Bono,,4,1317,Al Hilal,HIL,1,GK,d,Doubtful - مشكوك في مشاركته,450,0,0,3,3,0,1,0,0,0,11,0,0,0,0,98,37,0,0,0,346,33,55,34.5
+212,120026,Yassine,Bono,Bono,,4,1317,Al Hilal,HIL,1,GK,d,Doubtful - مشكوك في مشاركته,450,0,0,3,3,0,1,0,0,0,11,0,0,0,0,98,37,0,0,0,346,33,55,34.2
 213,637256,Yusuf,Akçiçek,Yusuf,,4,1317,Al Hilal,HIL,2,DEF,a,,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,2,0,0,0,0,1,42,0.0
-677,178301,Ollie,Watkins,Watkins,,4,1317,Al Hilal,HIL,4,FWD,a,,222,1,0,1,2,0,0,0,0,0,0,2,0,0,0,32,4,5,0,2,156,13,100,13.4
+677,178301,Ollie,Watkins,Watkins,,4,1317,Al Hilal,HIL,4,FWD,a,,222,1,0,1,2,0,0,0,0,0,0,2,0,0,0,32,4,5,0,2,156,13,100,13.3
 681,444145,Gabriel,Teodoro Martinelli Silva,Martinelli,,4,1317,Al Hilal,HIL,3,MID,a,,105,0,0,0,2,0,0,0,0,0,0,1,0,0,2,18,4,1,0,0,66,4,85,0.6
 215,595962,Abdulbasit,Hawsawi,A. Hawsawi,Abdulbasit Hawsawi,5,5680,Al Ettifaq,ETT,1,GK,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0.2
 216,669095,Abdulhakim,Maghfoury,Maghfoury,Abdulhakim Maghfori,5,5680,Al Ettifaq,ETT,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0.1
 217,159492,Abdullah,Madu,Madu,Abdullah Madu,5,5680,Al Ettifaq,ETT,2,DEF,a,,85,0,0,0,3,0,0,0,1,0,0,0,0,0,2,35,13,0,0,0,0,3,39,0.7
-218,443257,Abdullah,Khateeb,Khateeb,Abdullah Khateeb,5,5680,Al Ettifaq,ETT,2,DEF,a,,535,0,0,3,8,0,0,0,0,0,0,3,0,0,3,293,73,0,0,0,370,40,45,5.3
+218,443257,Abdullah,Khateeb,Khateeb,Abdullah Khateeb,5,5680,Al Ettifaq,ETT,2,DEF,a,,535,0,0,3,8,0,0,0,0,0,0,3,0,0,3,293,73,0,0,0,370,40,45,5.4
 219,633862,Abdullah,Al Dawsari,A. Al Dawsari,,5,5680,Al Ettifaq,ETT,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0.0
 220,669080,Abdullah Rashed,Al Bishi,A.R. Al Bishi,Abdullah Al Bishi,5,5680,Al Ettifaq,ETT,2,DEF,a,,18,0,0,0,1,0,0,0,0,0,0,0,0,0,1,9,4,1,0,0,0,1,40,0.1
 221,728556,Abdulrahman,Nabza,Nabza,,5,5680,Al Ettifaq,ETT,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0.1
@@ -162,18 +162,18 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 224,165796,Álvaro,Medrán,Medrán,,5,5680,Al Ettifaq,ETT,3,MID,a,,539,1,3,3,8,0,0,0,0,0,0,5,0,0,6,316,23,4,3,0,445,42,62,16.2
 226,669097,Faisal,Al Shammari,F. Al Shammari,,5,5680,Al Ettifaq,ETT,1,GK,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0.1
 228,666247,Hassan,Al Musallam,Al Musallam,,5,5680,Al Ettifaq,ETT,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0.0
-229,194203,Jack,Hendry,Hendry,,5,5680,Al Ettifaq,ETT,2,DEF,d,Doubtful - مشكوك في مشاركته,505,1,0,2,8,0,0,0,0,0,0,4,1,1,3,294,49,1,1,0,404,40,52,15.6
+229,194203,Jack,Hendry,Hendry,,5,5680,Al Ettifaq,ETT,2,DEF,d,Doubtful - مشكوك في مشاركته,505,1,0,2,8,0,0,0,0,0,0,4,1,1,3,294,49,1,1,0,404,40,52,15.4
 230,669094,Jalal,Al Salem,J. Al Salem,Jalal Al Salem,5,5680,Al Ettifaq,ETT,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0.0
 231,576517,João Gabriel,e Costa Cesco,Costa,,5,5680,Al Ettifaq,ETT,2,DEF,u,Loan to Cruzeiro - اعارة الى كروزيرو,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0.0
-232,250792,Khalid,Al Ghannam,K. Al Ghanam,Khalid Al Ghannam,5,5680,Al Ettifaq,ETT,3,MID,a,,231,0,0,1,5,0,0,0,0,0,0,0,1,0,0,60,15,1,2,0,48,10,63,6.0
+232,250792,Khalid,Al Ghannam,K. Al Ghanam,Khalid Al Ghannam,5,5680,Al Ettifaq,ETT,3,MID,a,,231,0,0,1,5,0,0,0,0,0,0,0,1,0,0,60,15,1,2,0,48,10,63,5.9
 233,130038,Madallah,Al Olayan,Al Olayan,Madallah Al Olayan,5,5680,Al Ettifaq,ETT,2,DEF,a,,314,0,0,2,2,0,0,0,0,0,0,0,0,0,6,112,24,0,0,0,244,17,45,0.3
-234,155529,Marek,Rodak,Rodak,,5,5680,Al Ettifaq,ETT,1,GK,d,Doubtful - مشكوك في مشاركته,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,3.8
+234,155529,Marek,Rodak,Rodak,,5,5680,Al Ettifaq,ETT,1,GK,d,Doubtful - مشكوك في مشاركته,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,3.7
 235,573853,Matija,Gluscevic,Gluscevic,,5,5680,Al Ettifaq,ETT,3,MID,a,,133,0,1,0,2,0,0,0,0,0,0,0,0,0,0,26,6,2,0,1,96,7,44,0.6
 236,491481,Meshal,Sibyani,M. Sibyani,Meshal Sibyani,5,5680,Al Ettifaq,ETT,2,DEF,a,,64,0,0,0,2,0,0,0,1,0,0,0,0,0,0,15,4,0,0,0,0,1,40,0.1
 237,669081,Mohammed,Al Essa,Al Essa,,5,5680,Al Ettifaq,ETT,4,FWD,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0.1
 238,691079,Mohammed,Al Kadi,M. Al Kadi,Mohammed Al Kadi,5,5680,Al Ettifaq,ETT,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0.0
 239,649298,Mohau,Nkota,Nkota,,5,5680,Al Ettifaq,ETT,3,MID,u,Loan to Orlando Pirates - إعارة الى أورلاندو بيراتس,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49,0.1
-240,122399,Moussa,Dembele,Dembélé,,5,5680,Al Ettifaq,ETT,4,FWD,a,,536,3,1,3,7,0,0,0,1,0,0,3,1,0,0,60,11,10,0,4,374,33,71,32.9
+240,122399,Moussa,Dembele,Dembélé,,5,5680,Al Ettifaq,ETT,4,FWD,a,,536,3,1,3,7,0,0,0,1,0,0,3,1,0,0,60,11,10,0,4,374,33,71,32.6
 241,623065,Muhannad,Al Harthi,M. Al Harthi,,5,5680,Al Ettifaq,ETT,2,DEF,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0.0
 243,521837,Nawaf,Hazazi,Nawaf Hazazi,,5,5680,Al Ettifaq,ETT,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0.0
 244,139110,Ondrej,Duda,Duda,,5,5680,Al Ettifaq,ETT,3,MID,a,,487,1,0,3,8,0,0,0,2,0,0,5,0,0,3,355,41,2,0,0,421,33,50,3.7
@@ -188,7 +188,7 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 434,621996,Meshal,Al Alaeli,Al Alaeli,Meshal Al Alaeli,5,5680,Al Ettifaq,ETT,2,DEF,a,,185,0,1,1,3,0,0,0,0,0,0,0,0,0,4,48,21,2,0,1,87,16,40,0.5
 616,136380,Bersant,Celina,Celina,,5,5680,Al Ettifaq,ETT,3,MID,a,,261,0,0,2,5,0,0,0,0,0,0,0,0,0,0,94,11,2,0,1,153,11,54,0.2
 619,214041,Riyadh,Sharahili,Sharahili,Riyadh Sharahili,5,5680,Al Ettifaq,ETT,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0.1
-639,652149,Rayane,Messi,Messi,,5,5680,Al Ettifaq,ETT,3,MID,a,,241,1,0,2,1,0,0,0,0,0,0,0,0,1,1,44,10,3,1,0,87,16,60,0.6
+639,652149,Rayane,Messi,Messi,,5,5680,Al Ettifaq,ETT,3,MID,a,,241,1,0,2,1,0,0,0,0,0,0,0,0,1,1,44,10,3,1,0,87,16,60,0.5
 640,738970,Ali Mohsen Abdullah,Al Essa,A. Al Essa,Ali Al Essa,5,5680,Al Ettifaq,ETT,4,FWD,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0.0
 670,192774,Jordan,Larsson,Larsson,,5,5680,Al Ettifaq,ETT,3,MID,a,,236,0,0,2,5,0,0,0,0,0,0,0,0,0,0,63,6,1,1,1,109,8,65,0.1
 679,625949,Abdoulaye,Kanté,Kante,,5,5680,Al Ettifaq,ETT,3,MID,a,,180,0,0,2,0,0,0,0,1,0,0,0,0,0,2,102,17,1,0,0,133,9,50,0.0
@@ -201,7 +201,7 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 255,670453,Abdullah Mansour,Al Rashidi,Al Rashidi,,6,1316,Al Ittihad,ITT,2,DEF,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39,0.0
 256,556190,Yaseen bin Khalid,Al Jaber,Y. Al Jaber,,6,1316,Al Ittihad,ITT,2,DEF,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39,0.0
 257,708136,Abdulrahman bin Mohamme,Hazazi,A. Hazazi,,6,1316,Al Ittihad,ITT,2,DEF,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0.0
-258,508478,Stephane,Keller,Keller,,6,1316,Al Ittihad,ITT,2,DEF,u,Loan to Bevern - إعارة الى بيفيرين,225,0,0,1,2,0,0,0,0,0,0,0,0,0,2,107,36,0,0,0,146,15,41,9.0
+258,508478,Stephane,Keller,Keller,,6,1316,Al Ittihad,ITT,2,DEF,u,Loan to Bevern - إعارة الى بيفيرين,225,0,0,1,2,0,0,0,0,0,0,0,0,0,2,107,36,0,0,0,146,15,41,8.9
 260,178255,Ahmed,Sharahili,Sharahili,Ahmed Sharahili,6,1316,Al Ittihad,ITT,2,DEF,i,Ankle Injury - Expected Return: Late Sep - إصابة في الكاحل - العودة المتوقعة: أواخر سبتمبر,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0.1
 261,483639,Ahmed,Al Ghamdi,A. Al Ghamdi,Ahmed Al Ghamdi,6,1316,Al Ittihad,ITT,3,MID,a,,286,0,0,0,4,0,0,0,0,0,0,0,0,0,4,130,21,0,2,0,150,11,45,0.5
 262,441306,Hamed,Al Ghamdi,H. Al Ghamdi,Hamed Al Ghamdi,6,1316,Al Ittihad,ITT,3,MID,i,Crucial Ligament Injury - Expected Return: Unknown -  إصابة في الرباط الصليبي الأمامي – العودة المتوقعة : غير معروف,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0.0
@@ -214,13 +214,13 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 270,556183,Nawaf,Al Jadaani,N. Al Jadaani,Nawaf Al Jadaani,6,1316,Al Ittihad,ITT,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0.0
 271,556163,Farha,Al Shamrani,F. Al Shamrani,Farhah Al Shamrani,6,1316,Al Ittihad,ITT,3,MID,a,,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,1,0,0,0,50,2,44,0.1
 272,516957,Jan-Carlo,Simic,Simic,,6,1316,Al Ittihad,ITT,2,DEF,a,,250,0,0,1,3,0,0,0,2,0,0,0,0,0,4,51,30,0,0,0,160,12,45,0.7
-273,608176,George,Ilenikhena,Ilenikhena,,6,1316,Al Ittihad,ITT,4,FWD,a,,259,4,0,0,2,0,0,0,0,0,0,2,2,2,0,24,4,7,1,2,238,32,49,24.7
+273,608176,George,Ilenikhena,Ilenikhena,,6,1316,Al Ittihad,ITT,4,FWD,a,,259,4,0,0,2,0,0,0,0,0,0,2,2,2,0,24,4,7,1,2,238,32,49,25.1
 274,565381,Rakan,Kaabi,R. Kaabi,Rakan Kaabi,6,1316,Al Ittihad,ITT,3,MID,a,,107,0,0,0,1,0,0,0,0,0,0,0,0,0,0,58,14,0,0,0,58,6,44,0.7
 276,629459,Musleh,Al Shaikh,M. Al Shaikh,,6,1316,Al Ittihad,ITT,3,MID,u,Moved to Al Raed,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0.0
 279,531965,Bryant,Ortega,Ortega,,6,1316,Al Ittihad,ITT,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0.1
 280,122482,Hassan,Kadish,Kadish,Hassan Kadish,6,1316,Al Ittihad,ITT,2,DEF,a,,433,0,0,2,3,0,0,0,2,0,0,2,0,0,3,227,48,0,0,0,233,26,50,1.2
 281,433493,Muhannad,Al Shanqiti,Al Shanqeeti,Muhannad Al Shanqiti,6,1316,Al Ittihad,ITT,2,DEF,a,,93,0,0,0,0,0,0,0,1,0,0,0,0,0,0,21,10,0,0,0,0,2,49,3.4
-282,104407,Predrag,Rajkovic,Rajkovic,,6,1316,Al Ittihad,ITT,1,GK,d,Doubtful - مشكوك في مشاركته,450,0,0,2,4,0,0,0,0,0,26,8,1,0,0,74,57,0,0,0,386,44,51,17.6
+282,104407,Predrag,Rajkovic,Rajkovic,,6,1316,Al Ittihad,ITT,1,GK,d,Doubtful - مشكوك في مشاركته,450,0,0,2,4,0,0,0,0,0,26,8,1,0,0,74,57,0,0,0,386,44,51,17.5
 283,124932,Saleh,Al Shehri,S.Al Shehri,Saleh Al Shehri,6,1316,Al Ittihad,ITT,4,FWD,a,,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5,0,0,0,0,1,48,0.6
 284,545568,Roger,Fernandes,R. Fernandes,Roger Fernandes,6,1316,Al Ittihad,ITT,3,MID,i,Crucial Ligament Injury - Expected Return: Unknown -  إصابة في الرباط الصليبي الأمامي – العودة المتوقعة : غير معروف,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,0.1
 285,564854,Unai,Hernandez,Hernandez,,6,1316,Al Ittihad,ITT,3,MID,u,Loan to Girona - إعارة إلى جيرونا,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,0.1
@@ -240,7 +240,7 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 294,78007,Joshua,King,King,,7,1364,Al Khaleej,KLJ,4,FWD,d,Doubtful - مشكوك في مشاركته,252,1,0,2,1,0,0,0,0,0,0,3,1,0,0,28,10,4,0,4,168,14,73,12.7
 295,202857,Angelo,Fulgini,Fulgini,,7,1364,Al Khaleej,KLJ,3,MID,a,,167,0,0,1,0,0,0,0,1,0,0,0,0,0,0,79,10,0,1,0,62,6,64,1.4
 296,428609,Miguel,Crespo,Crespo,Miguel Crespo,7,1364,Al Khaleej,KLJ,3,MID,a,,506,0,1,3,9,0,0,0,1,0,0,0,0,0,4,178,37,3,0,1,264,21,60,0.3
-297,442430,Musa,Barrow,Barrow,,7,1364,Al Khaleej,KLJ,3,MID,a,,444,0,0,2,9,0,0,1,0,0,0,0,0,0,3,113,19,3,0,1,117,12,59,1.1
+297,442430,Musa,Barrow,Barrow,,7,1364,Al Khaleej,KLJ,3,MID,a,,444,0,0,2,9,0,0,1,0,0,0,0,0,0,3,113,19,3,0,1,117,12,59,1.0
 298,54986,Anthony,Moris,Moris,,7,1364,Al Khaleej,KLJ,1,GK,a,,540,0,0,3,9,0,0,0,0,0,15,2,0,0,0,151,42,0,0,0,325,30,50,1.3
 299,107594,Omar,Mascarell,Mascarell,,7,1364,Al Khaleej,KLJ,3,MID,a,,540,0,0,3,9,0,0,0,1,0,0,0,0,0,5,307,48,0,0,0,266,26,50,0.3
 300,111199,Saleh,Al Aamri,S . Alamri,Saleh Al Amri,7,1364,Al Khaleej,KLJ,3,MID,a,,259,1,0,1,5,0,0,0,0,0,0,0,0,0,1,93,14,2,1,0,166,14,50,0.1
@@ -276,16 +276,16 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 693,672826,Mateo,Benegas,Benegas,,7,1364,Al Khaleej,KLJ,4,FWD,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,0.0
 327,14937,Cristiano,Ronaldo,Ronaldo,Cristiano Ronaldo,8,6780,Al Nassr,NAS,4,FWD,a,,332,3,0,0,6,0,0,0,0,0,0,5,2,1,0,61,3,10,1,2,279,32,126,22.9
 328,428399,Joao,Felix,Joao Felix,João Félix,8,6780,Al Nassr,NAS,3,MID,a,,419,2,3,2,5,0,0,0,4,0,0,2,1,0,5,134,18,11,6,1,384,34,105,38.2
-329,110979,Sadio,Mane,Mane,,8,6780,Al Nassr,NAS,3,MID,a,,510,2,3,2,6,0,0,0,0,0,0,0,0,1,7,152,27,6,0,2,457,38,91,12.9
+329,110979,Sadio,Mane,Mane,,8,6780,Al Nassr,NAS,3,MID,a,,510,2,3,2,6,0,0,0,0,0,0,0,0,1,7,152,27,6,0,2,457,38,91,12.8
 330,129508,Kingsley,Coman,Coman,,8,6780,Al Nassr,NAS,3,MID,d,Doubtful - مشكوك في مشاركته,367,0,0,2,5,0,0,0,0,0,0,0,0,0,3,115,16,1,1,1,259,11,83,4.6
 331,461910,Mohamed,Simakan,Simakan,,8,6780,Al Nassr,NAS,2,DEF,a,,360,0,1,1,4,0,0,0,0,0,0,3,0,0,4,218,38,1,1,0,301,26,64,9.8
-332,518620,Ângelo Gabriel,Borges Damaceno,Ângelo,Ângelo,8,6780,Al Nassr,NAS,3,MID,a,,441,3,3,2,4,0,0,0,0,0,0,7,2,1,3,164,23,6,4,1,378,53,64,32.6
+332,518620,Ângelo Gabriel,Borges Damaceno,Ângelo,Ângelo,8,6780,Al Nassr,NAS,3,MID,a,,441,3,3,2,4,0,0,0,0,0,0,7,2,1,3,164,23,6,4,1,378,53,64,32.8
 333,90318,Inigo,Martinez,Inigo Martinez,,8,6780,Al Nassr,NAS,2,DEF,a,,360,0,0,2,3,0,0,0,0,0,0,1,0,0,2,211,29,0,0,1,297,23,55,18.4
-334,224471,Bento Matheus,Bento,Bento,Bento,8,6780,Al Nassr,NAS,1,GK,a,,281,0,0,2,3,0,0,0,0,1,6,0,0,0,0,48,28,0,0,0,199,15,55,7.8
+334,224471,Bento Matheus,Bento,Bento,Bento,8,6780,Al Nassr,NAS,1,GK,a,,281,0,0,2,3,0,0,0,0,1,6,0,0,0,0,48,28,0,0,0,199,15,55,7.9
 335,442552,Abdulrahman,Ghareeb,Ghareeb,Abdulrahman Ghareeb,8,6780,Al Nassr,NAS,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54,0.0
 336,442254,Abdullah,Al Hamddan,A. Hamddan,Abdullah Al Hamddan,8,6780,Al Nassr,NAS,4,FWD,a,,256,1,2,2,1,0,0,0,0,0,0,0,0,1,2,45,7,2,1,3,208,20,48,3.8
 337,245402,Abdullah,Al Khaibari,A. Al Khaibari,Abdullah Al Khaibari,8,6780,Al Nassr,NAS,3,MID,a,,321,0,0,2,1,0,0,0,1,0,0,1,0,0,2,179,24,0,0,0,213,17,50,0.2
-338,423618,Abdulelah,Al Amri,A. Al Amri,Abdulelah Al Amri,8,6780,Al Nassr,NAS,2,DEF,a,,345,2,0,1,5,0,0,0,1,0,0,5,0,1,7,157,34,2,1,0,295,35,52,21.7
+338,423618,Abdulelah,Al Amri,A. Al Amri,Abdulelah Al Amri,8,6780,Al Nassr,NAS,2,DEF,a,,345,2,0,1,5,0,0,0,1,0,0,5,0,1,7,157,34,2,1,0,295,35,52,21.6
 339,486024,Nawaf,Boushal,Boushal,Nawaf Bu Washl,8,6780,Al Nassr,NAS,2,DEF,a,,540,0,0,2,6,0,0,0,0,0,0,2,0,0,8,210,60,0,0,0,425,32,50,13.9
 340,493659,Ayman,Yahya,Ayman Yahya,Aiman Yahya,8,6780,Al Nassr,NAS,2,DEF,a,,86,0,1,0,0,0,0,0,0,0,0,0,0,0,1,63,7,0,1,0,0,9,49,0.6
 341,180594,Sultan,Al Ghannam,S. Al Ghannam,Sultan Al Ghannam,8,6780,Al Nassr,NAS,2,DEF,i,Crucial Ligament Injury - Expected Return: End of Dec - إصابة في الرباط الصليبي - العودة المتوقعة : أواخر ديسامبر,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0.1
@@ -304,7 +304,7 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 357,583743,Majed,Mohammed Ali Qasheesh,Qasheesh,Majed Qasheesh,8,6780,Al Nassr,NAS,2,DEF,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0.0
 358,444313,Nader,Al Sharari,N. Al Sharari,Nader Al Sharari,8,6780,Al Nassr,NAS,2,DEF,a,,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,2,0,0,0,0,2,39,0.0
 359,445331,Raghed,Al Najjar,R. Al Najjar,Raghid Najjar,8,6780,Al Nassr,NAS,1,GK,u,Crucial Ligament Injury - Expected Return: Unknown - إصابة في الرباط الصليبي - العودة المتوقعة : غير معروف,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0.0
-360,564914,Salim,AL Najdi,Al Najdi,Salem Al Najdi,8,6780,Al Nassr,NAS,2,DEF,a,,423,0,1,2,5,0,0,0,1,0,0,0,0,0,4,133,47,0,0,0,228,24,41,12.7
+360,564914,Salim,AL Najdi,Al Najdi,Salem Al Najdi,8,6780,Al Nassr,NAS,2,DEF,d,Doubtful - مشكوك في مشاركته,423,0,1,2,5,0,0,0,1,0,0,0,0,0,4,133,47,0,0,0,228,24,41,12.6
 361,615793,Awad,Aman,Aman,Awad Aman,8,6780,Al Nassr,NAS,2,DEF,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39,0.0
 362,669149,Mubarak bin Ahmed,Al Buainain,Al Buainain,,8,6780,Al Nassr,NAS,1,GK,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0.0
 604,534462,Aser,Hawsawi,A. Hawsawi,Aser Hawsawi,8,6780,Al Nassr,NAS,2,DEF,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39,0.0
@@ -405,7 +405,7 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 432,518172,Basaam,Al Hurayji,Basaam,Bassam Al Hurayji,11,6778,Al Taawoun,TWN,2,DEF,a,,416,1,0,3,5,0,0,0,2,0,0,0,0,0,14,160,47,1,0,0,249,31,42,13.4
 436,191758,Mohammed,Al Kuwaykibi,Al Kuwaykibi,Mohammed Al Kuwaykibi,11,6778,Al Taawoun,TWN,3,MID,a,,320,0,0,3,3,0,0,0,0,0,0,0,0,0,1,86,12,1,4,1,156,13,58,0.7
 437,215707,Aschraf,El Mahdioui,El Mahdioui,,11,6778,Al Taawoun,TWN,3,MID,a,,540,0,0,3,6,0,0,0,1,0,0,5,0,0,8,412,55,2,0,0,405,33,55,2.5
-438,425632,Mailson,Santos,Mailson,Mailson,11,6778,Al Taawoun,TWN,1,GK,a,,540,0,0,3,6,0,1,0,0,0,23,5,3,0,0,125,64,0,0,0,398,50,51,21.5
+438,425632,Mailson,Santos,Mailson,Mailson,11,6778,Al Taawoun,TWN,1,GK,a,,540,0,0,3,6,0,1,0,0,0,23,5,3,0,0,125,64,0,0,0,398,50,51,21.6
 439,669105,Anas Mansour,Al Ghamdi,A. Al Ghamdi,,11,6778,Al Taawoun,TWN,4,FWD,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0.0
 440,674393,Abdulmalik Ghazzi,Al Harbi,A. Al Harbi,,11,6778,Al Taawoun,TWN,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0.1
 441,230777,Muteb,Al Mufarrij,Al Mufarrij,Muteb Al Mufarrij,11,6778,Al Taawoun,TWN,2,DEF,a,,540,0,0,3,6,0,0,0,0,0,0,1,0,0,4,347,49,1,0,2,356,35,50,1.5
@@ -420,7 +420,7 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 450,510890,Marin,Petkov,Petkov,,11,6778,Al Taawoun,TWN,2,DEF,a,,534,0,1,3,6,0,0,0,1,0,0,3,0,0,10,186,50,2,2,2,372,39,50,7.5
 451,631302,Bassam Hamoud,Al Hamad,B. Al Hamad,,11,6778,Al Taawoun,TWN,4,FWD,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0.0
 453,615805,Mohammed,Al Saedi,Al Saedi,Mohammed Al Saedi,11,6778,Al Taawoun,TWN,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0.0
-454,149859,Abderrazzaq,Hamdallah,Hamdallah,,11,6778,Al Taawoun,TWN,4,FWD,d,Doubtful - مشكوك في مشاركته,431,2,0,3,5,0,0,0,0,0,0,2,0,0,0,66,15,5,0,2,263,23,80,16.5
+454,149859,Abderrazzaq,Hamdallah,Hamdallah,,11,6778,Al Taawoun,TWN,4,FWD,d,Doubtful - مشكوك في مشاركته,431,2,0,3,5,0,0,0,0,0,0,2,0,0,0,66,15,5,0,2,263,23,80,16.2
 456,708689,Younes,El Bahraoui,El Bahraoui,,11,6778,Al Taawoun,TWN,4,FWD,a,,262,0,1,2,2,0,0,0,0,1,0,0,0,0,3,45,11,3,2,1,131,8,50,0.4
 457,573273,Rakan,Al Tulayhi,Al Tulayhi,Rakan Al Tulayhi,11,6778,Al Taawoun,TWN,3,MID,a,,122,0,0,0,3,0,0,0,0,0,0,0,0,0,0,59,10,0,1,0,35,6,49,0.3
 458,423617,Awn,Al Saluli,Awn,Awn Al Saluli,11,6778,Al Taawoun,TWN,2,DEF,a,,246,0,0,1,3,0,0,0,0,0,0,3,0,0,1,103,29,1,0,1,203,17,45,0.2
@@ -440,13 +440,13 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 461,478984,Waleed,Al Ahmed,W. Al Ahmed,Waleed Al Ahmad,12,6775,Al Qadsiah,QAD,2,DEF,i,Crucial Ligament Injury - Expected Return: End of Dec - إصابة في الرباط الصليبي - العودة المتوقعة : أواخر ديسامبر,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,0.1
 462,66763,Koen,Casteels,Casteels,,12,6775,Al Qadsiah,QAD,1,GK,a,,360,0,0,2,3,0,0,0,0,0,11,3,0,0,0,105,37,0,0,0,279,25,55,7.7
 463,109853,Ahmed,Al Kassar,Al Kassar,Ahmed Al Kassar,12,6775,Al Qadsiah,QAD,1,GK,a,,180,0,0,0,2,0,0,0,0,0,3,0,0,0,0,26,13,0,0,0,119,5,44,1.1
-464,604258,Mohammed Waheeb,Abu Al Shamat,M. Al Shamat,Mohammed Abu Al Shamat,12,6775,Al Qadsiah,QAD,2,DEF,a,,462,3,2,1,5,0,0,0,1,0,0,6,2,1,12,207,39,4,3,1,418,59,67,37.5
+464,604258,Mohammed Waheeb,Abu Al Shamat,M. Al Shamat,Mohammed Abu Al Shamat,12,6775,Al Qadsiah,QAD,2,DEF,a,,462,3,2,1,5,0,0,0,1,0,0,6,2,1,12,207,39,4,3,1,418,59,67,37.8
 465,88477,Nacho,Fernandez,Nacho,Nacho,12,6775,Al Qadsiah,QAD,2,DEF,a,,540,0,1,2,5,0,0,0,3,0,0,7,0,0,3,313,74,1,1,0,487,41,56,41.5
-466,501039,Gastón,Álvarez,Álvarez,,12,6775,Al Qadsiah,QAD,2,DEF,a,,540,0,1,2,5,0,0,0,2,0,0,3,0,0,7,268,38,1,1,0,425,33,50,6.7
+466,501039,Gastón,Álvarez,Álvarez,,12,6775,Al Qadsiah,QAD,2,DEF,a,,540,0,1,2,5,0,0,0,2,0,0,3,0,0,7,268,38,1,1,0,425,33,50,6.6
 467,109962,Yasir,Al Shahrani,Y. Al Shahrani,Yasser Al Shahrani,12,6775,Al Qadsiah,QAD,2,DEF,a,,64,0,0,0,0,0,0,0,0,0,0,0,0,0,1,18,10,0,0,0,0,3,45,0.3
 468,532243,Jehad,Thakri,J. Thakri,Jehad Thakri,12,6775,Al Qadsiah,QAD,2,DEF,a,,412,0,0,2,4,0,0,0,1,0,0,1,0,0,6,210,41,0,1,1,356,25,45,3.7
 469,170110,Mohammed,Qassem,M. Qasem,Mohammed Qassim,12,6775,Al Qadsiah,QAD,2,DEF,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39,0.0
-470,221766,Julian,Quinones,Quinones,,12,6775,Al Qadsiah,QAD,3,MID,a,,540,2,2,2,5,0,0,0,0,0,0,2,1,1,3,142,12,8,4,7,398,33,120,38.7
+470,221766,Julian,Quinones,Quinones,,12,6775,Al Qadsiah,QAD,3,MID,a,,540,2,2,2,5,0,0,0,0,0,0,2,1,1,3,142,12,8,4,7,398,33,120,38.5
 471,441463,Mateo,Retegui,Retegui,,12,6775,Al Qadsiah,QAD,4,FWD,a,,470,3,0,2,5,0,0,0,1,0,0,2,0,1,3,79,10,5,1,1,378,29,90,12.1
 472,442340,Cameron,Puertas,Puertas,,12,6775,Al Qadsiah,QAD,3,MID,u,Loan to Al Wasl - إعارة الى الوصل,47,0,0,0,0,0,0,0,0,0,0,0,0,0,5,21,4,1,0,0,0,3,64,0.1
 473,533388,Musab,Al Juwayr,Al Juwayr,Musab Al Juwayr,12,6775,Al Qadsiah,QAD,3,MID,a,,484,0,2,2,4,0,0,0,2,0,0,0,0,0,1,319,33,2,4,2,398,25,70,5.3
@@ -472,11 +472,11 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 515,566167,Abdulaziz,Al Elewa,Al Elewa,Abdulaziz Al Elewai,12,6775,Al Qadsiah,QAD,3,MID,a,,433,1,0,0,6,0,0,0,0,0,0,0,1,0,2,117,25,2,1,1,230,20,49,2.8
 606,628794,Iker,Almena,I. Almena,,12,6775,Al Qadsiah,QAD,3,MID,u,Loan to Dinamo Zagreb - إعارة الى دينامو زغرب,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49,0.0
 607,617535,Carlos,Jimenez,Jimenez,,12,6775,Al Qadsiah,QAD,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,0.1
-658,433036,Tijjani,Reijnders,Reijnders,,12,6775,Al Qadsiah,QAD,3,MID,a,,303,3,0,1,3,0,0,0,0,0,0,5,2,2,2,150,21,8,1,4,264,36,70,7.4
+658,433036,Tijjani,Reijnders,Reijnders,,12,6775,Al Qadsiah,QAD,3,MID,a,,303,3,0,1,3,0,0,0,0,0,0,5,2,2,2,150,21,8,1,4,264,36,70,7.8
 689,634039,Mahamadou,Sangaré,Sangare,,12,6775,Al Qadsiah,QAD,4,FWD,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,0.0
 105,613252,Yaseen,Al Zubaidi,Y. Al Zubaidi,Yaseen Al Zubaidi,13,15213,Al Kholood,KLD,3,MID,a,,2,0,0,0,1,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,44,0.0
 113,683595,Yazan,Madani,Madani,Yazan Madani,13,15213,Al Kholood,KLD,2,DEF,a,,11,0,0,0,1,0,0,0,0,0,0,0,0,0,0,4,2,0,0,0,0,2,40,0.1
-492,653478,Gustavo,Gouveia Rodrigues Cruz,Guga,Guga,13,15213,Al Kholood,KLD,4,FWD,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,1.9
+492,653478,Gustavo,Gouveia Rodrigues Cruz,Guga,Guga,13,15213,Al Kholood,KLD,4,FWD,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,1.8
 495,613250,Muhannad,Al Yahya,Al Yahya,Muhannad Al Yahya,13,15213,Al Kholood,KLD,1,GK,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0.2
 496,726676,Mansour,Camara,Camara,,13,15213,Al Kholood,KLD,2,DEF,a,,540,0,1,0,8,0,0,0,3,0,0,4,0,0,5,255,66,0,1,0,408,28,40,2.7
 497,635636,Rashid Enad,Al Mutairi,R. Al Mutairi,,13,15213,Al Kholood,KLD,2,DEF,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39,0.1
@@ -499,11 +499,11 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 514,677090,Mohammed,Al Rashidi,M. Al Rashidi,Mohammed Al Rashdi,13,15213,Al Kholood,KLD,3,MID,a,,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,1,0,0,0,0,0,44,0.0
 516,245912,Shaquille,Pinas,Pinas,,13,15213,Al Kholood,KLD,2,DEF,a,,535,1,1,0,8,0,0,1,1,0,0,4,0,1,2,202,58,3,2,4,392,30,50,2.2
 517,445216,Edgaras,Utkus,Utkus,,13,15213,Al Kholood,KLD,2,DEF,a,,540,1,1,0,8,0,0,0,0,0,0,3,0,0,6,223,73,1,2,0,435,36,50,4.6
-518,546811,Iker,Kortajarena,Iker,,13,15213,Al Kholood,KLD,3,MID,a,,424,4,1,0,7,0,0,0,2,0,0,2,3,0,3,124,19,4,0,1,361,38,51,5.1
+518,546811,Iker,Kortajarena,Iker,,13,15213,Al Kholood,KLD,3,MID,a,,424,4,1,0,7,0,0,0,2,0,0,2,3,0,3,124,19,4,0,1,361,38,51,5.2
 519,594611,Coba,da Costa,Coba,,13,15213,Al Kholood,KLD,3,MID,a,,515,0,3,0,7,0,0,0,2,0,0,5,0,0,8,115,26,6,3,3,425,26,50,1.1
 520,232740,John,Buckley,Buckley,,13,15213,Al Kholood,KLD,3,MID,a,,450,0,1,0,7,0,0,0,0,0,0,3,0,0,3,164,56,0,2,0,296,25,55,1.3
 521,518717,Ramiro,Enrique,Enrique,,13,15213,Al Kholood,KLD,4,FWD,d,Doubtful - مشكوك في مشاركته,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,68,1.6
-649,564807,Julien,Domingues,Domingues,,13,15213,Al Kholood,KLD,4,FWD,a,,469,3,2,1,6,0,0,0,1,0,0,6,0,1,1,62,24,6,1,5,412,41,61,15.7
+649,564807,Julien,Domingues,Domingues,,13,15213,Al Kholood,KLD,4,FWD,a,,469,3,2,1,6,0,0,0,1,0,0,6,0,1,1,62,24,6,1,5,412,41,61,15.8
 694,248963,Mohammed bin Mazed bin Mufreh,Al Shammari,M. Al Shammari,Mohammed Al Shammari,13,15213,Al Kholood,KLD,1,GK,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0.0
 695,611966,Antoin,Essomba,Essomba,,13,15213,Al Kholood,KLD,3,MID,a,,63,0,0,0,1,0,0,0,0,0,0,0,0,0,1,10,8,0,1,0,54,3,50,0.0
 154,633750,Khalid,Al Rammah,Al Rammah,Khaled Al Rammah,14,15209,NEOM SC,NEO,2,DEF,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39,0.1
@@ -518,7 +518,7 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 527,615806,Mohammed bin Nasser,Al Hakim,Al Hakim,,14,15209,NEOM SC,NEO,1,GK,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0.1
 528,680862,Abdulaziz Badr,Al Khanani,A. Al Khanani,,14,15209,NEOM SC,NEO,2,DEF,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0.0
 529,721241,Ali Ayyad,Al Nakhli,Al Nakhli,,14,15209,NEOM SC,NEO,2,DEF,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0.0
-530,231399,Marcin,Bulka,Bulka,,14,15209,NEOM SC,NEO,1,GK,a,,540,0,0,3,4,0,0,0,0,0,16,6,1,0,0,98,49,0,0,0,424,40,46,17.0
+530,231399,Marcin,Bulka,Bulka,,14,15209,NEOM SC,NEO,1,GK,a,,540,0,0,3,4,0,0,0,0,0,16,6,1,0,0,98,49,0,0,0,424,40,46,17.3
 532,177389,Mohammed,Al Burayk,Al Burayk,Mohammed Al Burayk,14,15209,NEOM SC,NEO,2,DEF,a,,275,0,0,1,1,0,0,0,1,0,0,0,0,0,4,122,22,0,0,0,199,12,45,0.8
 533,517717,Abdulaziz,Noor,A. Noor,Abdulaziz Noor,14,15209,NEOM SC,NEO,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0.1
 534,523770,Abbas,Al Hassan,Abbas,Abbas Al Hassan,14,15209,NEOM SC,NEO,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0.0
@@ -535,20 +535,20 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 545,635713,Mohammed Walid,Al Dawsari,M.W. Al Dawsari,Mohammed Al Dossary,14,15209,NEOM SC,NEO,2,DEF,a,,90,0,0,1,0,0,0,0,0,0,0,0,0,0,0,18,4,0,0,0,21,6,44,0.7
 547,670448,Anwar,Sharahili,A. Sharahili,,14,15209,NEOM SC,NEO,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0.0
 548,220023,Ala,Al Hajji,Al Hajji,Alaa Al Hejji,14,15209,NEOM SC,NEO,3,MID,a,,338,1,0,1,4,0,0,0,1,1,0,1,1,0,5,211,29,2,0,1,228,17,50,0.2
-549,607088,Nathan,Zeze,Zeze,,14,15209,NEOM SC,NEO,2,DEF,a,,540,0,0,3,4,0,0,0,0,0,0,3,0,0,5,340,47,1,0,1,405,37,50,8.2
-550,204727,Malang,Sarr,Sarr,,14,15209,NEOM SC,NEO,2,DEF,a,,540,0,0,3,4,0,0,0,0,0,0,3,0,0,4,302,89,1,0,0,379,42,51,8.3
-551,638595,Amadou,Kone,A. Kone,,14,15209,NEOM SC,NEO,3,MID,a,,536,2,2,3,4,0,0,0,1,0,0,4,0,0,4,284,40,4,4,1,401,43,56,9.3
+549,607088,Nathan,Zeze,Zeze,,14,15209,NEOM SC,NEO,2,DEF,a,,540,0,0,3,4,0,0,0,0,0,0,3,0,0,5,340,47,1,0,1,405,37,50,8.3
+550,204727,Malang,Sarr,Sarr,,14,15209,NEOM SC,NEO,2,DEF,a,,540,0,0,3,4,0,0,0,0,0,0,3,0,0,4,302,89,1,0,0,379,42,51,8.6
+551,638595,Amadou,Kone,A. Kone,,14,15209,NEOM SC,NEO,3,MID,a,,536,2,2,3,4,0,0,0,1,0,0,4,0,0,4,284,40,4,4,1,401,43,56,9.5
 552,543324,Luciano,Rodríguez,Luciano,,14,15209,NEOM SC,NEO,4,FWD,u,Loan to Cruzeiro - اعارة الى كروزيرو,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55,0.0
-553,59966,Alexandre,Lacazette,Lacazette,,14,15209,NEOM SC,NEO,4,FWD,a,,450,3,1,3,2,0,0,0,0,0,0,4,2,2,3,112,16,5,1,2,331,38,72,24.6
+553,59966,Alexandre,Lacazette,Lacazette,,14,15209,NEOM SC,NEO,4,FWD,a,,450,3,1,3,2,0,0,0,0,0,0,4,2,2,3,112,16,5,1,2,331,38,72,24.7
 554,172841,Said,Benrahma,Benrahma,,14,15209,NEOM SC,NEO,3,MID,i,Injured - Expected Return: Unknown - إصابة - العودة المتوقعة: غير معروف,64,1,1,0,0,0,0,0,0,0,0,3,1,1,0,39,1,1,1,0,87,15,74,9.5
 620,197141,Abdulrahman,Dagriri,Dagriri,Abdulrahman Dagriri,14,15209,NEOM SC,NEO,1,GK,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0.3
 622,536219,Muhannad,Abu Taha,Abu Taha,Mohannad Abu Taha,14,15209,NEOM SC,NEO,2,DEF,a,,233,0,0,1,2,0,0,0,0,0,0,0,0,0,9,88,30,0,1,0,98,17,49,0.4
 623,195551,Georgios,Masouras,Masouras,,14,15209,NEOM SC,NEO,3,MID,d,Doubtful - مشكوك في مشاركته,328,0,0,1,4,0,0,0,0,0,0,0,0,0,2,100,18,3,1,2,213,10,63,1.8
 682,195982,Valentín,Vada,Vada,,14,15209,NEOM SC,NEO,3,MID,a,,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,1,60,0.0
-555,109939,Ibrahim,Zaid,Zaid,Ibrahim Zaied,15,6846,Al Hazem,HAZ,1,GK,a,,540,0,0,2,6,0,0,0,0,0,22,4,2,0,0,67,64,0,0,0,425,40,40,7.1
+555,109939,Ibrahim,Zaid,Zaid,Ibrahim Zaied,15,6846,Al Hazem,HAZ,1,GK,a,,540,0,0,2,6,0,0,0,0,0,22,4,2,0,0,67,64,0,0,0,425,40,40,7.2
 556,171566,Abdulaziz,Al Takrouni,Al Takrouni,,15,6846,Al Hazem,HAZ,1,GK,u,Moved to Jeddah SC - انتقال الى جدة,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0.0
 557,670447,Yazan,Al Ruwaili,Y. Al Ruwaili,Yazan Al Ruwaili,15,6846,Al Hazem,HAZ,1,GK,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0.2
-558,464031,Abdurahman,Al Dakheel,Al Dakheel,Abdurahman Al Dakheel,15,6846,Al Hazem,HAZ,2,DEF,s,Suspended Until 12 Sep - موقوف حتى 12 سبتمبر,540,0,0,2,6,0,0,0,4,0,0,0,0,0,6,176,64,1,0,0,300,26,40,9.6
+558,464031,Abdurahman,Al Dakheel,Al Dakheel,Abdurahman Al Dakheel,15,6846,Al Hazem,HAZ,2,DEF,s,Suspended Until 12 Sep - موقوف حتى 12 سبتمبر,540,0,0,2,6,0,0,0,4,0,0,0,0,0,6,176,64,1,0,0,300,26,40,9.5
 559,540792,Farhan,Al Azmi,F. Al Azmi,Farhan Al Azzmi,15,6846,Al Hazem,HAZ,2,DEF,a,,13,0,0,0,1,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,1,40,0.0
 560,490792,Majed,Al Ghamdi,M. Al Ghamdi,Majed Al Ghamdi,15,6846,Al Hazem,HAZ,1,GK,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0.6
 561,518312,Abdullah Ahmed,Al Shanqiti,A. Al Shanqiti,Abdullah Al Shanqiti,15,6846,Al Hazem,HAZ,2,DEF,a,,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,1,39,1.5
@@ -598,7 +598,7 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 10,514429,Feras,Al Ghamdi,F. Al Ghamdi,Feras Al Ghamdi,16,9619,Abha,ABH,3,MID,a,,371,0,0,0,11,0,0,0,2,0,0,0,0,0,2,150,32,0,0,0,214,9,44,0.1
 11,629619,Bader,Al Mutairi,B. Al Mutairi,Bader Al Mutairi,16,9619,Abha,ABH,3,MID,a,,27,0,0,0,0,0,0,0,1,0,0,0,0,0,0,6,0,0,0,0,0,0,45,0.0
 12,599455,Safwan,Al Johani,S. Al Johani,Safwan Al Johani,16,9619,Abha,ABH,2,DEF,a,,406,0,0,0,9,0,0,0,0,0,0,0,0,0,9,129,33,2,0,0,216,14,40,1.0
-13,473711,Mohammed,Salem Al Dawsari,M. Al Dawsari,Mohammed Al Dossary,16,9619,Abha,ABH,2,DEF,i,Knee Injury - Expected Return: Mid Oct - إصابة في الركبة - العودة المتوقعة: منتصف أكتوبر,270,1,1,0,7,0,0,0,0,0,0,3,0,0,7,87,25,1,0,0,189,18,40,8.3
+13,473711,Mohammed,Salem Al Dawsari,M. Al Dawsari,Mohammed Al Dossary,16,9619,Abha,ABH,2,DEF,i,Knee Injury - Expected Return: Mid Oct - إصابة في الركبة - العودة المتوقعة: منتصف أكتوبر,270,1,1,0,7,0,0,0,0,0,0,3,0,0,7,87,25,1,0,0,189,18,40,8.2
 14,37419,Mustafa,Malayekah,Malayekah,Mustafa Malayekah,16,9619,Abha,ABH,1,GK,a,,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,-1,40,0.4
 15,712106,Muaiad,Bunayan,Bunayan,Moayad Mohammed,16,9619,Abha,ABH,2,DEF,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0.2
 16,566974,Abdulrahman,Al Bouq,Al Bouq,Abdulrahman Al Bouq,16,9619,Abha,ABH,1,GK,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0.1
@@ -613,14 +613,14 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 452,635681,Koshaim Mohammed,Al Karani,K. Al Qahtani,Keshim Al Qahtani,16,9619,Abha,ABH,4,FWD,a,,397,1,0,0,9,0,0,0,0,0,0,0,0,0,3,55,17,2,1,0,146,16,45,1.8
 459,623061,Ammar,Al Yahibi,Al Yahibi,Amar Al Yuhaybi,16,9619,Abha,ABH,2,DEF,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0.0
 526,615819,Nawaf,Al Ghulaimish,Al Ghulaimish,Nawaf Al Ghulaimish,16,9619,Abha,ABH,2,DEF,a,,35,0,0,0,1,0,0,0,0,0,0,0,0,0,0,7,7,0,0,0,0,2,39,0.1
-611,229225,Alimami,Gory,Gory,,16,9619,Abha,ABH,4,FWD,a,,392,1,1,0,8,0,0,0,0,0,0,0,0,0,3,42,15,3,0,0,168,18,54,1.0
+611,229225,Alimami,Gory,Gory,,16,9619,Abha,ABH,4,FWD,d,Doubtful - مشكوك في مشاركته,392,1,1,0,8,0,0,0,0,0,0,0,0,0,3,42,15,3,0,0,168,18,54,1.0
 612,166552,Nabil,Fekir,Fekir,,16,9619,Abha,ABH,3,MID,a,,327,1,0,1,4,0,0,0,1,0,0,0,0,0,1,121,17,3,0,0,123,15,63,1.0
-634,191741,Abdullah bin Fahad bin Abdulaziz,Al Fahad Al Mkabbas,Al Fahad,Abdullah Al Fahad,16,9619,Abha,ABH,2,DEF,a,,256,0,0,0,4,0,0,0,0,0,0,0,0,0,1,70,29,0,0,0,131,9,40,0.0
+634,191741,Abdullah bin Fahad bin Abdulaziz,Al Fahad Al Mkabbas,Al Fahad,Abdullah Al Fahad,16,9619,Abha,ABH,2,DEF,a,,256,0,0,0,4,0,0,0,0,0,0,0,0,0,1,70,29,0,0,0,131,9,40,0.1
 657,635614,Khaled Ahmed Hussein,Al Shamrani,K. Al Shamrani,Khaled Al Shamrani,16,9619,Abha,ABH,2,DEF,a,,108,0,1,0,2,0,0,0,1,0,0,0,0,0,3,29,10,0,0,0,21,5,40,0.0
 661,94245,Michy,Batshuayi,Batshuayi,,16,9619,Abha,ABH,4,FWD,a,,450,1,1,0,11,0,0,0,1,0,0,0,0,0,1,62,15,4,0,3,209,17,65,0.3
 20,91406,Fernando,Pacheco,Pacheco,,17,6777,Al Faisaly,FSL,1,GK,a,,540,0,0,2,10,0,0,0,0,0,23,4,1,0,0,160,50,0,0,0,388,33,45,1.7
 21,110072,Mohammed,Jahfali,M. Jahfali,Mohammed Jahfali,17,6777,Al Faisaly,FSL,2,DEF,a,,169,0,0,0,3,0,0,0,1,0,0,0,0,0,2,84,21,0,0,0,84,5,39,0.6
-22,170409,Andrei,Girotto,Girotto,Andrei Girotto,17,6777,Al Faisaly,FSL,2,DEF,a,,540,0,1,2,10,0,0,0,0,0,0,0,0,0,7,298,72,1,2,0,300,37,45,2.8
+22,170409,Andrei,Girotto,Girotto,Andrei Girotto,17,6777,Al Faisaly,FSL,2,DEF,a,,540,0,1,2,10,0,0,0,0,0,0,0,0,0,7,298,72,1,2,0,300,37,45,2.9
 23,178284,Yassin,Barnawi,Barnawi,Yaseen Barnawi,17,6777,Al Faisaly,FSL,2,DEF,a,,212,0,0,2,0,0,0,0,0,0,0,1,0,0,3,45,18,0,0,0,118,15,39,0.4
 24,189542,Alexandre,Mendy,A. Mendy,Alexandre Mendy,17,6777,Al Faisaly,FSL,4,FWD,a,,540,1,1,2,10,0,0,0,1,0,0,0,0,0,3,64,10,5,0,5,271,18,55,3.6
 25,216165,Christian,Bassogog,Bassogog,,17,6777,Al Faisaly,FSL,3,MID,d,Doubtful - مشكوك في مشاركته,496,1,1,2,9,0,0,0,1,0,0,0,1,0,3,151,30,2,2,0,248,26,55,0.8
@@ -665,11 +665,11 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 49,109811,Hattan,Bahebri,Bahebri,Hattan Bahbri,18,9621,Diriyah Club,DIR,3,MID,a,,141,0,0,1,0,0,0,0,1,0,0,0,0,0,3,49,10,1,0,1,25,7,53,0.3
 50,218862,Saeed,Al Rubaie,Al Rubaie,Saeed Al Rubaie,18,9621,Diriyah Club,DIR,2,DEF,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49,0.2
 51,164149,Nikola,Vasilj,Vasilj,,18,9621,Diriyah Club,DIR,1,GK,a,,540,0,0,2,5,0,0,0,0,0,23,5,0,0,0,112,60,0,1,0,448,39,50,3.3
-52,215665,Amin,Al Bukhari,A. Al Bukhari,Amin Al Bukhari,18,9621,Diriyah Club,DIR,1,GK,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,4.8
+52,215665,Amin,Al Bukhari,A. Al Bukhari,Amin Al Bukhari,18,9621,Diriyah Club,DIR,1,GK,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,4.7
 53,641219,Clayton,Diandy,Diandy,,18,9621,Diriyah Club,DIR,3,MID,a,,457,0,1,2,5,0,0,0,0,0,0,0,0,0,4,79,27,2,2,0,291,18,50,0.4
 54,83680,Waleed,Abdullah,Abdullah,Waleed Abdullah,18,9621,Diriyah Club,DIR,1,GK,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0.2
 55,209868,Qasem,Lajami,Q. Lajami,Qasem Lajami,18,9621,Diriyah Club,DIR,2,DEF,a,,248,0,0,1,3,0,0,0,0,0,0,0,0,0,0,94,20,0,0,0,142,12,45,0.4
-56,576943,Abdulaziz,Al Faraj,A. Al Faraj,Abdulaziz Al Faraj,18,9621,Diriyah Club,DIR,2,DEF,a,,480,0,1,1,5,0,0,0,0,0,0,0,0,0,5,192,50,0,1,0,237,25,40,7.7
+56,576943,Abdulaziz,Al Faraj,A. Al Faraj,Abdulaziz Al Faraj,18,9621,Diriyah Club,DIR,2,DEF,a,,480,0,1,1,5,0,0,0,0,0,0,0,0,0,5,191,50,0,1,0,237,25,40,7.8
 57,578316,Meshari,Al Nemer,Al Nemer,Meshari Al Nemer,18,9621,Diriyah Club,DIR,4,FWD,a,,62,1,0,0,0,0,0,0,0,0,0,0,0,0,1,6,3,2,0,0,0,11,45,0.3
 58,432578,Hussain,Al Qahtani,H. Al Qahtani,Hussain Al Qahtani,18,9621,Diriyah Club,DIR,3,MID,a,,74,0,0,0,1,0,0,0,0,0,0,0,0,0,2,38,6,0,1,0,32,4,44,0.2
 59,439430,Sultan,Al Farhan,Al Farhan,Sultan Farhan,18,9621,Diriyah Club,DIR,3,MID,a,,20,0,0,0,0,0,0,0,1,0,0,0,0,0,0,6,1,0,0,0,0,1,49,0.1
@@ -677,7 +677,7 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 61,635673,Ziyad,Al Qahtani,Z. Al Qahtani,Ziyad Al Qahtani,18,9621,Diriyah Club,DIR,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45,0.2
 62,167443,Gaetan,Laborde,Laborde,,18,9621,Diriyah Club,DIR,4,FWD,d,Doubtful - مشكوك في مشاركته,179,0,0,1,1,0,0,0,0,0,0,0,0,0,0,30,5,2,0,1,86,4,62,1.9
 64,635415,Taher,Wadi,Wadi,Taher Wadi,18,9621,Diriyah Club,DIR,2,DEF,a,,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,6,0,0,0,38,2,40,0.1
-65,223757,Oscar,Rodriguez,Oscar,,18,9621,Diriyah Club,DIR,3,MID,s,Suspended Until 14 Sep - موقوف حتى 14 سبتمبر,350,0,3,2,3,0,0,0,0,1,0,1,0,0,5,121,14,6,2,2,200,17,60,0.9
+65,223757,Oscar,Rodriguez,Oscar,,18,9621,Diriyah Club,DIR,3,MID,s,Suspended Until 14 Sep - موقوف حتى 14 سبتمبر,350,0,3,2,3,0,0,0,0,1,0,1,0,0,5,121,14,6,2,2,200,17,60,0.8
 66,156267,Omar,Colley,Colley,,18,9621,Diriyah Club,DIR,2,DEF,a,,90,0,0,0,1,0,0,0,0,0,0,0,0,0,1,25,3,0,0,1,35,2,44,0.2
 67,635640,Faisal,Al Mutairi,F. Al Mutairi,Faisal Al Mutairi,18,9621,Diriyah Club,DIR,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0.5
 68,670497,Abdulelah,Al Jaafari,A. Al Jaafari,Abdulelah Al Jaaferi,18,9621,Diriyah Club,DIR,2,DEF,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39,0.1
@@ -687,11 +687,11 @@ player_id,opta_id,first_name,second_name,web_name,known_name,team_id,team_opta_i
 72,613253,Khalid,Asiri,K. Asiri,Khalid Al Asiri,18,9621,Diriyah Club,DIR,2,DEF,a,,67,0,0,0,0,0,0,0,1,0,0,0,0,0,0,24,5,0,0,0,45,1,39,0.2
 79,465526,Enzo,Millot,E. Millot,,18,9621,Diriyah Club,DIR,3,MID,a,,353,0,0,1,4,0,0,0,0,0,0,0,0,0,1,135,28,0,0,0,170,12,59,0.8
 172,576944,Abdullah,Al Zaid,A. Al Zaid,Abdullah Al Zaid,18,9621,Diriyah Club,DIR,3,MID,a,,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,45,0.1
-177,447203,Darwin Nunez,Nunez,Darwin Nunez,,18,9621,Diriyah Club,DIR,4,FWD,a,,348,3,0,1,4,0,0,0,0,0,0,2,2,1,2,49,17,4,0,1,228,31,77,9.2
+177,447203,Darwin Nunez,Nunez,Darwin Nunez,,18,9621,Diriyah Club,DIR,4,FWD,a,,348,3,0,1,4,0,0,0,0,0,0,2,2,1,2,49,17,4,0,1,228,31,77,9.4
 398,555887,Hussain,Al Sibyani,H. Al Sibyani,Hussain Al Sibyani,18,9621,Diriyah Club,DIR,2,DEF,a,,248,0,0,0,5,0,0,0,0,0,0,0,0,0,5,34,14,0,0,0,124,7,39,1.8
 614,540791,Fahad,Al Obaid,Al Obaid,Fahad Al Obaid,18,9621,Diriyah Club,DIR,2,DEF,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0.6
 615,149736,Chancel,Mbemba,Mbemba,,18,9621,Diriyah Club,DIR,2,DEF,a,,526,0,0,2,5,0,0,0,0,0,0,3,0,0,4,242,56,0,0,1,342,31,50,3.0
 628,80801,Idrissa,Gueye,Gana,,18,9621,Diriyah Club,DIR,3,MID,a,,519,0,0,2,5,0,0,0,2,0,0,0,0,0,12,245,64,0,0,1,363,27,55,0.3
 629,96645,Berat,Djimsiti,Djimsiti,,18,9621,Diriyah Club,DIR,2,DEF,a,,360,0,0,1,4,0,0,0,0,0,0,1,0,0,3,181,20,0,0,0,251,16,50,0.1
-668,581134,Adil,Boulbina,Boulbina,,18,9621,Diriyah Club,DIR,3,MID,a,,238,2,1,0,2,0,0,0,0,0,0,3,0,1,0,59,10,3,0,1,197,22,70,0.8
+668,581134,Adil,Boulbina,Boulbina,,18,9621,Diriyah Club,DIR,3,MID,a,,238,2,1,0,2,0,0,0,0,0,0,3,0,1,0,59,10,3,0,1,197,22,70,0.9
 696,633103,Mathys,de Carvalho Soares,de Carvalho,Mathys de Carvalho,18,9621,Diriyah Club,DIR,3,MID,a,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,0.0

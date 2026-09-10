@@ -2,7 +2,7 @@
   "team_opta_id": 9621,
   "team_name": "Diriyah Club",
   "season": 2026,
-  "generated_at": "2026-09-10T02:51:14.536644+00:00",
+  "generated_at": "2026-09-10T10:51:54.026562+00:00",
   "players": [
     {
       "player_id": 54,
@@ -707,7 +707,7 @@
           "fmmp": 0,
           "winning_goals": 0,
           "won_tackle": 0,
-          "accurate_pass": 29,
+          "accurate_pass": 28,
           "clearances_blocks_interceptions": 10,
           "shot_target": 0,
           "big_chance_created": 0,

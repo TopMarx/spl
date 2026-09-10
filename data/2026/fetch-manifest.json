@@ -1,9 +1,9 @@
 {
   "season": 2026,
-  "fetch_type": "active_gw",
-  "last_run": "2026-09-10T02:51:13.062251+00:00",
+  "fetch_type": "gw_closure",
+  "last_run": "2026-09-10T10:51:52.778546+00:00",
   "current_gw": 6,
-  "last_closed_gw": 5,
+  "last_closed_gw": 6,
   "expected_count": 696,
   "fetched_count": 696,
   "failed_ids": [],
