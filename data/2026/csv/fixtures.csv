@@ -1,4 +1,5 @@
 fixture_id,fixture_opta_id,gameweek,team_h_id,team_h_opta_id,team_h_name,team_h_short_name,team_a_id,team_a_opta_id,team_a_name,team_a_short_name,team_h_score,team_a_score,kickoff_time,finished,started,team_h_difficulty,team_a_difficulty
+64,2672691,,16,9619,Abha,ABH,17,6777,Al Faisaly,FSL,,,,False,,,
 1,2672467,1,16,9619,Abha,ABH,15,6846,Al Hazem,HAZ,1,2,2026-08-13T16:15:00Z,True,True,,
 3,2672468,1,10,6774,Al Shabab,SHB,12,6775,Al Qadsiah,QAD,1,3,2026-08-13T18:00:00Z,True,True,,
 2,2672469,1,18,9621,Diriyah Club,DIR,1,6770,Al Ahli,AHL,0,1,2026-08-13T18:00:00Z,True,True,,
@@ -68,9 +69,8 @@ fixture_id,fixture_opta_id,gameweek,team_h_id,team_h_opta_id,team_h_name,team_h_
 68,2672695,8,15,6846,Al Hazem,HAZ,14,15209,NEOM SC,NEO,1,1,2026-10-10T13:50:00Z,False,True,,
 65,2672692,8,5,5680,Al Ettifaq,ETT,7,1364,Al Khaleej,KLJ,1,1,2026-10-10T14:55:00Z,False,True,,
 69,2672696,8,4,1317,Al Hilal,HIL,6,1316,Al Ittihad,ITT,3,2,2026-10-10T18:00:00Z,False,True,,
-67,2672694,8,3,10483,Al Fayha,FYH,9,9622,Al Riyadh,RIY,,,2026-10-11T13:40:00Z,False,False,,
-64,2672691,8,16,9619,Abha,ABH,17,6777,Al Faisaly,FSL,,,2026-10-11T15:25:00Z,False,False,,
-72,2672699,8,10,6774,Al Shabab,SHB,11,6778,Al Taawoun,TWN,,,2026-10-11T18:00:00Z,False,False,,
+67,2672694,8,3,10483,Al Fayha,FYH,9,9622,Al Riyadh,RIY,1,1,2026-10-11T13:40:00Z,False,True,,
+72,2672699,8,10,6774,Al Shabab,SHB,11,6778,Al Taawoun,TWN,3,0,2026-10-11T18:00:00Z,False,True,,
 75,2672704,9,17,6777,Al Faisaly,FSL,13,15213,Al Kholood,KLD,,,2026-10-15T13:40:00Z,False,False,,
 78,2672703,9,7,1364,Al Khaleej,KLJ,3,10483,Al Fayha,FYH,,,2026-10-15T14:50:00Z,False,False,,
 76,2672701,9,15,6846,Al Hazem,HAZ,2,6772,Al Fateh,FAT,,,2026-10-15T15:15:00Z,False,False,,
