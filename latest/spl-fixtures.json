@@ -1,21 +1,5 @@
 [
   {
-    "code": 2672691,
-    "event": null,
-    "finished": false,
-    "finished_provisional": false,
-    "id": 64,
-    "kickoff_time": null,
-    "minutes": 0,
-    "provisional_start_time": false,
-    "started": null,
-    "team_a": 17,
-    "team_a_score": null,
-    "team_h": 16,
-    "team_h_score": null,
-    "stats": []
-  },
-  {
     "code": 2672467,
     "event": 1,
     "finished": true,
@@ -22287,7 +22271,7 @@
   {
     "code": 2672697,
     "event": 8,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 70,
     "kickoff_time": "2026-10-09T13:50:00Z",
@@ -22650,7 +22634,7 @@
   {
     "code": 2672693,
     "event": 8,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 66,
     "kickoff_time": "2026-10-09T14:55:00Z",
@@ -23033,7 +23017,7 @@
   {
     "code": 2672698,
     "event": 8,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 71,
     "kickoff_time": "2026-10-09T18:00:00Z",
@@ -23391,7 +23375,7 @@
   {
     "code": 2672695,
     "event": 8,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 68,
     "kickoff_time": "2026-10-10T13:50:00Z",
@@ -23751,7 +23735,7 @@
   {
     "code": 2672692,
     "event": 8,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 65,
     "kickoff_time": "2026-10-10T14:55:00Z",
@@ -24119,7 +24103,7 @@
   {
     "code": 2672696,
     "event": 8,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 69,
     "kickoff_time": "2026-10-10T18:00:00Z",
@@ -24492,7 +24476,7 @@
   {
     "code": 2672694,
     "event": 8,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 67,
     "kickoff_time": "2026-10-11T13:40:00Z",
@@ -24849,7 +24833,7 @@
   {
     "code": 2672699,
     "event": 8,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 72,
     "kickoff_time": "2026-10-11T18:00:00Z",
@@ -25647,6 +25631,22 @@
     "team_a": 11,
     "team_a_score": null,
     "team_h": 9,
+    "team_h_score": null,
+    "stats": []
+  },
+  {
+    "code": 2672691,
+    "event": 12,
+    "finished": false,
+    "finished_provisional": false,
+    "id": 64,
+    "kickoff_time": "2026-10-27T12:40:00Z",
+    "minutes": 0,
+    "provisional_start_time": false,
+    "started": false,
+    "team_a": 17,
+    "team_a_score": null,
+    "team_h": 16,
     "team_h_score": null,
     "stats": []
   },
