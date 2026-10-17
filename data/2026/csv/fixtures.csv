@@ -73,7 +73,7 @@ fixture_id,fixture_opta_id,gameweek,team_h_id,team_h_opta_id,team_h_name,team_h_
 75,2672704,9,17,6777,Al Faisaly,FSL,13,15213,Al Kholood,KLD,3,2,2026-10-15T13:40:00Z,False,True,,
 78,2672703,9,7,1364,Al Khaleej,KLJ,3,10483,Al Fayha,FYH,2,0,2026-10-15T14:50:00Z,False,True,,
 76,2672701,9,15,6846,Al Hazem,HAZ,2,6772,Al Fateh,FAT,2,3,2026-10-15T15:15:00Z,False,True,,
-79,2672705,9,12,6775,Al Qadsiah,QAD,16,9619,Abha,ABH,,,2026-10-16T13:15:00Z,False,False,,
+79,2672705,9,12,6775,Al Qadsiah,QAD,16,9619,Abha,ABH,2,1,2026-10-16T13:15:00Z,False,True,,
 81,2672708,9,14,15209,NEOM SC,NEO,5,5680,Al Ettifaq,ETT,,,2026-10-17T15:40:00Z,False,False,,
 74,2672707,9,18,9621,Diriyah Club,DIR,11,6778,Al Taawoun,TWN,,,2026-10-17T18:00:00Z,False,False,,
 85,2672711,10,2,6772,Al Fateh,FAT,7,1364,Al Khaleej,KLJ,,,2026-10-18T18:00:00Z,False,False,,
