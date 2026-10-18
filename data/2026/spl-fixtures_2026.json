@@ -25205,7 +25205,7 @@
   {
     "code": 2672704,
     "event": 9,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 75,
     "kickoff_time": "2026-10-15T13:40:00Z",
@@ -25577,7 +25577,7 @@
   {
     "code": 2672703,
     "event": 9,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 78,
     "kickoff_time": "2026-10-15T14:50:00Z",
@@ -25898,7 +25898,7 @@
   {
     "code": 2672701,
     "event": 9,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 76,
     "kickoff_time": "2026-10-15T15:15:00Z",
@@ -26272,7 +26272,7 @@
   {
     "code": 2672705,
     "event": 9,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 79,
     "kickoff_time": "2026-10-16T13:15:00Z",
@@ -26646,7 +26646,7 @@
   {
     "code": 2672708,
     "event": 9,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 81,
     "kickoff_time": "2026-10-17T15:40:00Z",
@@ -26694,6 +26694,10 @@
           {
             "value": 1,
             "element": 235
+          },
+          {
+            "value": 1,
+            "element": 277
           },
           {
             "value": 1,
@@ -26997,7 +27001,7 @@
   {
     "code": 2672707,
     "event": 9,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 74,
     "kickoff_time": "2026-10-17T18:00:00Z",
@@ -27130,14 +27134,14 @@
         "a": [
           {
             "value": 10,
-            "element": 437
-          },
-          {
-            "value": 10,
             "element": 480
           },
           {
-            "value": 10,
+            "value": 9,
+            "element": 437
+          },
+          {
+            "value": 9,
             "element": 591
           },
           {
@@ -27146,15 +27150,15 @@
           },
           {
             "value": 8,
-            "element": 454
-          },
-          {
-            "value": 7,
             "element": 610
           },
           {
-            "value": 6,
+            "value": 7,
             "element": 450
+          },
+          {
+            "value": 7,
+            "element": 454
           },
           {
             "value": 5,
@@ -27174,19 +27178,19 @@
           },
           {
             "value": 3,
-            "element": 672
+            "element": 456
+          },
+          {
+            "value": 3,
+            "element": 592
           },
           {
             "value": 2,
-            "element": 456
+            "element": 672
           },
           {
             "value": 1,
             "element": 432
-          },
-          {
-            "value": 1,
-            "element": 592
           }
         ],
         "h": [
@@ -27196,19 +27200,19 @@
           },
           {
             "value": 11,
-            "element": 79
+            "element": 52
           },
           {
-            "value": 10,
-            "element": 52
+            "value": 11,
+            "element": 79
           },
           {
             "value": 9,
             "element": 629
           },
           {
-            "value": 5,
-            "element": 177
+            "value": 7,
+            "element": 56
           },
           {
             "value": 4,
@@ -27216,7 +27220,7 @@
           },
           {
             "value": 4,
-            "element": 56
+            "element": 177
           },
           {
             "value": 4,

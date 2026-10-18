@@ -2,7 +2,7 @@
   "team_opta_id": 6777,
   "team_name": "Al Faisaly",
   "season": 2026,
-  "generated_at": "2026-10-18T02:43:52.509116+00:00",
+  "generated_at": "2026-10-18T12:51:10.499651+00:00",
   "players": [
     {
       "player_id": 29,
@@ -1576,6 +1576,55 @@
           "selected": 47,
           "transfers_in": 0,
           "transfers_out": 2
+        }
+      ]
+    },
+    {
+      "player_id": 706,
+      "opta_id": 733597,
+      "first_name": "Faisal Mohammed Ibrahim",
+      "second_name": "Al Fahad",
+      "web_name": "F. Al Fahad",
+      "known_name": "",
+      "position": "FWD",
+      "history": [
+        {
+          "element": 706,
+          "fixture": 75,
+          "opponent_team": 13,
+          "total_points": 0,
+          "was_home": true,
+          "kickoff_time": "2026-10-15T13:40:00Z",
+          "team_h_score": 3,
+          "team_a_score": 2,
+          "round": 9,
+          "modified": false,
+          "minutes": 0,
+          "goals_scored": 0,
+          "assists": 0,
+          "clean_sheets": 0,
+          "goals_conceded": 0,
+          "penalties_saved": 0,
+          "penalties_missed": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "saves": 0,
+          "own_goals": 0,
+          "bonus": 0,
+          "fmmp": 0,
+          "winning_goals": 0,
+          "won_tackle": 0,
+          "accurate_pass": 0,
+          "clearances_blocks_interceptions": 0,
+          "shot_target": 0,
+          "big_chance_created": 0,
+          "big_chance_missed": 0,
+          "performance_index": 0,
+          "value": 45,
+          "transfers_balance": 0,
+          "selected": 0,
+          "transfers_in": 0,
+          "transfers_out": 0
         }
       ]
     },

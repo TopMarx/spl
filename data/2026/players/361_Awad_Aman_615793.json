@@ -1,21 +1,6 @@
 {
   "fixtures": [
     {
-      "id": 73,
-      "code": 2672700,
-      "team_h": 1,
-      "team_h_score": null,
-      "team_a": 8,
-      "team_a_score": null,
-      "event": 9,
-      "finished": false,
-      "minutes": 0,
-      "provisional_start_time": false,
-      "kickoff_time": "2026-10-15T18:00:00Z",
-      "event_name": "Round 9",
-      "is_home": false
-    },
-    {
       "id": 88,
       "code": 2672714,
       "team_h": 8,
@@ -193,6 +178,21 @@
       "provisional_start_time": true,
       "kickoff_time": "2027-02-25T00:00:00Z",
       "event_name": "Round 21",
+      "is_home": false
+    },
+    {
+      "id": 73,
+      "code": 2672700,
+      "team_h": 1,
+      "team_h_score": null,
+      "team_a": 8,
+      "team_a_score": null,
+      "event": 22,
+      "finished": false,
+      "minutes": 0,
+      "provisional_start_time": false,
+      "kickoff_time": "2027-03-06T19:00:00Z",
+      "event_name": "Round 22",
       "is_home": false
     },
     {

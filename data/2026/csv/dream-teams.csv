@@ -87,14 +87,25 @@ gw,8,8,88,511120,Ziyad Al Johani,MID,12,False
 gw,8,9,677,178301,Ollie Watkins,FWD,16,False
 gw,8,10,327,14937,Cristiano Ronaldo,FWD,13,False
 gw,8,11,102,616217,Ricardo Mathias,FWD,12,False
-season,,1,438,425632,Mailson,GK,51,False
-season,,2,464,604258,Mohammed Abu Al Shamat,DEF,76,False
-season,,3,465,88477,Nacho,DEF,53,False
-season,,4,550,204727,Malang Sarr,DEF,51,False
+gw,9,1,323,223623,Marwan Al Haidari,GK,8,False
+gw,9,2,464,604258,Mohammed Abu Al Shamat,DEF,14,False
+gw,9,3,218,443257,Abdullah Khateeb,DEF,12,False
+gw,9,4,516,245912,Shaquille Pinas,DEF,10,False
+gw,9,5,229,194203,Jack Hendry,DEF,9,False
+gw,9,6,142,228489,Mourad Batna,MID,20,False
+gw,9,7,572,209317,Abdulaziz Al Dhuwayhi,MID,10,False
+gw,9,8,53,641219,Clayton Diandy,MID,10,False
+gw,9,9,24,189542,Alexandre Mendy,FWD,23,True
+gw,9,10,294,78007,Joshua King,FWD,11,False
+gw,9,11,651,225905,Wilfried Kanga,FWD,9,False
+season,,1,438,425632,Mailson,GK,53,False
+season,,2,464,604258,Mohammed Abu Al Shamat,DEF,90,True
+season,,3,218,443257,Abdullah Khateeb,DEF,60,False
+season,,4,550,204727,Malang Sarr,DEF,57,False
 season,,5,200,171317,Rúben Neves,MID,76,False
 season,,6,176,450070,Crysencio Summerville,MID,70,False
 season,,7,291,194252,Steven Bergwijn,MID,60,False
 season,,8,75,222564,Trincão,MID,59,False
 season,,9,207,180793,Sergej Savić,MID,59,False
-season,,10,74,144485,Ivan Toney,FWD,90,True
-season,,11,553,59966,Alexandre Lacazette,FWD,57,False
+season,,10,74,144485,Ivan Toney,FWD,90,False
+season,,11,553,59966,Alexandre Lacazette,FWD,58,False

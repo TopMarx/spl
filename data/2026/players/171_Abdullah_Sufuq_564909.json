@@ -1,21 +1,6 @@
 {
   "fixtures": [
     {
-      "id": 80,
-      "code": 2672706,
-      "team_h": 9,
-      "team_h_score": null,
-      "team_a": 4,
-      "team_a_score": null,
-      "event": 9,
-      "finished": false,
-      "minutes": 0,
-      "provisional_start_time": false,
-      "kickoff_time": "2026-10-16T15:00:00Z",
-      "event_name": "Round 9",
-      "is_home": false
-    },
-    {
       "id": 87,
       "code": 2672713,
       "team_h": 4,
@@ -147,6 +132,21 @@
       "minutes": 0,
       "provisional_start_time": true,
       "kickoff_time": "2026-12-14T00:00:00Z",
+      "event_name": "Round 18",
+      "is_home": false
+    },
+    {
+      "id": 80,
+      "code": 2672706,
+      "team_h": 9,
+      "team_h_score": null,
+      "team_a": 4,
+      "team_a_score": null,
+      "event": 18,
+      "finished": false,
+      "minutes": 0,
+      "provisional_start_time": false,
+      "kickoff_time": "2026-12-19T14:45:00Z",
       "event_name": "Round 18",
       "is_home": false
     },

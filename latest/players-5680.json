@@ -2,7 +2,7 @@
   "team_opta_id": 5680,
   "team_name": "Al Ettifaq",
   "season": 2026,
-  "generated_at": "2026-10-18T02:43:52.509116+00:00",
+  "generated_at": "2026-10-18T12:51:10.499651+00:00",
   "players": [
     {
       "player_id": 246,
@@ -8793,7 +8793,7 @@
           "element": 277,
           "fixture": 81,
           "opponent_team": 14,
-          "total_points": 1,
+          "total_points": 0,
           "was_home": false,
           "kickoff_time": "2026-10-17T15:40:00Z",
           "team_h_score": 0,
@@ -8807,7 +8807,7 @@
           "goals_conceded": 0,
           "penalties_saved": 0,
           "penalties_missed": 0,
-          "yellow_cards": 0,
+          "yellow_cards": 1,
           "red_cards": 0,
           "saves": 0,
           "own_goals": 0,
