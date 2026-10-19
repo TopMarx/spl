@@ -27345,17 +27345,395 @@
     "code": 2672711,
     "event": 10,
     "finished": false,
-    "finished_provisional": false,
+    "finished_provisional": true,
     "id": 85,
     "kickoff_time": "2026-10-18T18:00:00Z",
-    "minutes": 0,
+    "minutes": 90,
     "provisional_start_time": false,
-    "started": false,
+    "started": true,
     "team_a": 7,
-    "team_a_score": null,
+    "team_a_score": 3,
     "team_h": 2,
-    "team_h_score": null,
-    "stats": []
+    "team_h_score": 2,
+    "stats": [
+      {
+        "identifier": "goals_scored",
+        "a": [
+          {
+            "value": 1,
+            "element": 294
+          },
+          {
+            "value": 1,
+            "element": 297
+          },
+          {
+            "value": 1,
+            "element": 299
+          }
+        ],
+        "h": [
+          {
+            "value": 1,
+            "element": 633
+          },
+          {
+            "value": 1,
+            "element": 651
+          }
+        ]
+      },
+      {
+        "identifier": "assists",
+        "a": [
+          {
+            "value": 1,
+            "element": 297
+          },
+          {
+            "value": 1,
+            "element": 300
+          },
+          {
+            "value": 1,
+            "element": 693
+          }
+        ],
+        "h": [
+          {
+            "value": 1,
+            "element": 142
+          },
+          {
+            "value": 1,
+            "element": 703
+          }
+        ]
+      },
+      {
+        "identifier": "penalties_saved",
+        "a": [],
+        "h": []
+      },
+      {
+        "identifier": "penalties_missed",
+        "a": [],
+        "h": []
+      },
+      {
+        "identifier": "yellow_cards",
+        "a": [
+          {
+            "value": 1,
+            "element": 324
+          }
+        ],
+        "h": [
+          {
+            "value": 1,
+            "element": 138
+          },
+          {
+            "value": 1,
+            "element": 343
+          },
+          {
+            "value": 1,
+            "element": 704
+          }
+        ]
+      },
+      {
+        "identifier": "red_cards",
+        "a": [],
+        "h": []
+      },
+      {
+        "identifier": "saves",
+        "a": [
+          {
+            "value": 2,
+            "element": 323
+          }
+        ],
+        "h": [
+          {
+            "value": 1,
+            "element": 675
+          }
+        ]
+      },
+      {
+        "identifier": "own_goals",
+        "a": [],
+        "h": []
+      },
+      {
+        "identifier": "bonus",
+        "a": [
+          {
+            "value": 3,
+            "element": 299
+          },
+          {
+            "value": 2,
+            "element": 294
+          }
+        ],
+        "h": [
+          {
+            "value": 1,
+            "element": 703
+          }
+        ]
+      },
+      {
+        "identifier": "fmmp",
+        "a": [
+          {
+            "value": 1,
+            "element": 297
+          }
+        ],
+        "h": []
+      },
+      {
+        "identifier": "winning_goals",
+        "a": [
+          {
+            "value": 1,
+            "element": 299
+          }
+        ],
+        "h": []
+      },
+      {
+        "identifier": "clearances_blocks_interceptions",
+        "a": [
+          {
+            "value": 14,
+            "element": 621
+          },
+          {
+            "value": 10,
+            "element": 299
+          },
+          {
+            "value": 9,
+            "element": 303
+          },
+          {
+            "value": 9,
+            "element": 320
+          },
+          {
+            "value": 9,
+            "element": 323
+          },
+          {
+            "value": 9,
+            "element": 324
+          },
+          {
+            "value": 7,
+            "element": 307
+          },
+          {
+            "value": 5,
+            "element": 294
+          },
+          {
+            "value": 5,
+            "element": 301
+          },
+          {
+            "value": 5,
+            "element": 693
+          },
+          {
+            "value": 4,
+            "element": 275
+          },
+          {
+            "value": 3,
+            "element": 309
+          },
+          {
+            "value": 2,
+            "element": 300
+          },
+          {
+            "value": 2,
+            "element": 306
+          }
+        ],
+        "h": [
+          {
+            "value": 19,
+            "element": 138
+          },
+          {
+            "value": 16,
+            "element": 136
+          },
+          {
+            "value": 9,
+            "element": 343
+          },
+          {
+            "value": 9,
+            "element": 703
+          },
+          {
+            "value": 6,
+            "element": 90
+          },
+          {
+            "value": 6,
+            "element": 137
+          },
+          {
+            "value": 4,
+            "element": 142
+          },
+          {
+            "value": 4,
+            "element": 651
+          },
+          {
+            "value": 4,
+            "element": 675
+          },
+          {
+            "value": 3,
+            "element": 122
+          },
+          {
+            "value": 3,
+            "element": 127
+          },
+          {
+            "value": 2,
+            "element": 633
+          },
+          {
+            "value": 2,
+            "element": 704
+          },
+          {
+            "value": 1,
+            "element": 129
+          },
+          {
+            "value": 1,
+            "element": 617
+          }
+        ]
+      },
+      {
+        "identifier": "performance_index",
+        "a": [
+          {
+            "value": 90,
+            "element": 299
+          },
+          {
+            "value": 85,
+            "element": 294
+          },
+          {
+            "value": 69,
+            "element": 621
+          },
+          {
+            "value": 49,
+            "element": 275
+          },
+          {
+            "value": 47,
+            "element": 324
+          },
+          {
+            "value": 45,
+            "element": 320
+          },
+          {
+            "value": 41,
+            "element": 307
+          },
+          {
+            "value": 41,
+            "element": 323
+          },
+          {
+            "value": 35,
+            "element": 303
+          },
+          {
+            "value": 34,
+            "element": 546
+          },
+          {
+            "value": 32,
+            "element": 309
+          },
+          {
+            "value": 26,
+            "element": 693
+          }
+        ],
+        "h": [
+          {
+            "value": 83,
+            "element": 703
+          },
+          {
+            "value": 76,
+            "element": 633
+          },
+          {
+            "value": 67,
+            "element": 343
+          },
+          {
+            "value": 60,
+            "element": 651
+          },
+          {
+            "value": 50,
+            "element": 90
+          },
+          {
+            "value": 50,
+            "element": 142
+          },
+          {
+            "value": 34,
+            "element": 136
+          },
+          {
+            "value": 30,
+            "element": 122
+          },
+          {
+            "value": 29,
+            "element": 704
+          },
+          {
+            "value": 25,
+            "element": 138
+          },
+          {
+            "value": 22,
+            "element": 137
+          },
+          {
+            "value": 17,
+            "element": 675
+          }
+        ]
+      }
+    ]
   },
   {
     "code": 2672712,
@@ -27370,22 +27748,6 @@
     "team_a": 1,
     "team_a_score": null,
     "team_h": 3,
-    "team_h_score": null,
-    "stats": []
-  },
-  {
-    "code": 2672709,
-    "event": 10,
-    "finished": false,
-    "finished_provisional": false,
-    "id": 82,
-    "kickoff_time": "2026-10-19T15:20:00Z",
-    "minutes": 0,
-    "provisional_start_time": false,
-    "started": false,
-    "team_a": 13,
-    "team_a_score": null,
-    "team_h": 16,
     "team_h_score": null,
     "stats": []
   },
@@ -28362,6 +28724,22 @@
     "team_a": 17,
     "team_a_score": null,
     "team_h": 11,
+    "team_h_score": null,
+    "stats": []
+  },
+  {
+    "code": 2672709,
+    "event": 16,
+    "finished": false,
+    "finished_provisional": false,
+    "id": 82,
+    "kickoff_time": "2026-12-07T13:40:00Z",
+    "minutes": 0,
+    "provisional_start_time": false,
+    "started": false,
+    "team_a": 13,
+    "team_a_score": null,
+    "team_h": 16,
     "team_h_score": null,
     "stats": []
   },
