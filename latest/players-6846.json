@@ -2,7 +2,7 @@
   "team_opta_id": 6846,
   "team_name": "Al Hazem",
   "season": 2026,
-  "generated_at": "2026-10-21T02:48:59.587490+00:00",
+  "generated_at": "2026-10-21T12:52:04.248031+00:00",
   "players": [
     {
       "player_id": 571,
@@ -392,6 +392,55 @@
           "selected": 11600,
           "transfers_in": 35,
           "transfers_out": 140
+        }
+      ]
+    },
+    {
+      "player_id": 709,
+      "opta_id": 733643,
+      "first_name": "Khalid Faisal Hasan",
+      "second_name": "Abduljawad",
+      "web_name": "Abduljawad",
+      "known_name": "",
+      "position": "FWD",
+      "history": [
+        {
+          "element": 709,
+          "fixture": 87,
+          "opponent_team": 4,
+          "total_points": 0,
+          "was_home": false,
+          "kickoff_time": "2026-10-19T18:00:00Z",
+          "team_h_score": 1,
+          "team_a_score": 0,
+          "round": 10,
+          "modified": false,
+          "minutes": 0,
+          "goals_scored": 0,
+          "assists": 0,
+          "clean_sheets": 0,
+          "goals_conceded": 0,
+          "penalties_saved": 0,
+          "penalties_missed": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "saves": 0,
+          "own_goals": 0,
+          "bonus": 0,
+          "fmmp": 0,
+          "winning_goals": 0,
+          "won_tackle": 0,
+          "accurate_pass": 0,
+          "clearances_blocks_interceptions": 0,
+          "shot_target": 0,
+          "big_chance_created": 0,
+          "big_chance_missed": 0,
+          "performance_index": 0,
+          "value": 45,
+          "transfers_balance": 0,
+          "selected": 0,
+          "transfers_in": 0,
+          "transfers_out": 0
         }
       ]
     },

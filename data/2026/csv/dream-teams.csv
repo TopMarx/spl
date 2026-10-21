@@ -98,14 +98,25 @@ gw,9,8,53,641219,Clayton Diandy,MID,10,False
 gw,9,9,24,189542,Alexandre Mendy,FWD,23,True
 gw,9,10,294,78007,Joshua King,FWD,11,False
 gw,9,11,651,225905,Wilfried Kanga,FWD,9,False
-season,,1,438,425632,Mailson,GK,53,False
-season,,2,464,604258,Mohammed Abu Al Shamat,DEF,90,True
-season,,3,218,443257,Abdullah Khateeb,DEF,60,False
-season,,4,550,204727,Malang Sarr,DEF,57,False
-season,,5,200,171317,Rúben Neves,MID,76,False
-season,,6,176,450070,Crysencio Summerville,MID,70,False
-season,,7,291,194252,Steven Bergwijn,MID,60,False
-season,,8,75,222564,Trincão,MID,59,False
-season,,9,207,180793,Sergej Savić,MID,59,False
-season,,10,74,144485,Ivan Toney,FWD,90,False
-season,,11,553,59966,Alexandre Lacazette,FWD,58,False
+gw,10,1,52,215665,Amin Al Bukhari,GK,12,False
+gw,10,2,22,170409,Andrei Girotto,DEF,13,False
+gw,10,3,191,517563,Mohammed Mahzari,DEF,12,False
+gw,10,4,210,222784,Théo Hernández,DEF,11,False
+gw,10,5,427,172782,Josh Brownhill,MID,19,True
+gw,10,6,667,465896,Artem Bondarenko,MID,18,False
+gw,10,7,658,433036,Tijjani Reijnders,MID,15,False
+gw,10,8,299,107594,Omar Mascarell,MID,13,False
+gw,10,9,328,428399,João Félix,MID,13,False
+gw,10,10,293,234991,Youssef En-Nesyri,FWD,11,False
+gw,10,11,273,608176,George Ilenikhena,FWD,10,False
+season,,1,438,425632,Mailson,GK,60,False
+season,,2,464,604258,Mohammed Abu Al Shamat,DEF,97,True
+season,,3,191,517563,Mohammed Mahzari,DEF,62,False
+season,,4,550,204727,Malang Sarr,DEF,62,False
+season,,5,218,443257,Abdullah Khateeb,DEF,60,False
+season,,6,200,171317,Rúben Neves,MID,81,False
+season,,7,176,450070,Crysencio Summerville,MID,73,False
+season,,8,658,433036,Tijjani Reijnders,MID,71,False
+season,,9,207,180793,Sergej Savić,MID,65,False
+season,,10,427,172782,Josh Brownhill,MID,64,False
+season,,11,74,144485,Ivan Toney,FWD,90,False

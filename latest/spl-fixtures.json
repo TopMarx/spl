@@ -27344,7 +27344,7 @@
   {
     "code": 2672711,
     "event": 10,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 85,
     "kickoff_time": "2026-10-18T18:00:00Z",
@@ -27738,7 +27738,7 @@
   {
     "code": 2672712,
     "event": 10,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 86,
     "kickoff_time": "2026-10-19T15:05:00Z",
@@ -28089,7 +28089,7 @@
   {
     "code": 2672713,
     "event": 10,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 87,
     "kickoff_time": "2026-10-19T18:00:00Z",
@@ -28428,7 +28428,7 @@
   {
     "code": 2672715,
     "event": 10,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 89,
     "kickoff_time": "2026-10-19T18:00:00Z",
@@ -28801,7 +28801,7 @@
   {
     "code": 2672717,
     "event": 10,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 83,
     "kickoff_time": "2026-10-20T15:00:00Z",
@@ -29169,7 +29169,7 @@
   {
     "code": 2672716,
     "event": 10,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 90,
     "kickoff_time": "2026-10-20T15:10:00Z",
@@ -29498,7 +29498,7 @@
   {
     "code": 2672710,
     "event": 10,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 84,
     "kickoff_time": "2026-10-20T18:00:00Z",
@@ -29867,7 +29867,7 @@
   {
     "code": 2672714,
     "event": 10,
-    "finished": false,
+    "finished": true,
     "finished_provisional": true,
     "id": 88,
     "kickoff_time": "2026-10-20T18:00:00Z",
@@ -29927,11 +29927,15 @@
           },
           {
             "value": 1,
-            "element": 622
+            "element": 549
           },
           {
             "value": 1,
-            "element": 623
+            "element": 620
+          },
+          {
+            "value": 1,
+            "element": 622
           }
         ],
         "h": [
@@ -30008,7 +30012,7 @@
         "identifier": "clearances_blocks_interceptions",
         "a": [
           {
-            "value": 14,
+            "value": 13,
             "element": 550
           },
           {
@@ -30016,7 +30020,7 @@
             "element": 549
           },
           {
-            "value": 8,
+            "value": 7,
             "element": 534
           },
           {
@@ -30070,28 +30074,28 @@
         ],
         "h": [
           {
-            "value": 16,
+            "value": 17,
             "element": 648
           },
           {
-            "value": 11,
+            "value": 10,
             "element": 328
-          },
-          {
-            "value": 11,
-            "element": 338
           },
           {
             "value": 10,
             "element": 333
           },
           {
-            "value": 8,
-            "element": 337
+            "value": 10,
+            "element": 338
           },
           {
-            "value": 7,
+            "value": 8,
             "element": 334
+          },
+          {
+            "value": 8,
+            "element": 337
           },
           {
             "value": 6,
@@ -30102,16 +30106,16 @@
             "element": 340
           },
           {
+            "value": 5,
+            "element": 332
+          },
+          {
             "value": 4,
             "element": 327
           },
           {
             "value": 4,
             "element": 329
-          },
-          {
-            "value": 4,
-            "element": 332
           },
           {
             "value": 3,
