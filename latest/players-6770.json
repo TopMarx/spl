@@ -2,7 +2,7 @@
   "team_opta_id": 6770,
   "team_name": "Al Ahli",
   "season": 2026,
-  "generated_at": "2026-10-25T02:51:06.822473+00:00",
+  "generated_at": "2026-10-26T16:56:36.103842+00:00",
   "players": [
     {
       "player_id": 107,
@@ -12831,7 +12831,7 @@
           "accurate_pass": 30,
           "clearances_blocks_interceptions": 4,
           "shot_target": 1,
-          "big_chance_created": 1,
+          "big_chance_created": 0,
           "big_chance_missed": 1,
           "performance_index": 84,
           "value": 71,
@@ -14003,7 +14003,7 @@
           "won_tackle": 1,
           "accurate_pass": 24,
           "clearances_blocks_interceptions": 3,
-          "shot_target": 2,
+          "shot_target": 1,
           "big_chance_created": 1,
           "big_chance_missed": 0,
           "performance_index": 97,

@@ -25,8 +25,8 @@
       "event": 13,
       "finished": false,
       "minutes": 0,
-      "provisional_start_time": true,
-      "kickoff_time": "2026-11-05T00:00:00Z",
+      "provisional_start_time": false,
+      "kickoff_time": "2026-11-05T17:30:00Z",
       "event_name": "Round 13",
       "is_home": false
     },

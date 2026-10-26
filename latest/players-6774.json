@@ -2,7 +2,7 @@
   "team_opta_id": 6774,
   "team_name": "Al Shabab",
   "season": 2026,
-  "generated_at": "2026-10-25T02:51:06.822473+00:00",
+  "generated_at": "2026-10-26T16:56:36.103842+00:00",
   "players": [
     {
       "player_id": 637,
@@ -15891,6 +15891,55 @@
           "selected": 56,
           "transfers_in": 0,
           "transfers_out": 1
+        }
+      ]
+    },
+    {
+      "player_id": 712,
+      "opta_id": 622977,
+      "first_name": "Adel Abbas",
+      "second_name": "Qasem",
+      "web_name": "Qasem",
+      "known_name": "Adel Qasem",
+      "position": "MID",
+      "history": [
+        {
+          "element": 712,
+          "fixture": 93,
+          "opponent_team": 2,
+          "total_points": 1,
+          "was_home": false,
+          "kickoff_time": "2026-10-22T14:45:00Z",
+          "team_h_score": 1,
+          "team_a_score": 3,
+          "round": 11,
+          "modified": false,
+          "minutes": 23,
+          "goals_scored": 0,
+          "assists": 0,
+          "clean_sheets": 0,
+          "goals_conceded": 0,
+          "penalties_saved": 0,
+          "penalties_missed": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "saves": 0,
+          "own_goals": 0,
+          "bonus": 0,
+          "fmmp": 0,
+          "winning_goals": 0,
+          "won_tackle": 0,
+          "accurate_pass": 6,
+          "clearances_blocks_interceptions": 2,
+          "shot_target": 2,
+          "big_chance_created": 0,
+          "big_chance_missed": 1,
+          "performance_index": 0,
+          "value": 45,
+          "transfers_balance": 0,
+          "selected": 0,
+          "transfers_in": 0,
+          "transfers_out": 0
         }
       ]
     },
