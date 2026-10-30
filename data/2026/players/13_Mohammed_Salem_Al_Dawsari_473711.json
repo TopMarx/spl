@@ -11,7 +11,7 @@
       "finished": false,
       "minutes": 0,
       "provisional_start_time": false,
-      "kickoff_time": "2026-10-30T13:45:00Z",
+      "kickoff_time": "2026-10-30T12:30:00Z",
       "event_name": "Round 12",
       "is_home": true
     },
@@ -748,7 +748,7 @@
       "opponent_team": 6,
       "total_points": 0,
       "was_home": true,
-      "kickoff_time": "2026-10-30T13:45:00Z",
+      "kickoff_time": "2026-10-30T12:30:00Z",
       "team_h_score": null,
       "team_a_score": null,
       "round": 12,
