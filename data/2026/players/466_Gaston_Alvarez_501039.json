@@ -780,7 +780,7 @@
       "clearances_blocks_interceptions": 11,
       "shot_target": 0,
       "big_chance_created": 0,
-      "big_chance_missed": 0,
+      "big_chance_missed": 1,
       "performance_index": 87,
       "value": 51,
       "transfers_balance": 522,
