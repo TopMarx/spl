@@ -1,21 +1,6 @@
 {
   "fixtures": [
     {
-      "id": 102,
-      "code": 2672728,
-      "team_h": 3,
-      "team_h_score": null,
-      "team_a": 17,
-      "team_a_score": null,
-      "event": 12,
-      "finished": false,
-      "minutes": 0,
-      "provisional_start_time": false,
-      "kickoff_time": "2026-10-31T14:55:00Z",
-      "event_name": "Round 12",
-      "is_home": false
-    },
-    {
       "id": 112,
       "code": 2672743,
       "team_h": 17,
@@ -734,8 +719,8 @@
       "total_points": 0,
       "was_home": false,
       "kickoff_time": "2026-10-31T14:55:00Z",
-      "team_h_score": null,
-      "team_a_score": null,
+      "team_h_score": 4,
+      "team_a_score": 1,
       "round": 12,
       "modified": false,
       "minutes": 0,
